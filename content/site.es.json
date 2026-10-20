@@ -106,10 +106,24 @@
       "image_alt": "Ilustración de una persona que usa un teléfono mientras lleva una maleta con ruedas por una franja de pavimento táctil dentro de una terminal de aeropuerto.",
       "translation_key": "ai-agents-digital-independence",
       "body_file": "content/articles/agentes-ia-independencia-digital.es.html"
+    },
+    {
+      "status": "published",
+      "slug": "oferta-de-acceso-bart-aira",
+      "title": "No tuve que pedirle ayuda a nadie",
+      "seo_title": "No tuve que pedirle ayuda a nadie: la oferta de acceso de Aira en BART | Elevate Access Solutions",
+      "description": "En el aeropuerto de Oakland y en Target, una oferta de acceso ya guía a Fernando Macias en trayectos para los que antes necesitaba la ayuda del personal. Ahora BART prueba la misma idea para viajes completos, hasta el 3 de enero de 2027, y que se vuelva permanente depende de que las personas que viajan la usen.",
+      "author": "Fernando Macias",
+      "date": "2026-10-20",
+      "category": "Defensa y comunidad",
+      "image": "/assets/bart-orinda-station.jpg",
+      "image_alt": "Un tren de BART detenido junto al andén elevado de la estación Orinda.",
+      "translation_key": "bart-aira-access-offer",
+      "body_file": "content/articles/oferta-de-acceso-bart-aira.es.html"
     }
   ],
   "source_note": "Traducción al español del contenido aprobado en content/site.json. Se conservan los nombres, las credenciales, los datos de contacto, los servicios y los enlaces de las fuentes. Los títulos de las fuentes del artículo se presentan en español y remiten a los documentos originales.",
-  "translation_source_sha256": "ecd232446ef4b4ff47e3af7f0fdbcb0dc1fe8ed8a9687a0a75c62840084d1b42",
+  "translation_source_sha256": "93af8a5ef0b62b8313cf72292778e304205f116a8fd888573ae26db0975c7ee8",
   "service_area": {
     "local_text": "Ofrecemos servicios presenciales y remotos de accesibilidad y tecnología de asistencia en San Francisco, Oakland, Berkeley, Vallejo y el condado de Marin.",
     "remote_text": "También ofrecemos servicios remotos a clientes fuera del Área de la Bahía y del estado de California.",

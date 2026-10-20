@@ -67,6 +67,17 @@
   },
   {
     "language": "en",
+    "key": "bart-aira-access-offer",
+    "path": "/insights/bart-aira-access-offer/",
+    "title": "I Didn't Have to Ask Anyone: BART's Aira Access Offer | Elevate Access Solutions",
+    "description": "At Oakland's airport and at Target, an Access Offer already guides Fernando Macias through trips he once needed staff help to make. Now BART is piloting the same idea for whole journeys, through January 3, 2027 — and whether it becomes permanent depends on whether riders use it.",
+    "alternates": {
+      "en": "/insights/bart-aira-access-offer/",
+      "es": "/es/articulos/oferta-de-acceso-bart-aira/"
+    }
+  },
+  {
+    "language": "en",
     "key": "insights",
     "path": "/insights/",
     "title": "Accessibility Insights | Elevate Access Solutions",
@@ -151,6 +162,17 @@
     "alternates": {
       "en": "/insights/ai-agents-digital-independence/",
       "es": "/es/articulos/agentes-ia-independencia-digital/"
+    }
+  },
+  {
+    "language": "es",
+    "key": "bart-aira-access-offer",
+    "path": "/es/articulos/oferta-de-acceso-bart-aira/",
+    "title": "No tuve que pedirle ayuda a nadie: la oferta de acceso de Aira en BART | Elevate Access Solutions",
+    "description": "En el aeropuerto de Oakland y en Target, una oferta de acceso ya guía a Fernando Macias en trayectos para los que antes necesitaba la ayuda del personal. Ahora BART prueba la misma idea para viajes completos, hasta el 3 de enero de 2027, y que se vuelva permanente depende de que las personas que viajan la usen.",
+    "alternates": {
+      "en": "/insights/bart-aira-access-offer/",
+      "es": "/es/articulos/oferta-de-acceso-bart-aira/"
     }
   },
   {
