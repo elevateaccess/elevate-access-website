@@ -1,0 +1,1953 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "url": "https://www.elevateaccess.us/",
+    "title": "Elevate Access Solutions",
+    "text": [
+      "Elevate Access Solutions",
+      "0",
+      "Skip to Content",
+      "Home",
+      "About Us",
+      "Meet the Founders",
+      "Services",
+      "Contact",
+      "Open Menu",
+      "Close Menu",
+      "Open Menu",
+      "Close Menu",
+      "Home",
+      "About Us",
+      "Meet the Founders",
+      "Services",
+      "Contact",
+      "Home",
+      "About Us",
+      "Meet the Founders",
+      "Services",
+      "Contact",
+      "Accessibility solutions that move people and organizations forward",
+      "REQUEST A CONSULTATION",
+      "Professional accessibility consulting, assistive technology assessments, training, and digital access support for individuals, educators, employers, agencies, and organizations.",
+      "Accessibility / Assistive Technology / Training / WCAG / Inclusion",
+      "/",
+      "Accessibility / Assistive Technology / Training / WCAG / Inclusion",
+      "/",
+      "Accessibility / Assistive Technology / Training / WCAG / Inclusion /"
+    ],
+    "links": [
+      "/cart",
+      "#page",
+      "/",
+      "/about",
+      "/founders",
+      "/services",
+      "/contact",
+      "/",
+      "/",
+      "/about",
+      "/founders",
+      "/services",
+      "/contact",
+      "/",
+      "/",
+      "/about",
+      "/founders",
+      "/services",
+      "/contact",
+      "/contact"
+    ],
+    "images": [
+      {
+        "elementtiming": "nbf-header-logo-desktop",
+        "src": "//images.squarespace-cdn.com/content/v1/6a3f7998bb357d36f1ba9b03/043d5be7-4440-416a-ad9e-f4061776f583/EAS_Horizontal_White_v1.0_2400px.png?format=1500w",
+        "alt": "Elevate Access Solutions",
+        "style": "display:block",
+        "fetchpriority": "high",
+        "loading": "eager",
+        "decoding": "async",
+        "data-loader": "raw"
+      },
+      {
+        "elementtiming": "nbf-header-logo-desktop",
+        "src": "//images.squarespace-cdn.com/content/v1/6a3f7998bb357d36f1ba9b03/043d5be7-4440-416a-ad9e-f4061776f583/EAS_Horizontal_White_v1.0_2400px.png?format=1500w",
+        "alt": "Elevate Access Solutions",
+        "style": "display:block",
+        "fetchpriority": "high",
+        "loading": "eager",
+        "decoding": "async",
+        "data-loader": "raw"
+      },
+      {
+        "data-stretch": "true",
+        "data-src": "https://images.squarespace-cdn.com/content/v1/6a3f7998bb357d36f1ba9b03/81c944e3-e7b0-46de-ac03-da00fbd64cd1/home-hero-accessible-workstation-latino.png",
+        "data-image": "https://images.squarespace-cdn.com/content/v1/6a3f7998bb357d36f1ba9b03/81c944e3-e7b0-46de-ac03-da00fbd64cd1/home-hero-accessible-workstation-latino.png",
+        "data-image-dimensions": "1780x883",
+        "data-image-focal-point": "0.5,0.5",
+        "data-sqsp-image-block-image": null,
+        "alt": "",
+        "data-licensed-asset-preview": "false",
+        "data-load": "false",
+        "elementtiming": "system-image-block",
+        "src": "https://images.squarespace-cdn.com/content/v1/6a3f7998bb357d36f1ba9b03/81c944e3-e7b0-46de-ac03-da00fbd64cd1/home-hero-accessible-workstation-latino.png",
+        "width": "1780",
+        "height": "883",
+        "sizes": "auto, 100vw",
+        "style": "display:block;object-position: var(--image-component-focal-point);object-fit: var(--image-component-object-fit);",
+        "srcset": "https://images.squarespace-cdn.com/content/v1/6a3f7998bb357d36f1ba9b03/81c944e3-e7b0-46de-ac03-da00fbd64cd1/home-hero-accessible-workstation-latino.png?format=100w 100w, https://images.squarespace-cdn.com/content/v1/6a3f7998bb357d36f1ba9b03/81c944e3-e7b0-46de-ac03-da00fbd64cd1/home-hero-accessible-workstation-latino.png?format=300w 300w, https://images.squarespace-cdn.com/content/v1/6a3f7998bb357d36f1ba9b03/81c944e3-e7b0-46de-ac03-da00fbd64cd1/home-hero-accessible-workstation-latino.png?format=500w 500w, https://images.squarespace-cdn.com/content/v1/6a3f7998bb357d36f1ba9b03/81c944e3-e7b0-46de-ac03-da00fbd64cd1/home-hero-accessible-workstation-latino.png?format=750w 750w, https://images.squarespace-cdn.com/content/v1/6a3f7998bb357d36f1ba9b03/81c944e3-e7b0-46de-ac03-da00fbd64cd1/home-hero-accessible-workstation-latino.png?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/6a3f7998bb357d36f1ba9b03/81c944e3-e7b0-46de-ac03-da00fbd64cd1/home-hero-accessible-workstation-latino.png?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/6a3f7998bb357d36f1ba9b03/81c944e3-e7b0-46de-ac03-da00fbd64cd1/home-hero-accessible-workstation-latino.png?format=2500w 2500w",
+        "decoding": "auto",
+        "data-loader": "sqs",
+        "data-image-component": "1.0.1"
+      }
+    ],
+    "meta": [
+      {
+        "http-equiv": "X-UA-Compatible",
+        "content": "IE=edge,chrome=1"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1"
+      },
+      {
+        "charset": "utf-8"
+      },
+      {
+        "http-equiv": "Accept-CH",
+        "content": "Sec-CH-UA-Platform-Version, Sec-CH-UA-Model"
+      },
+      {
+        "rel": "canonical",
+        "href": "https://www.elevateaccess.us"
+      },
+      {
+        "property": "og:site_name",
+        "content": "Elevate Access Solutions"
+      },
+      {
+        "property": "og:title",
+        "content": "Elevate Access Solutions"
+      },
+      {
+        "property": "og:url",
+        "content": "https://www.elevateaccess.us"
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "property": "og:image",
+        "content": "http://static1.squarespace.com/static/6a3f7998bb357d36f1ba9b03/t/6a58ea1745d2376c1eef4f65/1784211991095/EAS_Horizontal_White_v1.0_2400px.png?format=1500w"
+      },
+      {
+        "property": "og:image:width",
+        "content": "1500"
+      },
+      {
+        "property": "og:image:height",
+        "content": "497"
+      },
+      {
+        "itemprop": "name",
+        "content": "Elevate Access Solutions"
+      },
+      {
+        "itemprop": "url",
+        "content": "https://www.elevateaccess.us"
+      },
+      {
+        "itemprop": "thumbnailUrl",
+        "content": "http://static1.squarespace.com/static/6a3f7998bb357d36f1ba9b03/t/6a58ea1745d2376c1eef4f65/1784211991095/EAS_Horizontal_White_v1.0_2400px.png?format=1500w"
+      },
+      {
+        "itemprop": "image",
+        "content": "http://static1.squarespace.com/static/6a3f7998bb357d36f1ba9b03/t/6a58ea1745d2376c1eef4f65/1784211991095/EAS_Horizontal_White_v1.0_2400px.png?format=1500w"
+      },
+      {
+        "name": "twitter:title",
+        "content": "Elevate Access Solutions"
+      },
+      {
+        "name": "twitter:image",
+        "content": "http://static1.squarespace.com/static/6a3f7998bb357d36f1ba9b03/t/6a58ea1745d2376c1eef4f65/1784211991095/EAS_Horizontal_White_v1.0_2400px.png?format=1500w"
+      },
+      {
+        "name": "twitter:url",
+        "content": "https://www.elevateaccess.us"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary"
+      },
+      {
+        "name": "description",
+        "content": ""
+      }
+    ],
+    "headings": [
+      [
+        "h1",
+        "Accessibility solutions that move people and organizations forward"
+      ]
+    ],
+    "controls": [
+      {
+        "tag": "button",
+        "class": "header-burger-btn burger",
+        "data-test": "header-burger"
+      },
+      {
+        "tag": "button",
+        "class": "header-burger-btn burger",
+        "data-test": "header-burger"
+      }
+    ],
+    "css": [
+      "//assets.squarespace.com/universal/styles-compressed/user-account-core-3d01a2f01227067c-min.en-US.css",
+      "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.code/ef4e64fe-197c-4312-8540-12920ebccc94_1042/website.components.code.styles.css",
+      "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.html/e4d8cee0-b2a8-4d2c-acaf-62c051981b6d_997/website.components.html.styles.css",
+      "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.button/3ae4df89-9f97-4f82-919c-ea28db60a3d0_1167/website.components.button.styles.css",
+      "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.scrolling/5596ee4c-5917-4647-a71e-0e68bcb86d89_769/website.components.scrolling.styles.css",
+      "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.imageFluid/83d4ad11-2d63-4a7f-ab4d-8922c15c7ddf_984/website.components.imageFluid.styles.css",
+      "https://static1.squarespace.com/static/versioned-site-css/6a3f7998bb357d36f1ba9b03/9/5c5a519771c10ba3470d8101/6a3f7999bb357d36f1ba9b0e/1841/site.css?nocustom=true",
+      "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/versioned-assets/1792079378326-3P84T29X62IH7QZWGRSR/static.css",
+      "https://static1.squarespace.com/static/custom-css/6a3f7998bb357d36f1ba9b03/6a3f7999bb357d36f1ba9b0e/3/custom.css"
+    ]
+  },
+  {
+    "path": "/about",
+    "status": 200,
+    "url": "https://www.elevateaccess.us/about",
+    "title": "About Us &mdash; Elevate Access Solutions",
+    "text": [
+      "About Us \u2014 Elevate Access Solutions",
+      "0",
+      "Skip to Content",
+      "Home",
+      "About Us",
+      "Meet the Founders",
+      "Services",
+      "Contact",
+      "Open Menu",
+      "Close Menu",
+      "Open Menu",
+      "Close Menu",
+      "Home",
+      "About Us",
+      "Meet the Founders",
+      "Services",
+      "Contact",
+      "Home",
+      "About Us",
+      "Meet the Founders",
+      "Services",
+      "Contact",
+      "Home",
+      "About Us",
+      "Practical",
+      "access,",
+      "personal",
+      "support.",
+      "Elevate Access Solutions provides practical, personalized accessibility and assistive technology solutions for individuals and organizations. We help people identify, learn, and use technology in ways that support confidence, independence, inclusion, and everyday access.",
+      "Our Mission",
+      "Our mission is to help people use accessible technology with greater confidence and independence. We focus on practical access, inclusive participation, and solutions that support real needs in daily life, education, and work.",
+      "Our Approach",
+      "Our services are individualized, goal based, and practical. Recommendations are informed by professional knowledge and lived experience, with attention to the person, task, workplace, educational setting, or daily environment where the technology will actually be used.",
+      "Who We Serve",
+      "Individuals",
+      "Individuals who are blind or have low vision.",
+      "Families and caregivers",
+      "Families and caregivers seeking clearer options and everyday strategies.",
+      "Schools and education",
+      "Schools and educational organizations supporting accessible learning.",
+      "Rehabilitation agencies",
+      "Agencies serving people with blindness, low vision, or technology-access needs.",
+      "Employers",
+      "Employers and organizations improving accessible workplace technology.",
+      "Professionals",
+      "Professionals seeking more accessible workflows and workplace tools.",
+      "Why Elevate Access Solutions",
+      "Personalized recommendations.",
+      "Practical, goal-based training.",
+      "Experience with assistive technology and accessibility.",
+      "Solutions intended for real-world environments.",
+      "A combination of professional expertise and lived experience.",
+      "Meet the Founders",
+      "Elevate Access Solutions was co-founded by Juanita Herrera and Fernando Macias.",
+      "Meet the Founders",
+      "Contact Elevate Access Solutions",
+      "Contact us by email or phone using the links below.",
+      "Email",
+      "info@elevateaccess.us",
+      "Phone",
+      "(510) 224-5251",
+      "Return Home"
+    ],
+    "links": [
+      "/cart",
+      "#page",
+      "/",
+      "/about",
+      "/founders",
+      "/services",
+      "/contact",
+      "/",
+      "/",
+      "/about",
+      "/founders",
+      "/services",
+      "/contact",
+      "/",
+      "/",
+      "/about",
+      "/founders",
+      "/services",
+      "/contact",
+      "/",
+      "/founders",
+      "mailto:info@elevateaccess.us",
+      "tel:+15102245251",
+      "/"
+    ],
+    "images": [
+      {
+        "elementtiming": "nbf-header-logo-desktop",
+        "src": "//images.squarespace-cdn.com/content/v1/6a3f7998bb357d36f1ba9b03/043d5be7-4440-416a-ad9e-f4061776f583/EAS_Horizontal_White_v1.0_2400px.png?format=1500w",
+        "alt": "Elevate Access Solutions",
+        "style": "display:block",
+        "fetchpriority": "high",
+        "loading": "eager",
+        "decoding": "async",
+        "data-loader": "raw"
+      },
+      {
+        "elementtiming": "nbf-header-logo-desktop",
+        "src": "//images.squarespace-cdn.com/content/v1/6a3f7998bb357d36f1ba9b03/043d5be7-4440-416a-ad9e-f4061776f583/EAS_Horizontal_White_v1.0_2400px.png?format=1500w",
+        "alt": "Elevate Access Solutions",
+        "style": "display:block",
+        "fetchpriority": "high",
+        "loading": "eager",
+        "decoding": "async",
+        "data-loader": "raw"
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/6a3f7998bb357d36f1ba9b03/22beb3be-62f6-4427-bebf-0998b914adc6/blind-professional-computer-library.png?content-type=image%2Fjpeg",
+        "alt": "Blind professional using a computer and headphones in a library workspace."
+      }
+    ],
+    "meta": [
+      {
+        "http-equiv": "X-UA-Compatible",
+        "content": "IE=edge,chrome=1"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1"
+      },
+      {
+        "charset": "utf-8"
+      },
+      {
+        "http-equiv": "Accept-CH",
+        "content": "Sec-CH-UA-Platform-Version, Sec-CH-UA-Model"
+      },
+      {
+        "rel": "canonical",
+        "href": "https://www.elevateaccess.us/about"
+      },
+      {
+        "property": "og:site_name",
+        "content": "Elevate Access Solutions"
+      },
+      {
+        "property": "og:title",
+        "content": "About Us \u2014 Elevate Access Solutions"
+      },
+      {
+        "property": "og:url",
+        "content": "https://www.elevateaccess.us/about"
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "itemprop": "name",
+        "content": "About Us \u2014 Elevate Access Solutions"
+      },
+      {
+        "itemprop": "url",
+        "content": "https://www.elevateaccess.us/about"
+      },
+      {
+        "name": "twitter:title",
+        "content": "About Us \u2014 Elevate Access Solutions"
+      },
+      {
+        "name": "twitter:url",
+        "content": "https://www.elevateaccess.us/about"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary"
+      },
+      {
+        "name": "description",
+        "content": ""
+      }
+    ],
+    "headings": [
+      [
+        "h1",
+        "Practical"
+      ],
+      [
+        "h1",
+        "access,"
+      ],
+      [
+        "h1",
+        "personal"
+      ],
+      [
+        "h1",
+        "support."
+      ],
+      [
+        "h2",
+        "Our Mission"
+      ],
+      [
+        "h2",
+        "Our Approach"
+      ],
+      [
+        "h2",
+        "Who We Serve"
+      ],
+      [
+        "h3",
+        "Individuals"
+      ],
+      [
+        "h3",
+        "Families and caregivers"
+      ],
+      [
+        "h3",
+        "Schools and education"
+      ],
+      [
+        "h3",
+        "Rehabilitation agencies"
+      ],
+      [
+        "h3",
+        "Employers"
+      ],
+      [
+        "h3",
+        "Professionals"
+      ],
+      [
+        "h2",
+        "Why Elevate Access Solutions"
+      ],
+      [
+        "h2",
+        "Meet the Founders"
+      ],
+      [
+        "h2",
+        "Contact Elevate Access Solutions"
+      ]
+    ],
+    "controls": [
+      {
+        "tag": "button",
+        "class": "header-burger-btn burger",
+        "data-test": "header-burger"
+      },
+      {
+        "tag": "button",
+        "class": "header-burger-btn burger",
+        "data-test": "header-burger"
+      }
+    ],
+    "css": [
+      "//assets.squarespace.com/universal/styles-compressed/user-account-core-3d01a2f01227067c-min.en-US.css",
+      "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.code/ef4e64fe-197c-4312-8540-12920ebccc94_1042/website.components.code.styles.css",
+      "https://static1.squarespace.com/static/versioned-site-css/6a3f7998bb357d36f1ba9b03/9/5c5a519771c10ba3470d8101/6a3f7999bb357d36f1ba9b0e/1841/site.css?nocustom=true",
+      "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/versioned-assets/1792079378326-3P84T29X62IH7QZWGRSR/static.css",
+      "https://static1.squarespace.com/static/custom-css/6a3f7998bb357d36f1ba9b03/6a3f7999bb357d36f1ba9b0e/3/custom.css"
+    ]
+  },
+  {
+    "path": "/founders",
+    "status": 200,
+    "url": "https://www.elevateaccess.us/founders",
+    "title": "Meet the Founders &mdash; Elevate Access Solutions",
+    "text": [
+      "Meet the Founders \u2014 Elevate Access Solutions",
+      "0",
+      "Skip to Content",
+      "Home",
+      "About Us",
+      "Meet the Founders",
+      "Services",
+      "Contact",
+      "Open Menu",
+      "Close Menu",
+      "Open Menu",
+      "Close Menu",
+      "Home",
+      "About Us",
+      "Meet the Founders",
+      "Services",
+      "Contact",
+      "Home",
+      "About Us",
+      "Meet the Founders",
+      "Services",
+      "Contact",
+      "Home",
+      "Meet the Founders",
+      "Founded",
+      "from",
+      "practical,",
+      "personal",
+      "access.",
+      "Elevate Access Solutions was founded from a belief that accessible technology should be practical, personal, and empowering.",
+      "Juanita",
+      "Herrera",
+      "Co-founder",
+      "Professional photograph placeholder for Juanita Herrera",
+      "I am the co-founder of Elevate Access Solutions and have 15 years of experience working in the blindness field, including the past 12 years specializing in assistive technology. Throughout my career, I have provided personalized training on a wide range of assistive technology, helping individuals who are blind or have low vision develop the skills and confidence to succeed at home, in school, and in the workplace.",
+      "For the past three years, I have been a RESNA-certified Assistive Technology Professional, reflecting my commitment to maintaining high standards of knowledge, service, and professional practice. I have worked with children, adults, seniors, and professionals from a variety of backgrounds, combining technical expertise with my own perspective as a person who is blind.",
+      "I am passionate about helping others build confidence, increase their independence, and develop the practical skills they need to achieve their personal, educational, and professional goals.",
+      "Fernando Macias",
+      "Co-founder",
+      "Professional photograph placeholder for Fernando Macias",
+      "I am the co-founder of Elevate Access Solutions and have seven years of experience working with people with disabilities, with a particular focus on blindness, low vision, and assistive technology. Throughout my career, I have provided individualized and group training to help people use accessible technology more effectively at home, in education, and in the workplace.",
+      "My experience includes working with screen readers, magnification tools, mobile accessibility features, braille technology, productivity software, and other solutions that support greater independence. I have also conducted assistive technology assessments, developed training programs, and presented on accessibility and emerging technology to clients, professionals, and community organizations.",
+      "As someone who is blind, I bring both professional knowledge and lived experience to my work. I understand that effective technology training is not simply about learning commands or features\u2014it is about finding practical solutions that fit the individual, build confidence, and support meaningful personal and professional goals.",
+      "Shared Perspective",
+      "The founders combine professional knowledge, lived experience with blindness, individualized instruction, and an understanding of accessibility in daily life, education, and employment.",
+      "Contact Elevate Access Solutions",
+      "Email info@elevateaccess.us",
+      "Contact Us",
+      "Return Home"
+    ],
+    "links": [
+      "/cart",
+      "#page",
+      "/",
+      "/about",
+      "/founders",
+      "/services",
+      "/contact",
+      "/",
+      "/",
+      "/about",
+      "/founders",
+      "/services",
+      "/contact",
+      "/",
+      "/",
+      "/about",
+      "/founders",
+      "/services",
+      "/contact",
+      "/",
+      "mailto:info@elevateaccess.us",
+      "/contact",
+      "/"
+    ],
+    "images": [
+      {
+        "elementtiming": "nbf-header-logo-desktop",
+        "src": "//images.squarespace-cdn.com/content/v1/6a3f7998bb357d36f1ba9b03/043d5be7-4440-416a-ad9e-f4061776f583/EAS_Horizontal_White_v1.0_2400px.png?format=1500w",
+        "alt": "Elevate Access Solutions",
+        "style": "display:block",
+        "fetchpriority": "high",
+        "loading": "eager",
+        "decoding": "async",
+        "data-loader": "raw"
+      },
+      {
+        "elementtiming": "nbf-header-logo-desktop",
+        "src": "//images.squarespace-cdn.com/content/v1/6a3f7998bb357d36f1ba9b03/043d5be7-4440-416a-ad9e-f4061776f583/EAS_Horizontal_White_v1.0_2400px.png?format=1500w",
+        "alt": "Elevate Access Solutions",
+        "style": "display:block",
+        "fetchpriority": "high",
+        "loading": "eager",
+        "decoding": "async",
+        "data-loader": "raw"
+      }
+    ],
+    "meta": [
+      {
+        "http-equiv": "X-UA-Compatible",
+        "content": "IE=edge,chrome=1"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1"
+      },
+      {
+        "charset": "utf-8"
+      },
+      {
+        "http-equiv": "Accept-CH",
+        "content": "Sec-CH-UA-Platform-Version, Sec-CH-UA-Model"
+      },
+      {
+        "rel": "canonical",
+        "href": "https://www.elevateaccess.us/founders"
+      },
+      {
+        "property": "og:site_name",
+        "content": "Elevate Access Solutions"
+      },
+      {
+        "property": "og:title",
+        "content": "Meet the Founders \u2014 Elevate Access Solutions"
+      },
+      {
+        "property": "og:url",
+        "content": "https://www.elevateaccess.us/founders"
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "itemprop": "name",
+        "content": "Meet the Founders \u2014 Elevate Access Solutions"
+      },
+      {
+        "itemprop": "url",
+        "content": "https://www.elevateaccess.us/founders"
+      },
+      {
+        "name": "twitter:title",
+        "content": "Meet the Founders \u2014 Elevate Access Solutions"
+      },
+      {
+        "name": "twitter:url",
+        "content": "https://www.elevateaccess.us/founders"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary"
+      },
+      {
+        "name": "description",
+        "content": ""
+      }
+    ],
+    "headings": [
+      [
+        "h1",
+        "Founded"
+      ],
+      [
+        "h1",
+        "from"
+      ],
+      [
+        "h1",
+        "practical,"
+      ],
+      [
+        "h1",
+        "personal"
+      ],
+      [
+        "h1",
+        "access."
+      ],
+      [
+        "h2",
+        "Juanita"
+      ],
+      [
+        "h2",
+        "Herrera"
+      ],
+      [
+        "h2",
+        "Fernando Macias"
+      ],
+      [
+        "h2",
+        "Shared Perspective"
+      ],
+      [
+        "h2",
+        "Contact Elevate Access Solutions"
+      ]
+    ],
+    "controls": [
+      {
+        "tag": "button",
+        "class": "header-burger-btn burger",
+        "data-test": "header-burger"
+      },
+      {
+        "tag": "button",
+        "class": "header-burger-btn burger",
+        "data-test": "header-burger"
+      }
+    ],
+    "css": [
+      "//assets.squarespace.com/universal/styles-compressed/user-account-core-3d01a2f01227067c-min.en-US.css",
+      "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.code/ef4e64fe-197c-4312-8540-12920ebccc94_1042/website.components.code.styles.css",
+      "https://static1.squarespace.com/static/versioned-site-css/6a3f7998bb357d36f1ba9b03/9/5c5a519771c10ba3470d8101/6a3f7999bb357d36f1ba9b0e/1841/site.css?nocustom=true",
+      "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/versioned-assets/1792079378326-3P84T29X62IH7QZWGRSR/static.css",
+      "https://static1.squarespace.com/static/custom-css/6a3f7998bb357d36f1ba9b03/6a3f7999bb357d36f1ba9b0e/3/custom.css"
+    ]
+  },
+  {
+    "path": "/services",
+    "status": 200,
+    "url": "https://www.elevateaccess.us/services",
+    "title": "Services &mdash; Elevate Access Solutions",
+    "text": [
+      "Services \u2014 Elevate Access Solutions",
+      "0",
+      "Skip to Content",
+      "Home",
+      "About Us",
+      "Meet the Founders",
+      "Services",
+      "Contact",
+      "Open Menu",
+      "Close Menu",
+      "Open Menu",
+      "Close Menu",
+      "Home",
+      "About Us",
+      "Meet the Founders",
+      "Services",
+      "Contact",
+      "Home",
+      "About Us",
+      "Meet the Founders",
+      "Services",
+      "Contact",
+      "Home",
+      "Services",
+      "Practical",
+      "support",
+      "for",
+      "real",
+      "environments.",
+      "Our services are tailored to individual, educational, workplace, and organizational needs.",
+      "Contact us",
+      "to learn more about service options and pricing.",
+      "Assessments",
+      "Our comprehensive access technology assessments identify the tools, features, and training strategies that best support each individual\u2019s goals. We evaluate current skills, technology needs, work or educational demands, and accessibility preferences to develop clear, practical recommendations. Each assessment is designed to help clients, families, educators, employers, and rehabilitation professionals make informed decisions about assistive technology, training, and long-term support.",
+      "Request Information",
+      "Assistive Technology Training",
+      "Our assistive technology training helps individuals build the skills and confidence needed to use accessible technology effectively in everyday life, education, and employment. Training is personalized to each client\u2019s goals and may include screen readers, magnification tools, smartphones, computers, braille displays, productivity software, and other accessibility solutions. Sessions are practical, hands-on, and paced to support lasting independence.",
+      "Request Information",
+      "Workplace Accessibility Consulting",
+      "Our workplace accessibility consulting services help organizations create more effective, inclusive, and sustainable work environments. We evaluate employee workflows, digital tools, and common workplace tasks to identify practical adjustments that improve visual comfort, efficiency, and performance. Recommendations may include display and contrast settings, text-size modifications, glare reduction, alternative software features, and targeted employee training. Each solution is designed to integrate smoothly into existing systems while supporting productivity, retention, and employee well-being.",
+      "Request Information",
+      "Contact Elevate Access Solutions",
+      "Email info@elevateaccess.us",
+      "Contact Us",
+      "Return Home"
+    ],
+    "links": [
+      "/cart",
+      "#page",
+      "/",
+      "/about",
+      "/founders",
+      "/services",
+      "/contact",
+      "/",
+      "/",
+      "/about",
+      "/founders",
+      "/services",
+      "/contact",
+      "/",
+      "/",
+      "/about",
+      "/founders",
+      "/services",
+      "/contact",
+      "/",
+      "/contact",
+      "/contact",
+      "/contact",
+      "/contact",
+      "mailto:info@elevateaccess.us",
+      "/contact",
+      "/"
+    ],
+    "images": [
+      {
+        "elementtiming": "nbf-header-logo-desktop",
+        "src": "//images.squarespace-cdn.com/content/v1/6a3f7998bb357d36f1ba9b03/043d5be7-4440-416a-ad9e-f4061776f583/EAS_Horizontal_White_v1.0_2400px.png?format=1500w",
+        "alt": "Elevate Access Solutions",
+        "style": "display:block",
+        "fetchpriority": "high",
+        "loading": "eager",
+        "decoding": "async",
+        "data-loader": "raw"
+      },
+      {
+        "elementtiming": "nbf-header-logo-desktop",
+        "src": "//images.squarespace-cdn.com/content/v1/6a3f7998bb357d36f1ba9b03/043d5be7-4440-416a-ad9e-f4061776f583/EAS_Horizontal_White_v1.0_2400px.png?format=1500w",
+        "alt": "Elevate Access Solutions",
+        "style": "display:block",
+        "fetchpriority": "high",
+        "loading": "eager",
+        "decoding": "async",
+        "data-loader": "raw"
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/6a3f7998bb357d36f1ba9b03/75841109-73ab-4323-abb0-7f57928a6906/refreshable-braille-display-workstation.png?content-type=image%2Fjpeg",
+        "alt": "Laptop connected to a refreshable braille display."
+      }
+    ],
+    "meta": [
+      {
+        "http-equiv": "X-UA-Compatible",
+        "content": "IE=edge,chrome=1"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1"
+      },
+      {
+        "charset": "utf-8"
+      },
+      {
+        "http-equiv": "Accept-CH",
+        "content": "Sec-CH-UA-Platform-Version, Sec-CH-UA-Model"
+      },
+      {
+        "rel": "canonical",
+        "href": "https://www.elevateaccess.us/services"
+      },
+      {
+        "property": "og:site_name",
+        "content": "Elevate Access Solutions"
+      },
+      {
+        "property": "og:title",
+        "content": "Services \u2014 Elevate Access Solutions"
+      },
+      {
+        "property": "og:url",
+        "content": "https://www.elevateaccess.us/services"
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "itemprop": "name",
+        "content": "Services \u2014 Elevate Access Solutions"
+      },
+      {
+        "itemprop": "url",
+        "content": "https://www.elevateaccess.us/services"
+      },
+      {
+        "name": "twitter:title",
+        "content": "Services \u2014 Elevate Access Solutions"
+      },
+      {
+        "name": "twitter:url",
+        "content": "https://www.elevateaccess.us/services"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary"
+      },
+      {
+        "name": "description",
+        "content": ""
+      }
+    ],
+    "headings": [
+      [
+        "h1",
+        "Practical"
+      ],
+      [
+        "h1",
+        "support"
+      ],
+      [
+        "h1",
+        "for"
+      ],
+      [
+        "h1",
+        "real"
+      ],
+      [
+        "h1",
+        "environments."
+      ],
+      [
+        "h2",
+        "Assessments"
+      ],
+      [
+        "h2",
+        "Assistive Technology Training"
+      ],
+      [
+        "h2",
+        "Workplace Accessibility Consulting"
+      ],
+      [
+        "h2",
+        "Contact Elevate Access Solutions"
+      ]
+    ],
+    "controls": [
+      {
+        "tag": "button",
+        "class": "header-burger-btn burger",
+        "data-test": "header-burger"
+      },
+      {
+        "tag": "button",
+        "class": "header-burger-btn burger",
+        "data-test": "header-burger"
+      }
+    ],
+    "css": [
+      "//assets.squarespace.com/universal/styles-compressed/user-account-core-3d01a2f01227067c-min.en-US.css",
+      "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.code/ef4e64fe-197c-4312-8540-12920ebccc94_1042/website.components.code.styles.css",
+      "https://static1.squarespace.com/static/versioned-site-css/6a3f7998bb357d36f1ba9b03/9/5c5a519771c10ba3470d8101/6a3f7999bb357d36f1ba9b0e/1841/site.css?nocustom=true",
+      "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/versioned-assets/1792079378326-3P84T29X62IH7QZWGRSR/static.css",
+      "https://static1.squarespace.com/static/custom-css/6a3f7998bb357d36f1ba9b03/6a3f7999bb357d36f1ba9b0e/3/custom.css"
+    ]
+  },
+  {
+    "path": "/contact",
+    "status": 200,
+    "url": "https://www.elevateaccess.us/contact",
+    "title": "Contact &mdash; Elevate Access Solutions",
+    "text": [
+      "Contact \u2014 Elevate Access Solutions",
+      "0",
+      "Skip to Content",
+      "Home",
+      "About Us",
+      "Meet the Founders",
+      "Services",
+      "Contact",
+      "Open Menu",
+      "Close Menu",
+      "Open Menu",
+      "Close Menu",
+      "Home",
+      "About Us",
+      "Meet the Founders",
+      "Services",
+      "Contact",
+      "Home",
+      "About Us",
+      "Meet the Founders",
+      "Services",
+      "Contact",
+      "Home",
+      "Contact",
+      "Let\u2019s",
+      "start",
+      "with",
+      "what",
+      "you",
+      "need.",
+      "Contact Elevate Access Solutions by email or phone using the links below.",
+      "Contact Elevate Access Solutions",
+      "Choose the contact method that works best for you.",
+      "Email",
+      "info@elevateaccess.us",
+      "Phone",
+      "(510) 224-5251",
+      "Return Home"
+    ],
+    "links": [
+      "/cart",
+      "#page",
+      "/",
+      "/about",
+      "/founders",
+      "/services",
+      "/contact",
+      "/",
+      "/",
+      "/about",
+      "/founders",
+      "/services",
+      "/contact",
+      "/",
+      "/",
+      "/about",
+      "/founders",
+      "/services",
+      "/contact",
+      "/",
+      "mailto:info@elevateaccess.us",
+      "tel:+15102245251",
+      "/"
+    ],
+    "images": [
+      {
+        "elementtiming": "nbf-header-logo-desktop",
+        "src": "//images.squarespace-cdn.com/content/v1/6a3f7998bb357d36f1ba9b03/043d5be7-4440-416a-ad9e-f4061776f583/EAS_Horizontal_White_v1.0_2400px.png?format=1500w",
+        "alt": "Elevate Access Solutions",
+        "style": "display:block",
+        "fetchpriority": "high",
+        "loading": "eager",
+        "decoding": "async",
+        "data-loader": "raw"
+      },
+      {
+        "elementtiming": "nbf-header-logo-desktop",
+        "src": "//images.squarespace-cdn.com/content/v1/6a3f7998bb357d36f1ba9b03/043d5be7-4440-416a-ad9e-f4061776f583/EAS_Horizontal_White_v1.0_2400px.png?format=1500w",
+        "alt": "Elevate Access Solutions",
+        "style": "display:block",
+        "fetchpriority": "high",
+        "loading": "eager",
+        "decoding": "async",
+        "data-loader": "raw"
+      },
+      {
+        "src": "https://images.squarespace-cdn.com/content/6a3f7998bb357d36f1ba9b03/42cb9736-1aff-401f-ba6f-a065098bbbc6/wheelchair-professional-laptop.png?content-type=image%2Fjpeg",
+        "alt": "Professional working independently on a laptop while using a wheelchair."
+      }
+    ],
+    "meta": [
+      {
+        "http-equiv": "X-UA-Compatible",
+        "content": "IE=edge,chrome=1"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1"
+      },
+      {
+        "charset": "utf-8"
+      },
+      {
+        "http-equiv": "Accept-CH",
+        "content": "Sec-CH-UA-Platform-Version, Sec-CH-UA-Model"
+      },
+      {
+        "rel": "canonical",
+        "href": "https://www.elevateaccess.us/contact"
+      },
+      {
+        "property": "og:site_name",
+        "content": "Elevate Access Solutions"
+      },
+      {
+        "property": "og:title",
+        "content": "Contact \u2014 Elevate Access Solutions"
+      },
+      {
+        "property": "og:url",
+        "content": "https://www.elevateaccess.us/contact"
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "itemprop": "name",
+        "content": "Contact \u2014 Elevate Access Solutions"
+      },
+      {
+        "itemprop": "url",
+        "content": "https://www.elevateaccess.us/contact"
+      },
+      {
+        "name": "twitter:title",
+        "content": "Contact \u2014 Elevate Access Solutions"
+      },
+      {
+        "name": "twitter:url",
+        "content": "https://www.elevateaccess.us/contact"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary"
+      },
+      {
+        "name": "description",
+        "content": ""
+      }
+    ],
+    "headings": [
+      [
+        "h1",
+        "Let\u2019s"
+      ],
+      [
+        "h1",
+        "start"
+      ],
+      [
+        "h1",
+        "with"
+      ],
+      [
+        "h1",
+        "what"
+      ],
+      [
+        "h1",
+        "you"
+      ],
+      [
+        "h1",
+        "need."
+      ],
+      [
+        "h2",
+        "Contact Elevate Access Solutions"
+      ]
+    ],
+    "controls": [
+      {
+        "tag": "button",
+        "class": "header-burger-btn burger",
+        "data-test": "header-burger"
+      },
+      {
+        "tag": "button",
+        "class": "header-burger-btn burger",
+        "data-test": "header-burger"
+      }
+    ],
+    "css": [
+      "//assets.squarespace.com/universal/styles-compressed/user-account-core-3d01a2f01227067c-min.en-US.css",
+      "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.code/ef4e64fe-197c-4312-8540-12920ebccc94_1042/website.components.code.styles.css",
+      "https://static1.squarespace.com/static/versioned-site-css/6a3f7998bb357d36f1ba9b03/9/5c5a519771c10ba3470d8101/6a3f7999bb357d36f1ba9b0e/1841/site.css?nocustom=true",
+      "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/versioned-assets/1792079378326-3P84T29X62IH7QZWGRSR/static.css",
+      "https://static1.squarespace.com/static/custom-css/6a3f7998bb357d36f1ba9b03/6a3f7999bb357d36f1ba9b0e/3/custom.css"
+    ]
+  },
+  {
+    "path": "/sitemap.xml",
+    "status": 200,
+    "url": "https://www.elevateaccess.us/sitemap.xml",
+    "title": "",
+    "text": [
+      "https://www.elevateaccess.us/home",
+      "daily",
+      "0.75",
+      "2026-07-16",
+      "https://images.squarespace-cdn.com/content/v1/624b503bf355c85bf8657e7b/1649102909710-PS4CSWJQG9RGX790GR0L/image-asset.jpeg",
+      "https://www.elevateaccess.us/about-original-backup",
+      "daily",
+      "0.75",
+      "2026-08-25",
+      "https://www.elevateaccess.us/meet-the-founders",
+      "daily",
+      "0.75",
+      "2026-07-15",
+      "https://www.elevateaccess.us/services-original-backup",
+      "daily",
+      "0.75",
+      "2026-08-25",
+      "https://www.elevateaccess.us/contact-original-backup",
+      "daily",
+      "0.75",
+      "2026-08-25",
+      "https://www.elevateaccess.us/founders-original-backup",
+      "daily",
+      "0.75",
+      "2026-08-25",
+      "https://www.elevateaccess.us/founders",
+      "daily",
+      "0.75",
+      "2026-08-25",
+      "https://www.elevateaccess.us/services",
+      "daily",
+      "0.75",
+      "2026-08-25",
+      "https://www.elevateaccess.us/contact",
+      "daily",
+      "0.75",
+      "2026-08-25",
+      "https://www.elevateaccess.us/home-rebuild",
+      "daily",
+      "1.0",
+      "2026-08-25",
+      "https://images.squarespace-cdn.com/content/v1/6a3f7998bb357d36f1ba9b03/81c944e3-e7b0-46de-ac03-da00fbd64cd1/home-hero-accessible-workstation-latino.png",
+      "https://www.elevateaccess.us/about",
+      "daily",
+      "0.75",
+      "2026-08-25",
+      "https://www.elevateaccess.us/about-1",
+      "daily",
+      "0.75",
+      "2026-10-18"
+    ],
+    "links": [],
+    "images": [],
+    "meta": [],
+    "headings": [],
+    "controls": [],
+    "css": []
+  },
+  {
+    "path": "/robots.txt",
+    "status": 200,
+    "url": "https://www.elevateaccess.us/robots.txt",
+    "title": "",
+    "text": [
+      "# Squarespace Robots Txt\n\nUser-agent: AI2Bot\nUser-agent: Ai2Bot-Dolma\nUser-agent: aiHitBot\nUser-agent: Amazonbot\nUser-agent: anthropic-ai\nUser-agent: Applebot-Extended\nUser-agent: Bytespider\nUser-agent: CCBot\nUser-agent: ClaudeBot\nUser-agent: cohere-ai\nUser-agent: cohere-training-data-crawler\nUser-agent: DuckAssistBot\nUser-agent: FacebookBot\nUser-agent: Google-Extended\nUser-agent: GoogleOther\nUser-agent: GoogleOther-Image\nUser-agent: GoogleOther-Video\nUser-agent: GPTBot\nUser-agent: img2dataset\nUser-agent: Meta-ExternalAgent\nUser-agent: MyCentralAIScraperBot\nUser-agent: omgili\nUser-agent: omgilibot\nUser-agent: Quora-Bot\nUser-agent: TikTokSpider\nUser-agent: YouBot\nUser-agent: AdsBot-Google\nUser-agent: AdsBot-Google-Mobile\nUser-agent: AdsBot-Google-Mobile-Apps\nUser-agent: *\nDisallow: /config\nDisallow: /search\nDisallow: /account$\nDisallow: /account/\nDisallow: /commerce/digital-download/\nDisallow: /api/\nAllow: /api/ui-extensions/\nDisallow: /static/\nDisallow:/*?author=*\nDisallow:/*&author=*\nDisallow:/*?tag=*\nDisallow:/*&tag=*\nDisallow:/*?month=*\nDisallow:/*&month=*\nDisallow:/*?view=*\nDisallow:/*&view=*\nDisallow:/*?format=json\nDisallow:/*&format=json\nDisallow:/*?format=page-context\nDisallow:/*&format=page-context\nDisallow:/*?format=main-content\nDisallow:/*&format=main-content\nDisallow:/*?format=json-pretty\nDisallow:/*&format=json-pretty\nDisallow:/*?format=ical\nDisallow:/*&format=ical\nDisallow:/*?reversePaginate=*\nDisallow:/*&reversePaginate=*\n\nSitemap: https://www.elevateaccess.us/sitemap.xml"
+    ],
+    "links": [],
+    "images": [],
+    "meta": [],
+    "headings": [],
+    "controls": [],
+    "css": []
+  },
+  {
+    "path": "/home",
+    "status": 200,
+    "url": "https://www.elevateaccess.us/home",
+    "title": "Home &mdash; Elevate Access Solutions",
+    "text": [
+      "Home \u2014 Elevate Access Solutions",
+      "0",
+      "Skip to Content",
+      "Home",
+      "About Us",
+      "Meet the Founders",
+      "Services",
+      "Contact",
+      "Open Menu",
+      "Close Menu",
+      "Open Menu",
+      "Close Menu",
+      "Home",
+      "About Us",
+      "Meet the Founders",
+      "Services",
+      "Contact",
+      "Home",
+      "About Us",
+      "Meet the Founders",
+      "Services",
+      "Contact",
+      "Accessibility solutions that move people and organizations forward",
+      "REQUEST A CONSULTATION",
+      "Professional accessibility consulting, assistive technology assessments, training, and digital access support for individuals, educators, employers, agencies, and organizations.",
+      "Accessibility / Assistive Technology / Training / WCAG / Inclusion",
+      "/",
+      "Accessibility / Assistive Technology / Training / WCAG / Inclusion",
+      "/",
+      "Accessibility / Assistive Technology / Training / WCAG / Inclusion /"
+    ],
+    "links": [
+      "/cart",
+      "#page",
+      "/",
+      "/about",
+      "/founders",
+      "/services",
+      "/contact",
+      "/",
+      "/",
+      "/about",
+      "/founders",
+      "/services",
+      "/contact",
+      "/",
+      "/",
+      "/about",
+      "/founders",
+      "/services",
+      "/contact",
+      "/contact"
+    ],
+    "images": [
+      {
+        "elementtiming": "nbf-header-logo-desktop",
+        "src": "//images.squarespace-cdn.com/content/v1/6a3f7998bb357d36f1ba9b03/043d5be7-4440-416a-ad9e-f4061776f583/EAS_Horizontal_White_v1.0_2400px.png?format=1500w",
+        "alt": "Elevate Access Solutions",
+        "style": "display:block",
+        "fetchpriority": "high",
+        "loading": "eager",
+        "decoding": "async",
+        "data-loader": "raw"
+      },
+      {
+        "elementtiming": "nbf-header-logo-desktop",
+        "src": "//images.squarespace-cdn.com/content/v1/6a3f7998bb357d36f1ba9b03/043d5be7-4440-416a-ad9e-f4061776f583/EAS_Horizontal_White_v1.0_2400px.png?format=1500w",
+        "alt": "Elevate Access Solutions",
+        "style": "display:block",
+        "fetchpriority": "high",
+        "loading": "eager",
+        "decoding": "async",
+        "data-loader": "raw"
+      },
+      {
+        "data-stretch": "true",
+        "data-src": "https://images.squarespace-cdn.com/content/v1/624b503bf355c85bf8657e7b/1649102909710-PS4CSWJQG9RGX790GR0L/image-asset.jpeg",
+        "data-image": "https://images.squarespace-cdn.com/content/v1/624b503bf355c85bf8657e7b/1649102909710-PS4CSWJQG9RGX790GR0L/image-asset.jpeg",
+        "data-image-dimensions": "931x1084",
+        "data-image-focal-point": "0.5,0.5",
+        "data-sqsp-image-block-image": null,
+        "alt": "",
+        "data-licensed-asset-preview": "false",
+        "data-load": "false",
+        "elementtiming": "system-image-block",
+        "src": "https://images.squarespace-cdn.com/content/v1/624b503bf355c85bf8657e7b/1649102909710-PS4CSWJQG9RGX790GR0L/image-asset.jpeg",
+        "width": "931",
+        "height": "1084",
+        "sizes": "auto, 100vw",
+        "style": "display:block;object-position: var(--image-component-focal-point);object-fit: var(--image-component-object-fit);",
+        "srcset": "https://images.squarespace-cdn.com/content/v1/624b503bf355c85bf8657e7b/1649102909710-PS4CSWJQG9RGX790GR0L/image-asset.jpeg?format=100w 100w, https://images.squarespace-cdn.com/content/v1/624b503bf355c85bf8657e7b/1649102909710-PS4CSWJQG9RGX790GR0L/image-asset.jpeg?format=300w 300w, https://images.squarespace-cdn.com/content/v1/624b503bf355c85bf8657e7b/1649102909710-PS4CSWJQG9RGX790GR0L/image-asset.jpeg?format=500w 500w, https://images.squarespace-cdn.com/content/v1/624b503bf355c85bf8657e7b/1649102909710-PS4CSWJQG9RGX790GR0L/image-asset.jpeg?format=750w 750w, https://images.squarespace-cdn.com/content/v1/624b503bf355c85bf8657e7b/1649102909710-PS4CSWJQG9RGX790GR0L/image-asset.jpeg?format=1000w 1000w, https://images.squarespace-cdn.com/content/v1/624b503bf355c85bf8657e7b/1649102909710-PS4CSWJQG9RGX790GR0L/image-asset.jpeg?format=1500w 1500w, https://images.squarespace-cdn.com/content/v1/624b503bf355c85bf8657e7b/1649102909710-PS4CSWJQG9RGX790GR0L/image-asset.jpeg?format=2500w 2500w",
+        "decoding": "auto",
+        "data-loader": "sqs",
+        "data-image-component": "1.0.1"
+      }
+    ],
+    "meta": [
+      {
+        "http-equiv": "X-UA-Compatible",
+        "content": "IE=edge,chrome=1"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1"
+      },
+      {
+        "charset": "utf-8"
+      },
+      {
+        "http-equiv": "Accept-CH",
+        "content": "Sec-CH-UA-Platform-Version, Sec-CH-UA-Model"
+      },
+      {
+        "rel": "canonical",
+        "href": "https://www.elevateaccess.us/home"
+      },
+      {
+        "property": "og:site_name",
+        "content": "Elevate Access Solutions"
+      },
+      {
+        "property": "og:title",
+        "content": "Home \u2014 Elevate Access Solutions"
+      },
+      {
+        "property": "og:url",
+        "content": "https://www.elevateaccess.us/home"
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "itemprop": "name",
+        "content": "Home \u2014 Elevate Access Solutions"
+      },
+      {
+        "itemprop": "url",
+        "content": "https://www.elevateaccess.us/home"
+      },
+      {
+        "name": "twitter:title",
+        "content": "Home \u2014 Elevate Access Solutions"
+      },
+      {
+        "name": "twitter:url",
+        "content": "https://www.elevateaccess.us/home"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary"
+      },
+      {
+        "name": "description",
+        "content": ""
+      }
+    ],
+    "headings": [
+      [
+        "h1",
+        "Accessibility solutions that move people and organizations forward"
+      ]
+    ],
+    "controls": [
+      {
+        "tag": "button",
+        "class": "header-burger-btn burger",
+        "data-test": "header-burger"
+      },
+      {
+        "tag": "button",
+        "class": "header-burger-btn burger",
+        "data-test": "header-burger"
+      }
+    ],
+    "css": [
+      "//assets.squarespace.com/universal/styles-compressed/user-account-core-3d01a2f01227067c-min.en-US.css",
+      "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.html/e4d8cee0-b2a8-4d2c-acaf-62c051981b6d_997/website.components.html.styles.css",
+      "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.button/3ae4df89-9f97-4f82-919c-ea28db60a3d0_1167/website.components.button.styles.css",
+      "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.scrolling/5596ee4c-5917-4647-a71e-0e68bcb86d89_769/website.components.scrolling.styles.css",
+      "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.imageFluid/83d4ad11-2d63-4a7f-ab4d-8922c15c7ddf_984/website.components.imageFluid.styles.css",
+      "https://static1.squarespace.com/static/versioned-site-css/6a3f7998bb357d36f1ba9b03/9/5c5a519771c10ba3470d8101/6a3f7999bb357d36f1ba9b0e/1841/site.css?nocustom=true",
+      "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/versioned-assets/1792079378326-3P84T29X62IH7QZWGRSR/static.css",
+      "https://static1.squarespace.com/static/custom-css/6a3f7998bb357d36f1ba9b03/6a3f7999bb357d36f1ba9b0e/3/custom.css"
+    ]
+  },
+  {
+    "path": "/about-original-backup",
+    "status": 200,
+    "url": "https://www.elevateaccess.us/about-original-backup",
+    "title": "About Us (Former Live Backup) &mdash; Elevate Access Solutions",
+    "text": [
+      "About Us (Former Live Backup) \u2014 Elevate Access Solutions",
+      "0",
+      "Skip to Content",
+      "Home",
+      "About Us",
+      "Meet the Founders",
+      "Services",
+      "Contact",
+      "Open Menu",
+      "Close Menu",
+      "Open Menu",
+      "Close Menu",
+      "Home",
+      "About Us",
+      "Meet the Founders",
+      "Services",
+      "Contact",
+      "Home",
+      "About Us",
+      "Meet the Founders",
+      "Services",
+      "Contact",
+      "Home",
+      "About Us",
+      "Practical",
+      "access,",
+      "personal",
+      "support.",
+      "Elevate Access Solutions provides practical, personalized accessibility and assistive technology solutions for individuals and organizations. We help people identify, learn, and use technology in ways that support confidence, independence, inclusion, and everyday access.",
+      "Our Mission",
+      "Our mission is to help people use accessible technology with greater confidence and independence. We focus on practical access, inclusive participation, and solutions that support real needs in daily life, education, and work.",
+      "Our Approach",
+      "Our services are individualized, goal based, and practical. Recommendations are informed by professional knowledge and lived experience, with attention to the person, task, workplace, educational setting, or daily environment where the technology will actually be used.",
+      "Who We Serve",
+      "Individuals",
+      "Individuals who are blind or have low vision.",
+      "Families and caregivers",
+      "Families and caregivers seeking clearer options and everyday strategies.",
+      "Schools and education",
+      "Schools and educational organizations supporting accessible learning.",
+      "Rehabilitation agencies",
+      "Agencies serving people with blindness, low vision, or technology-access needs.",
+      "Employers",
+      "Employers and organizations improving accessible workplace technology.",
+      "Professionals",
+      "Professionals seeking more accessible workflows and workplace tools.",
+      "Why Elevate Access Solutions",
+      "Personalized recommendations.",
+      "Practical, goal-based training.",
+      "Experience with assistive technology and accessibility.",
+      "Solutions intended for real-world environments.",
+      "A combination of professional expertise and lived experience.",
+      "Meet the Founders",
+      "Elevate Access Solutions was co-founded by Juanita Herrera and Fernando Macias.",
+      "Meet the Founders",
+      "Contact Elevate Access Solutions",
+      "Use this form to prepare an email to info@elevateaccess.us.",
+      "Name",
+      "required",
+      "Email",
+      "required",
+      "Phone",
+      "Additional Notes",
+      "We\u2019ll use the information you provide only to respond to your inquiry. We won\u2019t add you to a mailing list.",
+      "Prepare Email",
+      "Return Home"
+    ],
+    "links": [
+      "/cart",
+      "#page",
+      "/",
+      "/about",
+      "/founders",
+      "/services",
+      "/contact",
+      "/",
+      "/",
+      "/about",
+      "/founders",
+      "/services",
+      "/contact",
+      "/",
+      "/",
+      "/about",
+      "/founders",
+      "/services",
+      "/contact",
+      "/",
+      "/founders",
+      "/"
+    ],
+    "images": [
+      {
+        "elementtiming": "nbf-header-logo-desktop",
+        "src": "//images.squarespace-cdn.com/content/v1/6a3f7998bb357d36f1ba9b03/043d5be7-4440-416a-ad9e-f4061776f583/EAS_Horizontal_White_v1.0_2400px.png?format=1500w",
+        "alt": "Elevate Access Solutions",
+        "style": "display:block",
+        "fetchpriority": "high",
+        "loading": "eager",
+        "decoding": "async",
+        "data-loader": "raw"
+      },
+      {
+        "elementtiming": "nbf-header-logo-desktop",
+        "src": "//images.squarespace-cdn.com/content/v1/6a3f7998bb357d36f1ba9b03/043d5be7-4440-416a-ad9e-f4061776f583/EAS_Horizontal_White_v1.0_2400px.png?format=1500w",
+        "alt": "Elevate Access Solutions",
+        "style": "display:block",
+        "fetchpriority": "high",
+        "loading": "eager",
+        "decoding": "async",
+        "data-loader": "raw"
+      }
+    ],
+    "meta": [
+      {
+        "http-equiv": "X-UA-Compatible",
+        "content": "IE=edge,chrome=1"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1"
+      },
+      {
+        "charset": "utf-8"
+      },
+      {
+        "http-equiv": "Accept-CH",
+        "content": "Sec-CH-UA-Platform-Version, Sec-CH-UA-Model"
+      },
+      {
+        "rel": "canonical",
+        "href": "https://www.elevateaccess.us/about-original-backup"
+      },
+      {
+        "property": "og:site_name",
+        "content": "Elevate Access Solutions"
+      },
+      {
+        "property": "og:title",
+        "content": "About Us (Former Live Backup) \u2014 Elevate Access Solutions"
+      },
+      {
+        "property": "og:url",
+        "content": "https://www.elevateaccess.us/about-original-backup"
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "itemprop": "name",
+        "content": "About Us (Former Live Backup) \u2014 Elevate Access Solutions"
+      },
+      {
+        "itemprop": "url",
+        "content": "https://www.elevateaccess.us/about-original-backup"
+      },
+      {
+        "name": "twitter:title",
+        "content": "About Us (Former Live Backup) \u2014 Elevate Access Solutions"
+      },
+      {
+        "name": "twitter:url",
+        "content": "https://www.elevateaccess.us/about-original-backup"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary"
+      },
+      {
+        "name": "description",
+        "content": ""
+      }
+    ],
+    "headings": [
+      [
+        "h1",
+        "Practical"
+      ],
+      [
+        "h1",
+        "access,"
+      ],
+      [
+        "h1",
+        "personal"
+      ],
+      [
+        "h1",
+        "support."
+      ],
+      [
+        "h2",
+        "Our Mission"
+      ],
+      [
+        "h2",
+        "Our Approach"
+      ],
+      [
+        "h2",
+        "Who We Serve"
+      ],
+      [
+        "h3",
+        "Individuals"
+      ],
+      [
+        "h3",
+        "Families and caregivers"
+      ],
+      [
+        "h3",
+        "Schools and education"
+      ],
+      [
+        "h3",
+        "Rehabilitation agencies"
+      ],
+      [
+        "h3",
+        "Employers"
+      ],
+      [
+        "h3",
+        "Professionals"
+      ],
+      [
+        "h2",
+        "Why Elevate Access Solutions"
+      ],
+      [
+        "h2",
+        "Meet the Founders"
+      ],
+      [
+        "h2",
+        "Contact Elevate Access Solutions"
+      ]
+    ],
+    "controls": [
+      {
+        "tag": "button",
+        "class": "header-burger-btn burger",
+        "data-test": "header-burger"
+      },
+      {
+        "tag": "button",
+        "class": "header-burger-btn burger",
+        "data-test": "header-burger"
+      },
+      {
+        "tag": "form",
+        "class": "eas-form",
+        "action": "mailto:info@elevateaccess.us",
+        "method": "post",
+        "enctype": "text/plain"
+      },
+      {
+        "tag": "label"
+      },
+      {
+        "tag": "input",
+        "name": "Name",
+        "required": ""
+      },
+      {
+        "tag": "label"
+      },
+      {
+        "tag": "input",
+        "name": "Email",
+        "type": "email",
+        "required": ""
+      },
+      {
+        "tag": "label"
+      },
+      {
+        "tag": "input",
+        "name": "Phone"
+      },
+      {
+        "tag": "label"
+      },
+      {
+        "tag": "textarea",
+        "name": "Additional Notes"
+      },
+      {
+        "tag": "input",
+        "type": "hidden",
+        "name": "Page Source",
+        "value": "About Us"
+      },
+      {
+        "tag": "button",
+        "class": "eas-btn",
+        "type": "submit"
+      }
+    ],
+    "css": [
+      "//assets.squarespace.com/universal/styles-compressed/user-account-core-3d01a2f01227067c-min.en-US.css",
+      "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.code/ef4e64fe-197c-4312-8540-12920ebccc94_1042/website.components.code.styles.css",
+      "https://static1.squarespace.com/static/versioned-site-css/6a3f7998bb357d36f1ba9b03/9/5c5a519771c10ba3470d8101/6a3f7999bb357d36f1ba9b0e/1841/site.css?nocustom=true",
+      "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/versioned-assets/1792079378326-3P84T29X62IH7QZWGRSR/static.css",
+      "https://static1.squarespace.com/static/custom-css/6a3f7998bb357d36f1ba9b03/6a3f7999bb357d36f1ba9b0e/3/custom.css"
+    ]
+  },
+  {
+    "path": "/meet-the-founders",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "path": "/services-original-backup",
+    "status": 200,
+    "url": "https://www.elevateaccess.us/services-original-backup",
+    "title": "Services (Former Live Backup) &mdash; Elevate Access Solutions",
+    "text": [
+      "Services (Former Live Backup) \u2014 Elevate Access Solutions",
+      "0",
+      "Skip to Content",
+      "Home",
+      "About Us",
+      "Meet the Founders",
+      "Services",
+      "Contact",
+      "Open Menu",
+      "Close Menu",
+      "Open Menu",
+      "Close Menu",
+      "Home",
+      "About Us",
+      "Meet the Founders",
+      "Services",
+      "Contact",
+      "Home",
+      "About Us",
+      "Meet the Founders",
+      "Services",
+      "Contact",
+      "Home",
+      "Services",
+      "Practical support for real environments.",
+      "Our services are tailored to individual, educational, workplace, and organizational needs.",
+      "Contact us",
+      "to learn more about service options and pricing.",
+      "Assessments",
+      "Our comprehensive access technology assessments identify the tools, features, and training strategies that best support each individual\u2019s goals. We evaluate current skills, technology needs, work or educational demands, and accessibility preferences to develop clear, practical recommendations. Each assessment is designed to help clients, families, educators, employers, and rehabilitation professionals make informed decisions about assistive technology, training, and long-term support.",
+      "Request Information",
+      "Assistive Technology Training",
+      "Our assistive technology training helps individuals build the skills and confidence needed to use accessible technology effectively in everyday life, education, and employment. Training is personalized to each client\u2019s goals and may include screen readers, magnification tools, smartphones, computers, braille displays, productivity software, and other accessibility solutions. Sessions are practical, hands-on, and paced to support lasting independence.",
+      "Request Information",
+      "Workplace Accessibility Consulting",
+      "Our workplace accessibility consulting services help organizations create more effective, inclusive, and sustainable work environments. We evaluate employee workflows, digital tools, and common workplace tasks to identify practical adjustments that improve visual comfort, efficiency, and performance. Recommendations may include display and contrast settings, text-size modifications, glare reduction, alternative software features, and targeted employee training. Each solution is designed to integrate smoothly into existing systems while supporting productivity, retention, and employee well-being.",
+      "Request Information",
+      "Contact Elevate Access Solutions",
+      "Use the Contact page to send an inquiry to Elevate Access Solutions.",
+      "Contact Us",
+      "Return Home"
+    ],
+    "links": [
+      "/cart",
+      "#page",
+      "/",
+      "/about",
+      "/founders",
+      "/services",
+      "/contact",
+      "/",
+      "/",
+      "/about",
+      "/founders",
+      "/services",
+      "/contact",
+      "/",
+      "/",
+      "/about",
+      "/founders",
+      "/services",
+      "/contact",
+      "/",
+      "/contact",
+      "/contact",
+      "/contact",
+      "/contact",
+      "/contact",
+      "/"
+    ],
+    "images": [
+      {
+        "elementtiming": "nbf-header-logo-desktop",
+        "src": "//images.squarespace-cdn.com/content/v1/6a3f7998bb357d36f1ba9b03/043d5be7-4440-416a-ad9e-f4061776f583/EAS_Horizontal_White_v1.0_2400px.png?format=1500w",
+        "alt": "Elevate Access Solutions",
+        "style": "display:block",
+        "fetchpriority": "high",
+        "loading": "eager",
+        "decoding": "async",
+        "data-loader": "raw"
+      },
+      {
+        "elementtiming": "nbf-header-logo-desktop",
+        "src": "//images.squarespace-cdn.com/content/v1/6a3f7998bb357d36f1ba9b03/043d5be7-4440-416a-ad9e-f4061776f583/EAS_Horizontal_White_v1.0_2400px.png?format=1500w",
+        "alt": "Elevate Access Solutions",
+        "style": "display:block",
+        "fetchpriority": "high",
+        "loading": "eager",
+        "decoding": "async",
+        "data-loader": "raw"
+      }
+    ],
+    "meta": [
+      {
+        "http-equiv": "X-UA-Compatible",
+        "content": "IE=edge,chrome=1"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1"
+      },
+      {
+        "charset": "utf-8"
+      },
+      {
+        "http-equiv": "Accept-CH",
+        "content": "Sec-CH-UA-Platform-Version, Sec-CH-UA-Model"
+      },
+      {
+        "rel": "canonical",
+        "href": "https://www.elevateaccess.us/services-original-backup"
+      },
+      {
+        "property": "og:site_name",
+        "content": "Elevate Access Solutions"
+      },
+      {
+        "property": "og:title",
+        "content": "Services (Former Live Backup) \u2014 Elevate Access Solutions"
+      },
+      {
+        "property": "og:url",
+        "content": "https://www.elevateaccess.us/services-original-backup"
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "itemprop": "name",
+        "content": "Services (Former Live Backup) \u2014 Elevate Access Solutions"
+      },
+      {
+        "itemprop": "url",
+        "content": "https://www.elevateaccess.us/services-original-backup"
+      },
+      {
+        "name": "twitter:title",
+        "content": "Services (Former Live Backup) \u2014 Elevate Access Solutions"
+      },
+      {
+        "name": "twitter:url",
+        "content": "https://www.elevateaccess.us/services-original-backup"
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary"
+      },
+      {
+        "name": "description",
+        "content": ""
+      }
+    ],
+    "headings": [
+      [
+        "h1",
+        "Practical support for real environments."
+      ],
+      [
+        "h2",
+        "Assessments"
+      ],
+      [
+        "h2",
+        "Assistive Technology Training"
+      ],
+      [
+        "h2",
+        "Workplace Accessibility Consulting"
+      ],
+      [
+        "h2",
+        "Contact Elevate Access Solutions"
+      ]
+    ],
+    "controls": [
+      {
+        "tag": "button",
+        "class": "header-burger-btn burger",
+        "data-test": "header-burger"
+      },
+      {
+        "tag": "button",
+        "class": "header-burger-btn burger",
+        "data-test": "header-burger"
+      }
+    ],
+    "css": [
+      "//assets.squarespace.com/universal/styles-compressed/user-account-core-3d01a2f01227067c-min.en-US.css",
+      "https://definitions.sqspcdn.com/website-component-definition/static-assets/website.components.code/ef4e64fe-197c-4312-8540-12920ebccc94_1042/website.components.code.styles.css",
+      "https://static1.squarespace.com/static/versioned-site-css/6a3f7998bb357d36f1ba9b03/9/5c5a519771c10ba3470d8101/6a3f7999bb357d36f1ba9b0e/1841/site.css?nocustom=true",
+      "https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/versioned-assets/1792079378326-3P84T29X62IH7QZWGRSR/static.css",
+      "https://static1.squarespace.com/static/custom-css/6a3f7998bb357d36f1ba9b03/6a3f7999bb357d36f1ba9b0e/3/custom.css"
+    ]
+  },
+  {
+    "path": "/contact-original-backup",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "path": "/founders-original-backup",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "path": "/home-rebuild",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "path": "/about-1",
+    "error": "HTTP Error 429: Too Many Requests"
+  }
+]

@@ -1,0 +1,119 @@
+{
+  "business": {
+    "name": "Elevate Access Solutions",
+    "legal_name": "Elevate Access Solutions LLC",
+    "email": "info@elevateaccess.us",
+    "phone": "(510) 224-5251",
+    "phone_uri": "+15102245251",
+    "facebook_url": "https://www.facebook.com/profile.php?id=61594912121904"
+  },
+  "about": {
+    "intro": "Elevate Access Solutions ofrece soluciones prácticas y personalizadas de accesibilidad y tecnología de asistencia para personas y organizaciones. Ayudamos a identificar, aprender y utilizar la tecnología de maneras que favorezcan la confianza, la independencia, la inclusión y el acceso en la vida cotidiana.",
+    "mission": "Nuestra misión es ayudar a las personas a utilizar tecnología accesible con mayor confianza e independencia. Nos centramos en el acceso práctico, la participación inclusiva y las soluciones que responden a necesidades reales en la vida diaria, la educación y el trabajo.",
+    "approach": "Nuestros servicios son personalizados, prácticos y orientados a objetivos. Las recomendaciones se basan en el conocimiento profesional y la experiencia personal, teniendo en cuenta a la persona, la tarea y el entorno laboral, educativo o cotidiano donde se utilizará la tecnología."
+  },
+  "audiences": [
+    {
+      "title": "Personas",
+      "description": "Personas ciegas o con baja visión."
+    },
+    {
+      "title": "Familias y personas cuidadoras",
+      "description": "Familias y personas cuidadoras que buscan opciones más claras y estrategias para la vida diaria."
+    },
+    {
+      "title": "Escuelas y educación",
+      "description": "Escuelas y organizaciones educativas que promueven un aprendizaje accesible."
+    },
+    {
+      "title": "Agencias de rehabilitación",
+      "description": "Agencias que atienden a personas ciegas, con baja visión o con necesidades de acceso a la tecnología."
+    },
+    {
+      "title": "Empleadores",
+      "description": "Empleadores y organizaciones que buscan mejorar la accesibilidad de la tecnología en el trabajo."
+    },
+    {
+      "title": "Profesionales",
+      "description": "Profesionales que buscan procesos y herramientas de trabajo más accesibles."
+    }
+  ],
+  "services": [
+    {
+      "id": "assessments",
+      "title": "Evaluaciones",
+      "description": "Nuestras evaluaciones integrales de tecnología de acceso identifican las herramientas, las funciones y las estrategias de capacitación que mejor apoyan los objetivos de cada persona. Evaluamos las habilidades actuales, las necesidades tecnológicas, las exigencias laborales o educativas y las preferencias de accesibilidad para desarrollar recomendaciones claras y prácticas. Cada evaluación está diseñada para ayudar a clientes, familias, educadores, empleadores y profesionales de rehabilitación a tomar decisiones informadas sobre tecnología de asistencia, capacitación y apoyo a largo plazo.",
+      "summary": "Recomendaciones claras basadas en sus habilidades, objetivos, necesidades tecnológicas y entorno cotidiano."
+    },
+    {
+      "id": "training",
+      "title": "Capacitación en tecnología de asistencia",
+      "description": "Nuestra capacitación en tecnología de asistencia ayuda a las personas a desarrollar las habilidades y la confianza necesarias para utilizar tecnología accesible de manera eficaz en la vida diaria, la educación y el empleo. La capacitación se adapta a los objetivos de cada cliente y puede incluir lectores de pantalla, herramientas de ampliación, teléfonos inteligentes, computadoras, líneas braille, software de productividad y otras soluciones de accesibilidad. Las sesiones son prácticas, incluyen ejercicios y avanzan a un ritmo que favorece una independencia duradera.",
+      "summary": "Enseñanza práctica y personalizada sobre lectores de pantalla, ampliación, accesibilidad móvil, tecnología braille y herramientas de productividad."
+    },
+    {
+      "id": "workplace",
+      "title": "Consultoría en accesibilidad laboral",
+      "description": "Nuestros servicios de consultoría en accesibilidad laboral ayudan a las organizaciones a crear entornos de trabajo más eficaces, inclusivos y sostenibles. Evaluamos los procesos de trabajo del personal, las herramientas digitales y las tareas habituales para identificar ajustes prácticos que mejoren la comodidad visual, la eficiencia y el desempeño. Las recomendaciones pueden incluir ajustes de pantalla y contraste, cambios en el tamaño del texto, reducción de reflejos, funciones alternativas del software y capacitación específica para el personal. Cada solución está diseñada para integrarse de manera fluida en los sistemas existentes y favorecer la productividad, la retención y el bienestar del personal.",
+      "summary": "Procesos accesibles, herramientas digitales y ajustes prácticos que favorecen la inclusión y la productividad en el trabajo."
+    }
+  ],
+  "founders": [
+    {
+      "name": "Juanita Herrera",
+      "role": "Cofundadora",
+      "paragraphs": [
+        "Soy cofundadora de Elevate Access Solutions y tengo 15 años de experiencia en el ámbito de la ceguera, incluidos los últimos 12 años de especialización en tecnología de asistencia. A lo largo de mi carrera, he brindado capacitación personalizada sobre una amplia variedad de tecnologías de asistencia, ayudando a personas ciegas o con baja visión a desarrollar las habilidades y la confianza necesarias para desenvolverse en el hogar, la escuela y el trabajo.",
+        "Desde 2023 cuento con la certificación de RESNA como profesional de tecnología de asistencia (ATP), lo que refleja mi compromiso con mantener altos estándares de conocimiento, servicio y práctica profesional. He trabajado con niños, adultos, personas mayores y profesionales de diversos contextos, combinando mis conocimientos técnicos con mi propia perspectiva como persona ciega.",
+        "Me apasiona ayudar a otras personas a fortalecer su confianza, aumentar su independencia y desarrollar las habilidades prácticas que necesitan para alcanzar sus metas personales, educativas y profesionales."
+      ],
+      "portrait": {
+        "file": "juanita-portrait-900.webp",
+        "small_file": "juanita-portrait-480.webp",
+        "alt": "Juanita Herrera sonríe y lleva un blazer negro.",
+        "width": 900,
+        "height": 1200
+      }
+    },
+    {
+      "name": "Fernando Macias",
+      "role": "Cofundador",
+      "paragraphs": [
+        "Soy cofundador de Elevate Access Solutions y tengo siete años de experiencia trabajando con personas con discapacidad, con especial atención a la ceguera, la baja visión y la tecnología de asistencia. A lo largo de mi carrera, he brindado capacitación individual y grupal para ayudar a las personas a utilizar tecnología accesible de manera más eficaz en el hogar, la educación y el trabajo.",
+        "Mi experiencia incluye lectores de pantalla, herramientas de ampliación, funciones de accesibilidad móvil, tecnología braille, software de productividad y otras soluciones que favorecen una mayor independencia. También he realizado evaluaciones de tecnología de asistencia, desarrollado programas de capacitación y presentado temas de accesibilidad y tecnologías emergentes ante clientes, profesionales y organizaciones comunitarias.",
+        "Como persona ciega, aporto a mi trabajo tanto conocimiento profesional como experiencia personal. Comprendo que una capacitación tecnológica eficaz va más allá de aprender comandos o funciones: consiste en encontrar soluciones prácticas que se adapten a cada persona, fortalezcan su confianza y apoyen metas personales y profesionales significativas."
+      ],
+      "portrait": {
+        "file": "fernando-portrait-900.webp",
+        "small_file": "fernando-portrait-480.webp",
+        "alt": "Fernando Macias lleva un traje azul marino y una corbata azul estampada.",
+        "width": 900,
+        "height": 1200
+      }
+    }
+  ],
+  "articles": [
+    {
+      "status": "published",
+      "slug": "agentes-ia-independencia-digital",
+      "title": "¿Pueden los agentes de IA dar más control en línea a las personas con discapacidad?",
+      "seo_title": "Agentes de IA y accesibilidad | Elevate Access Solutions",
+      "description": "Cómo los agentes de IA podrían facilitar el control y la revisión de tareas complejas en línea para las personas con discapacidad.",
+      "author": "Elevate Access Solutions",
+      "date": "2026-10-19",
+      "category": "IA y accesibilidad",
+      "image": "/assets/ai-agents-airport-illustration.jpg",
+      "image_alt": "Ilustración de una persona que usa un teléfono mientras lleva una maleta con ruedas por una franja de pavimento táctil dentro de una terminal de aeropuerto.",
+      "translation_key": "ai-agents-digital-independence",
+      "body_file": "content/articles/agentes-ia-independencia-digital.es.html"
+    }
+  ],
+  "source_note": "Traducción al español del contenido aprobado en content/site.json. Se conservan los nombres, las credenciales, los datos de contacto, los servicios y los enlaces de las fuentes. Los títulos de las fuentes del artículo se presentan en español y remiten a los documentos originales.",
+  "translation_source_sha256": "ecd232446ef4b4ff47e3af7f0fdbcb0dc1fe8ed8a9687a0a75c62840084d1b42",
+  "service_area": {
+    "local_text": "Ofrecemos servicios presenciales y remotos de accesibilidad y tecnología de asistencia en San Francisco, Oakland, Berkeley, Vallejo y el condado de Marin.",
+    "remote_text": "También ofrecemos servicios remotos a clientes fuera del Área de la Bahía y del estado de California.",
+    "inquiry_text": "Contáctenos para conversar sobre sus necesidades, los horarios disponibles y los precios de nuestros servicios.",
+    "schema_description": "Servicios presenciales y remotos en San Francisco, Oakland, Berkeley, Vallejo y el condado de Marin; servicios remotos también disponibles fuera del Área de la Bahía y de California."
+  }
+}

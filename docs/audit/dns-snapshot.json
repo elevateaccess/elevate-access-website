@@ -1,0 +1,123 @@
+[
+  {
+    "name": "elevateaccess.us",
+    "type": "A",
+    "status": 0,
+    "answers": [
+      {
+        "name": "elevateaccess.us.",
+        "type": 1,
+        "TTL": 600,
+        "data": "198.185.159.145"
+      },
+      {
+        "name": "elevateaccess.us.",
+        "type": 1,
+        "TTL": 600,
+        "data": "198.49.23.145"
+      },
+      {
+        "name": "elevateaccess.us.",
+        "type": 1,
+        "TTL": 600,
+        "data": "198.49.23.144"
+      }
+    ]
+  },
+  {
+    "name": "www.elevateaccess.us",
+    "type": "CNAME",
+    "status": 0,
+    "answers": [
+      {
+        "name": "www.elevateaccess.us.",
+        "type": 5,
+        "TTL": 600,
+        "data": "ext-cust.squarespace.com."
+      }
+    ]
+  },
+  {
+    "name": "elevateaccess.us",
+    "type": "MX",
+    "status": 0,
+    "answers": [
+      {
+        "name": "elevateaccess.us.",
+        "type": 15,
+        "TTL": 600,
+        "data": "1 smtp.google.com."
+      }
+    ]
+  },
+  {
+    "name": "elevateaccess.us",
+    "type": "TXT",
+    "status": 0,
+    "answers": [
+      {
+        "name": "elevateaccess.us.",
+        "type": 16,
+        "TTL": 600,
+        "data": "google-site-verification=WtC83kcQBemTOG1RCiqaXfHzZdJrshL_IOckZOOzsZ4"
+      }
+    ]
+  },
+  {
+    "name": "_dmarc.elevateaccess.us",
+    "type": "TXT",
+    "status": 0,
+    "answers": [
+      {
+        "name": "_dmarc.elevateaccess.us.",
+        "type": 5,
+        "TTL": 600,
+        "data": "pixie.porkbun.com."
+      }
+    ]
+  },
+  {
+    "name": "google._domainkey.elevateaccess.us",
+    "type": "TXT",
+    "status": 0,
+    "answers": [
+      {
+        "name": "google._domainkey.elevateaccess.us.",
+        "type": 16,
+        "TTL": 600,
+        "data": "v=DKIM1;k=rsa;p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAo+/8k6Jt0ejjF4tvg0bHhO6g45V3IJHrJLBRfZjromCTMo2TQIxx/+MEh8awmcc4T8SYLzPNdr7+sMZE5BnRPgX7BHwVDaD+DH4AVMrGE7Po30vf6IhzsYiQKomPDNQwomwT+PvCIawaOkspbsCaPw3uZlWfP/EJXQitTxOTjYWbTCqOjIv0NFNNif3dDGvFoqQg/LppVG0fDFMJHj+d6QCqTUKBKr8+HCT5JZd9c7GGYUV0AIYR0hGkQUWSZPBPDEw+ADNdeIpZCUgdkR4b8T+zl3LEaSW5Uks7aHNlAhCUJ+FXY0VS13qNE3KWMXPJpMymYZRdTEiRc+j6bFmUoQIDAQAB"
+      }
+    ]
+  },
+  {
+    "name": "elevateaccess.us",
+    "type": "NS",
+    "status": 0,
+    "answers": [
+      {
+        "name": "elevateaccess.us.",
+        "type": 2,
+        "TTL": 21600,
+        "data": "curitiba.ns.porkbun.com."
+      },
+      {
+        "name": "elevateaccess.us.",
+        "type": 2,
+        "TTL": 21600,
+        "data": "salvador.ns.porkbun.com."
+      },
+      {
+        "name": "elevateaccess.us.",
+        "type": 2,
+        "TTL": 21600,
+        "data": "maceio.ns.porkbun.com."
+      },
+      {
+        "name": "elevateaccess.us.",
+        "type": 2,
+        "TTL": 21600,
+        "data": "fortaleza.ns.porkbun.com."
+      }
+    ]
+  }
+]

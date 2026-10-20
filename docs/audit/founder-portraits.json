@@ -1,0 +1,28 @@
+[
+  {
+    "founder": "Juanita Herrera",
+    "original_name": "Juanita Portrate.HEIC",
+    "source_file_id": "1t-GE0npV92QzitEHtYk5dqdncGAphDVo",
+    "source_url": "https://drive.google.com/file/d/1t-GE0npV92QzitEHtYk5dqdncGAphDVo/view",
+    "source_location": "My Drive root",
+    "source_dimensions": [
+      3024,
+      4032
+    ],
+    "alt": "Juanita Herrera smiling in a black blazer.",
+    "processing": "HEIC decoded and resized without cropping or retouching. WebP exports omit EXIF and location metadata. Originals remain in Drive."
+  },
+  {
+    "founder": "Fernando Macias",
+    "original_name": "Fernando Portrate.heic",
+    "source_file_id": "17LcxAv8oBaAqLv59gTyvC82kyD_e0Qtg",
+    "source_url": "https://drive.google.com/file/d/17LcxAv8oBaAqLv59gTyvC82kyD_e0Qtg/view",
+    "source_location": "My Drive root",
+    "source_dimensions": [
+      3024,
+      4032
+    ],
+    "alt": "Fernando Macias wearing a navy suit and blue patterned tie.",
+    "processing": "HEIC decoded and resized without cropping or retouching. WebP exports omit EXIF and location metadata. Originals remain in Drive."
+  }
+]

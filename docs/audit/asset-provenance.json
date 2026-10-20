@@ -1,0 +1,57 @@
+[
+  {
+    "name": "logo",
+    "source": "https://images.squarespace-cdn.com/content/v1/6a3f7998bb357d36f1ba9b03/043d5be7-4440-416a-ad9e-f4061776f583/EAS_Horizontal_White_v1.0_2400px.png",
+    "original_bytes": 47418,
+    "file": "assets/logo.png",
+    "bytes": 29564,
+    "dimensions": [
+      1500,
+      498
+    ]
+  },
+  {
+    "name": "workstation",
+    "source": "https://images.squarespace-cdn.com/content/v1/6a3f7998bb357d36f1ba9b03/81c944e3-e7b0-46de-ac03-da00fbd64cd1/home-hero-accessible-workstation-latino.png",
+    "original_bytes": 2266917,
+    "file": "assets/workstation.webp",
+    "bytes": 38290,
+    "dimensions": [
+      1500,
+      744
+    ]
+  },
+  {
+    "name": "about",
+    "source": "https://images.squarespace-cdn.com/content/6a3f7998bb357d36f1ba9b03/22beb3be-62f6-4427-bebf-0998b914adc6/blind-professional-computer-library.png",
+    "original_bytes": 76482,
+    "file": "assets/about.webp",
+    "bytes": 49408,
+    "dimensions": [
+      977,
+      535
+    ]
+  },
+  {
+    "name": "services",
+    "source": "https://images.squarespace-cdn.com/content/6a3f7998bb357d36f1ba9b03/75841109-73ab-4323-abb0-7f57928a6906/refreshable-braille-display-workstation.png",
+    "original_bytes": 67628,
+    "file": "assets/services.webp",
+    "bytes": 43362,
+    "dimensions": [
+      998,
+      666
+    ]
+  },
+  {
+    "name": "contact",
+    "source": "https://images.squarespace-cdn.com/content/6a3f7998bb357d36f1ba9b03/42cb9736-1aff-401f-ba6f-a065098bbbc6/wheelchair-professional-laptop.png",
+    "original_bytes": 65664,
+    "file": "assets/contact.webp",
+    "bytes": 41080,
+    "dimensions": [
+      977,
+      651
+    ]
+  }
+]

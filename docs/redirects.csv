@@ -1,0 +1,10 @@
+old_path,new_path,required_status
+/home,/,301 or 308
+/home-rebuild,/,301 or 308
+/about-original-backup,/about/,301 or 308
+/about-1,/about/,301 or 308
+/meet-the-founders,/founders/,301 or 308
+/founders-original-backup,/founders/,301 or 308
+/services-original-backup,/services/,301 or 308
+/contact-original-backup,/contact/,301 or 308
+/articles,/insights/,301 or 308

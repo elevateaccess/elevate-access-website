@@ -1,0 +1,178 @@
+[
+  {
+    "language": "en",
+    "key": "home",
+    "path": "/",
+    "title": "Accessibility & Assistive Technology | Elevate Access Solutions",
+    "description": "Practical assistive technology assessments, personalized training, and workplace accessibility consulting for individuals and organizations.",
+    "alternates": {
+      "en": "/",
+      "es": "/es/"
+    }
+  },
+  {
+    "language": "en",
+    "key": "about",
+    "path": "/about/",
+    "title": "About Us | Elevate Access Solutions",
+    "description": "Learn about our practical, personalized approach to accessibility, assistive technology, confidence, and independence.",
+    "alternates": {
+      "en": "/about/",
+      "es": "/es/quienes-somos/"
+    }
+  },
+  {
+    "language": "en",
+    "key": "founders",
+    "path": "/founders/",
+    "title": "Meet Juanita Herrera & Fernando Macias | Elevate Access Solutions",
+    "description": "Meet co-founders Juanita Herrera and Fernando Macias and learn how professional knowledge and lived experience inform their accessibility work.",
+    "alternates": {
+      "en": "/founders/",
+      "es": "/es/fundadores/"
+    }
+  },
+  {
+    "language": "en",
+    "key": "services",
+    "path": "/services/",
+    "title": "Assistive Technology Services | Elevate Access Solutions",
+    "description": "Assistive technology assessments, training, and workplace consulting in the Bay Area, with remote services available beyond California.",
+    "alternates": {
+      "en": "/services/",
+      "es": "/es/servicios/"
+    }
+  },
+  {
+    "language": "en",
+    "key": "contact",
+    "path": "/contact/",
+    "title": "Contact | Elevate Access Solutions",
+    "description": "Contact Elevate Access Solutions at info@elevateaccess.us or (510) 224-5251 to discuss assistive technology and accessibility support.",
+    "alternates": {
+      "en": "/contact/",
+      "es": "/es/contacto/"
+    }
+  },
+  {
+    "language": "en",
+    "key": "ai-agents-digital-independence",
+    "path": "/insights/ai-agents-digital-independence/",
+    "title": "AI Agents and Disability Access | Elevate Access Solutions",
+    "description": "How AI agents could make complex online tasks easier to direct and review",
+    "alternates": {
+      "en": "/insights/ai-agents-digital-independence/",
+      "es": "/es/articulos/agentes-ia-independencia-digital/"
+    }
+  },
+  {
+    "language": "en",
+    "key": "insights",
+    "path": "/insights/",
+    "title": "Accessibility Insights | Elevate Access Solutions",
+    "description": "Educational perspectives on accessibility, assistive technology, and emerging technologies from Elevate Access Solutions.",
+    "alternates": {
+      "en": "/insights/",
+      "es": "/es/articulos/"
+    }
+  },
+  {
+    "language": "en",
+    "key": "accessibility",
+    "path": "/accessibility/",
+    "title": "Website Accessibility | Elevate Access Solutions",
+    "description": "Our WCAG 2.2 AA accessibility target, tips for using this website, and ways to report an access barrier.",
+    "alternates": {
+      "en": "/accessibility/",
+      "es": "/es/accesibilidad/"
+    }
+  },
+  {
+    "language": "es",
+    "key": "home",
+    "path": "/es/",
+    "title": "Accesibilidad y tecnología de asistencia | Elevate Access Solutions",
+    "description": "Evaluaciones de tecnología de asistencia, capacitación personalizada y consultoría en accesibilidad laboral para personas y organizaciones.",
+    "alternates": {
+      "en": "/",
+      "es": "/es/"
+    }
+  },
+  {
+    "language": "es",
+    "key": "about",
+    "path": "/es/quienes-somos/",
+    "title": "Quiénes somos | Elevate Access Solutions",
+    "description": "Conozca nuestro enfoque práctico y personalizado de accesibilidad y tecnología de asistencia para fortalecer la confianza y la independencia.",
+    "alternates": {
+      "en": "/about/",
+      "es": "/es/quienes-somos/"
+    }
+  },
+  {
+    "language": "es",
+    "key": "founders",
+    "path": "/es/fundadores/",
+    "title": "Juanita Herrera y Fernando Macias | Elevate Access Solutions",
+    "description": "Conozca a Juanita Herrera y Fernando Macias, cofundadores cuya experiencia profesional y personal orienta su trabajo en accesibilidad.",
+    "alternates": {
+      "en": "/founders/",
+      "es": "/es/fundadores/"
+    }
+  },
+  {
+    "language": "es",
+    "key": "services",
+    "path": "/es/servicios/",
+    "title": "Servicios de tecnología de asistencia | Elevate Access Solutions",
+    "description": "Evaluaciones, capacitación y consultoría en accesibilidad en el Área de la Bahía, con servicios remotos también fuera de California.",
+    "alternates": {
+      "en": "/services/",
+      "es": "/es/servicios/"
+    }
+  },
+  {
+    "language": "es",
+    "key": "contact",
+    "path": "/es/contacto/",
+    "title": "Contacto | Elevate Access Solutions",
+    "description": "Escriba a info@elevateaccess.us o llame al (510) 224-5251 para consultar sobre nuestros servicios de accesibilidad y tecnología de asistencia.",
+    "alternates": {
+      "en": "/contact/",
+      "es": "/es/contacto/"
+    }
+  },
+  {
+    "language": "es",
+    "key": "ai-agents-digital-independence",
+    "path": "/es/articulos/agentes-ia-independencia-digital/",
+    "title": "Agentes de IA y accesibilidad | Elevate Access Solutions",
+    "description": "Cómo los agentes de IA podrían facilitar el control y la revisión de tareas complejas en línea para las personas con discapacidad.",
+    "alternates": {
+      "en": "/insights/ai-agents-digital-independence/",
+      "es": "/es/articulos/agentes-ia-independencia-digital/"
+    }
+  },
+  {
+    "language": "es",
+    "key": "insights",
+    "path": "/es/articulos/",
+    "title": "Artículos sobre accesibilidad | Elevate Access Solutions",
+    "description": "Artículos educativos de Elevate Access Solutions sobre accesibilidad, tecnología de asistencia y tecnologías emergentes.",
+    "alternates": {
+      "en": "/insights/",
+      "es": "/es/articulos/"
+    }
+  },
+  {
+    "language": "es",
+    "key": "accessibility",
+    "path": "/es/accesibilidad/",
+    "title": "Accesibilidad del sitio web | Elevate Access Solutions",
+    "description": "Nuestro objetivo de accesibilidad WCAG 2.2 AA, consejos para utilizar el sitio web y medios para informar de una barrera de acceso.",
+    "alternates": {
+      "en": "/accessibility/",
+      "es": "/es/accesibilidad/"
+    }
+  }
+]

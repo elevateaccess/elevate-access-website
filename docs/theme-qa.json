@@ -1,0 +1,229 @@
+{
+  "scope": "CSS parsing and calculated color contrast for both palettes; no browser or screen-reader rendering test.",
+  "checks": [
+    {
+      "theme": "light",
+      "label": "Reading text",
+      "foreground": "#142c43",
+      "background": "#f3f6f9",
+      "ratio": 13.16,
+      "minimum": 4.5
+    },
+    {
+      "theme": "light",
+      "label": "Muted text and captions",
+      "foreground": "#465c70",
+      "background": "#f3f6f9",
+      "ratio": 6.4,
+      "minimum": 4.5
+    },
+    {
+      "theme": "light",
+      "label": "Reading links",
+      "foreground": "#12618d",
+      "background": "#f3f6f9",
+      "ratio": 6.21,
+      "minimum": 4.5
+    },
+    {
+      "theme": "light",
+      "label": "Alternate section text",
+      "foreground": "#142c43",
+      "background": "#e8eff5",
+      "ratio": 12.3,
+      "minimum": 4.5
+    },
+    {
+      "theme": "light",
+      "label": "Alternate section links",
+      "foreground": "#12618d",
+      "background": "#e8eff5",
+      "ratio": 5.8,
+      "minimum": 4.5
+    },
+    {
+      "theme": "light",
+      "label": "Alternate secondary text",
+      "foreground": "#465c70",
+      "background": "#e8eff5",
+      "ratio": 5.98,
+      "minimum": 4.5
+    },
+    {
+      "theme": "light",
+      "label": "Keyboard focus on reading background",
+      "foreground": "#123554",
+      "background": "#f3f6f9",
+      "ratio": 11.64,
+      "minimum": 3
+    },
+    {
+      "theme": "light",
+      "label": "Keyboard focus on alternate sections",
+      "foreground": "#123554",
+      "background": "#e8eff5",
+      "ratio": 10.88,
+      "minimum": 3
+    },
+    {
+      "theme": "light",
+      "label": "Primary button",
+      "foreground": "#ffffff",
+      "background": "#0b1f32",
+      "ratio": 16.72,
+      "minimum": 4.5
+    },
+    {
+      "theme": "light",
+      "label": "Hovered primary button",
+      "foreground": "#ffffff",
+      "background": "#123554",
+      "ratio": 12.63,
+      "minimum": 4.5
+    },
+    {
+      "theme": "light",
+      "label": "Secondary button",
+      "foreground": "#0b1f32",
+      "background": "#f3f6f9",
+      "ratio": 15.41,
+      "minimum": 4.5
+    },
+    {
+      "theme": "light",
+      "label": "Hovered secondary button",
+      "foreground": "#0b1f32",
+      "background": "#dcebf5",
+      "ratio": 13.73,
+      "minimum": 4.5
+    },
+    {
+      "theme": "light",
+      "label": "Table header",
+      "foreground": "#ffffff",
+      "background": "#0b1f32",
+      "ratio": 16.72,
+      "minimum": 4.5
+    },
+    {
+      "theme": "light",
+      "label": "Button boundary",
+      "foreground": "#0b1f32",
+      "background": "#f3f6f9",
+      "ratio": 15.41,
+      "minimum": 3
+    },
+    {
+      "theme": "dark",
+      "label": "Reading text",
+      "foreground": "#e8f2fa",
+      "background": "#15191e",
+      "ratio": 15.56,
+      "minimum": 4.5
+    },
+    {
+      "theme": "dark",
+      "label": "Muted text and captions",
+      "foreground": "#bdcddd",
+      "background": "#15191e",
+      "ratio": 10.88,
+      "minimum": 4.5
+    },
+    {
+      "theme": "dark",
+      "label": "Reading links",
+      "foreground": "#a5d8f5",
+      "background": "#15191e",
+      "ratio": 11.55,
+      "minimum": 4.5
+    },
+    {
+      "theme": "dark",
+      "label": "Alternate section text",
+      "foreground": "#e8f2fa",
+      "background": "#1d242c",
+      "ratio": 13.81,
+      "minimum": 4.5
+    },
+    {
+      "theme": "dark",
+      "label": "Alternate section links",
+      "foreground": "#a5d8f5",
+      "background": "#1d242c",
+      "ratio": 10.25,
+      "minimum": 4.5
+    },
+    {
+      "theme": "dark",
+      "label": "Alternate secondary text",
+      "foreground": "#bdcddd",
+      "background": "#1d242c",
+      "ratio": 9.65,
+      "minimum": 4.5
+    },
+    {
+      "theme": "dark",
+      "label": "Keyboard focus on reading background",
+      "foreground": "#ffce7a",
+      "background": "#15191e",
+      "ratio": 12.07,
+      "minimum": 3
+    },
+    {
+      "theme": "dark",
+      "label": "Keyboard focus on alternate sections",
+      "foreground": "#ffce7a",
+      "background": "#1d242c",
+      "ratio": 10.71,
+      "minimum": 3
+    },
+    {
+      "theme": "dark",
+      "label": "Primary button",
+      "foreground": "#0b1f32",
+      "background": "#a5d8f5",
+      "ratio": 10.94,
+      "minimum": 4.5
+    },
+    {
+      "theme": "dark",
+      "label": "Hovered primary button",
+      "foreground": "#0b1f32",
+      "background": "#ffffff",
+      "ratio": 16.72,
+      "minimum": 4.5
+    },
+    {
+      "theme": "dark",
+      "label": "Secondary button",
+      "foreground": "#e8f2fa",
+      "background": "#15191e",
+      "ratio": 15.56,
+      "minimum": 4.5
+    },
+    {
+      "theme": "dark",
+      "label": "Hovered secondary button",
+      "foreground": "#e8f2fa",
+      "background": "#293542",
+      "ratio": 11,
+      "minimum": 4.5
+    },
+    {
+      "theme": "dark",
+      "label": "Table header",
+      "foreground": "#ffffff",
+      "background": "#252e38",
+      "ratio": 13.76,
+      "minimum": 4.5
+    },
+    {
+      "theme": "dark",
+      "label": "Button boundary",
+      "foreground": "#a5d8f5",
+      "background": "#15191e",
+      "ratio": 11.55,
+      "minimum": 3
+    }
+  ]
+}
