@@ -41,7 +41,9 @@ try{
  assert.notEqual(run.status,0);assert(run.stderr.includes('matching translation'));assert(!fs.existsSync(tmp+'/dist'));
 }finally{fs.rmSync(tmp,{recursive:true,force:true});}
 checks.push('Build rejects stale content, stale interface translations, and unmatched published articles before writing generated output.');
-assert.equal(inventory.length,16);
+const published=Object.fromEntries(['en','es'].map(code=>[code,source[code].articles.filter(a=>a.status==='published')]));
+const expectedPages=Object.keys(locales).reduce((total,code)=>total+Object.keys(locales[code].routes).length+published[code].length,0);
+assert.equal(inventory.length,expectedPages);
 assert.deepEqual(Object.keys(locales.en.ui).sort(),Object.keys(locales.es.ui).sort());
 for(const key of Object.keys(locales.en.ui)){
  const slots=s=>[...s.matchAll(/\{([^}]+)\}/g)].map(m=>m[1]).sort();
@@ -95,7 +97,7 @@ for(const item of inventory){
  }
  d.window.close();
 }
-checks.push('All 16 pages: native reciprocal language links, current-language names, stable section IDs, localized navigation/metadata, self-canonicals, en/es/x-default hreflang, structured-data language.');
+checks.push('All '+inventory.length+' pages: native reciprocal language links, current-language names, stable section IDs, localized navigation/metadata, self-canonicals, en/es/x-default hreflang, structured-data language.');
 for(const code of ['en','es']){
  const route=locales[code].routes.services;
  const d=dom(route,true),w=d.window,b=w.document.querySelector('.menu-toggle'),nav=w.document.querySelector('#site-navigation');
@@ -118,39 +120,40 @@ for(const code of ['en','es']){
 }
 assert(css.includes('@media(max-width:80rem)')&&script.includes('(max-width: 80rem)'),'JS/CSS menu breakpoint mismatch');
 checks.push('Both mobile menus: translated open/close labels, expanded state, Escape/focus restoration, section-anchor preservation; source bios/services and portrait alternatives match. Emulated DOM only.');
-const englishArticle=source.en.articles[0],spanishArticle=source.es.articles[0];
-const fragments=[englishArticle,spanishArticle].map(a=>new JSDOM(articleBody(a)));
-for(const selector of ['p','h2','h3','table','th','td','img','a'])assert.equal(fragments[0].window.document.querySelectorAll(selector).length,fragments[1].window.document.querySelectorAll(selector).length,'Article completeness: '+selector);
+const articleMap=Object.fromEntries(['en','es'].map(code=>[code,new Map(published[code].map(a=>[a.translation_key||a.slug,a]))]));
+assert.deepEqual([...articleMap.en.keys()].sort(),[...articleMap.es.keys()].sort(),'Every published article needs a reviewed translation');
 const hrefs=d=>[...d.window.document.querySelectorAll('a')].map(a=>a.getAttribute('href'));
-assert.deepEqual(hrefs(fragments[0]),hrefs(fragments[1]),'Every article citation and image credit must retain its exact destination and order');
-assert.equal(spanishArticle.date,englishArticle.date);assert.equal(spanishArticle.author,englishArticle.author);
-assert.equal(spanishArticle.image,englishArticle.image);
-for(const code of ['en','es']){
- const a=source[code].articles[0],route=locales[code].routes.insights+a.slug+'/';
- const d=dom(route),doc=d.window.document;
- assert.equal(doc.querySelector('h1').textContent,a.title);
- assert(normalized(doc.querySelector('article').textContent).includes(normalized(fragments[code==='en'?0:1].window.document.body.textContent)));
- assert.equal(doc.querySelector('article img').alt,a.image_alt);
- assert.equal(doc.querySelectorAll('article table').length,3);
- assert.equal(doc.querySelectorAll('article th[scope="col"]').length,9);
- for(const region of doc.querySelectorAll('.article-table-wrap')){assert.equal(region.tabIndex,0);assert(region.getAttribute('aria-label'));}
- const data=JSON.parse(doc.querySelector('script[type="application/ld+json"]').textContent)['@graph'].find(x=>x['@type']==='Article');
- assert.equal(data.inLanguage,locales[code].lang);
- assert(data[code==='en'?'workTranslation':'translationOfWork']);
- d.window.close();
+for(const key of articleMap.en.keys()){
+ const pair={en:articleMap.en.get(key),es:articleMap.es.get(key)};
+ const fragments=Object.fromEntries(['en','es'].map(code=>[code,new JSDOM(articleBody(pair[code]))]));
+ for(const selector of ['p','h2','h3','table','th','td','img','a'])assert.equal(fragments.en.window.document.querySelectorAll(selector).length,fragments.es.window.document.querySelectorAll(selector).length,'Article completeness for '+key+': '+selector);
+ assert.deepEqual(hrefs(fragments.en),hrefs(fragments.es),'Every article citation and image credit must retain its exact destination and order: '+key);
+ assert.equal(pair.es.date,pair.en.date);assert.equal(pair.es.author,pair.en.author);assert.equal(pair.es.image,pair.en.image);
+ for(const code of ['en','es']){
+  const a=pair[code],route=locales[code].routes.insights+a.slug+'/';
+  const d=dom(route),doc=d.window.document,article=doc.querySelector('article'),fragment=fragments[code].window.document;
+  assert.equal(doc.querySelector('h1').textContent,a.title);
+  assert(normalized(article.textContent).includes(normalized(fragment.body.textContent)));
+  const leadImage=[...article.querySelectorAll('img')].find(image=>image.getAttribute('src')===a.image);
+  assert(leadImage,'Missing article image: '+a.slug);assert.equal(leadImage.alt,a.image_alt);
+  for(const selector of ['table','th','td','img'])assert.equal(article.querySelectorAll(selector).length,fragment.querySelectorAll(selector).length,'Rendered article structure for '+a.slug+': '+selector);
+  for(const region of article.querySelectorAll('.article-table-wrap')){assert.equal(region.tabIndex,0);assert(region.getAttribute('aria-label'));}
+  const data=JSON.parse(doc.querySelector('script[type="application/ld+json"]').textContent)['@graph'].find(x=>x['@type']==='Article');
+  assert.equal(data.inLanguage,locales[code].lang);assert(data[code==='en'?'workTranslation':'translationOfWork']);d.window.close();
+ }
+ Object.values(fragments).forEach(d=>d.window.close());
 }
-fragments.forEach(d=>d.window.close());
-checks.push('Full translated article: identical paragraph/heading/table/image/citation counts; every reference URL preserved; author, publication date, license, alternative text, and bilingual Article metadata checked.');
+checks.push('All '+articleMap.en.size+' published article pairs: matching structure and source destinations; dates, authors, images, alternative text, and bilingual Article metadata checked.');
 const sitemap=new JSDOM(fs.readFileSync(root+'/dist/sitemap.xml','utf8'),{contentType:'application/xml'});
 const ns='http://www.sitemaps.org/schemas/sitemap/0.9',xhtml='http://www.w3.org/1999/xhtml';
-const urls=[...sitemap.window.document.getElementsByTagNameNS(ns,'url')];assert.equal(urls.length,16);
+const urls=[...sitemap.window.document.getElementsByTagNameNS(ns,'url')];assert.equal(urls.length,inventory.length);
 for(const item of inventory){const node=urls.find(u=>u.getElementsByTagNameNS(ns,'loc')[0].textContent===config.origin+item.path);assert(node);assert.equal(node.getElementsByTagNameNS(xhtml,'link').length,3);}
 sitemap.window.close();
 for(const route of ['/404.html','/es/404.html']){
  const result=await validator.validateString(read(route));assert(result.valid,JSON.stringify(result.results));
  const d=dom(route);assert.equal(d.window.document.querySelectorAll('.language-switcher a').length,2);d.window.close();
 }
-checks.push('Sitemap has all 16 canonical pages with reciprocal alternatives; both language versions of 404 markup validate.');
+checks.push('Sitemap has all '+inventory.length+' canonical pages with reciprocal alternatives; both language versions of 404 markup validate.');
 const report={date:new Date().toISOString(),pages:inventory.length,languageLinkTargets:linkedPairs,checks,failures:0,limitations:'Emulated DOM and static markup only. No real-browser responsive rendering, VoiceOver, NVDA, or end-to-end human bilingual user test.'};
 fs.writeFileSync(root+'/docs/bilingual-qa.json',JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify(report,null,2));
