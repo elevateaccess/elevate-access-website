@@ -110,9 +110,9 @@
     {
       "status": "published",
       "slug": "oferta-de-acceso-bart-aira",
-      "title": "No tuve que pedirle ayuda a nadie",
+      "title": "No tuve que pedirle ayuda a nadie: un viajero ciego en BART",
       "seo_title": "No tuve que pedirle ayuda a nadie: la oferta de acceso de Aira en BART | Elevate Access Solutions",
-      "description": "En el aeropuerto de Oakland y en Target, una oferta de acceso ya me guía en trayectos para los que antes necesitaba la ayuda del personal. Ahora BART prueba la misma idea para cualquier parte de un viaje en BART, hasta el 3 de enero de 2027, y que se vuelva permanente depende de que las personas que viajan la usen.",
+      "description": "En el aeropuerto de Oakland y en Target, una oferta de acceso ya me guía en trayectos para los que antes necesitaba la ayuda del personal. Ahora Bay Area Rapid Transit (BART) prueba la misma idea para cualquier parte de un viaje en BART, hasta el 3 de enero de 2027, y que se vuelva permanente depende de que las personas que viajan la usen.",
       "author": "Fernando Macias",
       "date": "2026-10-20",
       "category": "Defensa y comunidad",
@@ -123,7 +123,7 @@
     }
   ],
   "source_note": "Traducción al español del contenido aprobado en content/site.json. Se conservan los nombres, las credenciales, los datos de contacto, los servicios y los enlaces de las fuentes. Los títulos de las fuentes del artículo se presentan en español y remiten a los documentos originales.",
-  "translation_source_sha256": "2fe45fbad5c4d1f1740aba9d35c62b72243a5b346152966f73b991cac0ccf1f9",
+  "translation_source_sha256": "22cb422de14a33481db0a108e8349293d48c7b8e192f2931b7511786f4d8416b",
   "service_area": {
     "local_text": "Ofrecemos servicios presenciales y remotos de accesibilidad y tecnología de asistencia en San Francisco, Oakland, Berkeley, Vallejo y el condado de Marin.",
     "remote_text": "También ofrecemos servicios remotos a clientes fuera del Área de la Bahía y del estado de California.",
