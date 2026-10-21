@@ -43,7 +43,7 @@
       "about_alt": "Professional using a computer and headphones in a library workspace.",
       "services_alt": "Laptop connected to a refreshable braille display.",
       "hero_eyebrow": "Accessibility · Assistive technology",
-      "hero_title": "Accessibility solutions that move people and organizations forward.",
+      "hero_title": "Accessibility that moves people and organizations forward.",
       "hero_lead": "Practical assessments, personalized training, and workplace accessibility consulting. Build confidence with technology that supports your goals.",
       "explore_services": "Explore our services",
       "hero_caption": "Technology in service of everyday independence.",
@@ -191,7 +191,7 @@
       "about_alt": "Una persona utiliza una computadora y auriculares en un espacio de trabajo de una biblioteca.",
       "services_alt": "Computadora portátil conectada a una línea braille actualizable.",
       "hero_eyebrow": "Accesibilidad · Tecnología de asistencia",
-      "hero_title": "Soluciones de accesibilidad que impulsan a las personas y a las organizaciones.",
+      "hero_title": "Accesibilidad que impulsa a las personas y a las organizaciones.",
       "hero_lead": "Evaluaciones prácticas, capacitación personalizada y consultoría en accesibilidad laboral. Gane confianza con tecnología que apoye sus objetivos.",
       "explore_services": "Explore nuestros servicios",
       "hero_caption": "Tecnología al servicio de la independencia cotidiana.",
@@ -294,6 +294,6 @@
       "service_area_local_heading": "Atención presencial y remota",
       "service_area_remote_heading": "Fuera de nuestra área de atención presencial"
     },
-    "translation_source_ui_sha256": "a675b5f81e6b3f2a9694270166e2f747d93f3d16edad0eaa01dc680b51528ed0"
+    "translation_source_ui_sha256": "a8299b5a68dd54ef11bae27fab174f022c305f348a822070be4f127ba5752061"
   }
 }
