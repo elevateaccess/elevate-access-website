@@ -34,7 +34,9 @@ Retrieve the current repository source and inspect its current instructions befo
 - Shared layouts, page metadata, and generation: `build.py`.
 - Styling, responsive behavior, focus, and automatic light/dark themes: `web/styles.css`.
 - Mobile menu behavior and language-link fragments: `web/site.js`.
-- Local images: `assets/`; original asset sources and audit materials: `docs/audit/`.
+- Local images and approved SVG brand assets: `assets/`; original asset sources and audit materials: `docs/audit/`.
+
+The header and footer use the approved reversed `eas-*.svg` wordmarks, and `eas-mark.svg` is the scalable browser icon. Keep `logo.png` for metadata and compatibility fallback.
 - Canonical origin and indexing defaults: `config.json`.
 
 Rebuilding replaces generated `dist/` pages. Edit source first. Generated output is currently tracked in Git, so include the resulting `dist/` changes when changing website source. Review any generated documentation changes too.
