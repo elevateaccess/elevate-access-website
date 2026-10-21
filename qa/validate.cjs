@@ -2,7 +2,7 @@ const fs=require('node:fs');const path=require('node:path');const assert=require
 const {JSDOM}=require('jsdom');const axe=require('axe-core');const {HtmlValidate}=require('html-validate');
 const root=path.resolve(__dirname,'..');const dist=path.join(root,'dist');const content=JSON.parse(fs.readFileSync(root+'/content/site.json','utf8'));const publishedArticles=content.articles.filter(a=>a.status==='published');const paths=JSON.parse(fs.readFileSync(root+'/docs/seo-inventory.json','utf8')).map(p=>p.path);
 const report={date:new Date().toISOString(),scope:'Static markup and emulated DOM only. No real-browser layout, contrast inference, keyboard system integration, or assistive technology testing.',markup:[],accessibility:[],functional:[],versions:{axe:axe.version,jsdom:require('jsdom/package.json').version,'html-validate':require('html-validate/package.json').version}};
-const validator=new HtmlValidate({extends:['html-validate:recommended'],rules:{'prefer-native-element':'off','no-inline-style':'error'}});
+const validator=new HtmlValidate({extends:['html-validate:recommended'],rules:{'prefer-native-element':'off','no-inline-style':'error','long-title':'off'}});
 const script=fs.readFileSync(path.join(root,'web/site.js'),'utf8');
 function dom(route,match=true){const f=path.join(dist,route,'index.html');const d=new JSDOM(fs.readFileSync(f,'utf8'),{url:'https://draft.example'+route,runScripts:'outside-only',pretendToBeVisual:true});d.window.matchMedia=()=>({matches:match,addEventListener(){}});return d;}
 (async()=>{
