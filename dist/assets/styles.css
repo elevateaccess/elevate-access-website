@@ -43,3 +43,13 @@ a.contact-email{min-height:44px;display:inline-flex;align-items:center;max-width
 html:not(.js) .dark :focus-visible,html:not(.js) .site-header :focus-visible,html:not(.js) .site-footer :focus-visible,.js.keyboard-navigation .dark :focus,.js.keyboard-navigation .site-header :focus,.js.keyboard-navigation .site-footer :focus{outline:3px solid #ffffff;outline-offset:5px;box-shadow:0 0 0 3px #0E6B6F}
 @media screen and (prefers-color-scheme:dark){html:not(.js) :focus-visible,.js.keyboard-navigation :focus{outline:3px solid #ffffff;outline-offset:5px;box-shadow:0 0 0 3px #0E6B6F}}
 @media(forced-colors:active){html:not(.js) :focus-visible,.js.keyboard-navigation :focus{outline:3px solid Highlight;outline-offset:2px;box-shadow:none}}
+
+/* Give the homepage photo and headline comparable weight on two-column layouts. */
+@media(min-width:48.001rem){
+ .hero{padding-block:clamp(3rem,6vw,5.25rem)}
+ .hero h1{font-size:clamp(2.4rem,4vw,3.75rem);max-width:20ch}
+ .hero figure img{aspect-ratio:3/2;object-fit:cover;object-position:68% center}
+}
+@media(min-width:48.001rem) and (max-width:80rem){
+ .hero h1{font-size:clamp(2.3rem,4.6vw,3.3rem)}
+}
