@@ -10,8 +10,12 @@ for(const route of paths){
  const f=path.join(dist,route,'index.html');const html=fs.readFileSync(f,'utf8');const vr=await validator.validateString(html,f);report.markup.push({route,valid:vr.valid,errors:vr.results.flatMap(r=>r.messages.map(m=>({rule:m.ruleId,line:m.line,message:m.message}))) });
  const d=dom(route);d.window.eval(script);d.window.eval(axe.source);
  const ar=await d.window.axe.run(d.window.document,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21aa','wcag22aa','best-practice']},rules:{'color-contrast':{enabled:false}}});
- report.accessibility.push({route,violations:ar.violations.map(v=>({id:v.id,impact:v.impact,description:v.description,nodes:v.nodes.map(n=>n.target)})),incomplete:ar.incomplete.map(v=>v.id),passes:ar.passes.length});d.window.close();
+ report.accessibility.push({route,violations:ar.violations.map(v=>({id:v.id,impact:v.impact,description:v.description,nodes:v.nodes.map(n=>n.target)})),incomplete:ar.incomplete.map(v=>v.id),passes:ar.passes.length});
+ const logos=[...d.window.document.querySelectorAll('.brand img,.footer-brand img')];assert.equal(logos.length,2,'Expected decorative header and footer logos: '+route);for(const logo of logos){assert.equal(logo.getAttribute('alt'),'');assert.equal(logo.getAttribute('aria-hidden'),'true');}
+ d.window.close();
 }
+for(const file of ['eas-header-reversed.svg','eas-footer-reversed.svg','eas-mark.svg']){const svg=fs.readFileSync(path.join(root,'assets',file),'utf8');assert(!/<(?:title|desc)\b|role="img"|aria-labelledby=/i.test(svg),file+' exposes design-file metadata to assistive technology');}
+report.functional.push('Logo links retain clean accessible names while decorative SVG files remain hidden from assistive technology');
 {
  const d=dom('/');const w=d.window;w.eval(script);const b=w.document.querySelector('.menu-toggle');const nav=w.document.querySelector('#site-navigation');assert.equal(b.hidden,false);assert.equal(b.getAttribute('aria-expanded'),'false');b.click();assert.equal(b.getAttribute('aria-expanded'),'true');assert(nav.classList.contains('is-open'));w.document.dispatchEvent(new w.KeyboardEvent('keydown',{key:'Escape',bubbles:true}));assert.equal(b.getAttribute('aria-expanded'),'false');assert.equal(w.document.activeElement,b);report.functional.push('Mobile menu toggle state, Escape close, and return focus passed in emulated DOM');d.window.close();
 }
