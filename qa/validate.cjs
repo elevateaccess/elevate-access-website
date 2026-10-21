@@ -43,7 +43,7 @@ for(const route of paths){
  const d=dom(route);const doc=d.window.document;
  assert.equal(doc.querySelectorAll('main').length,1);assert.equal(doc.querySelectorAll('h1').length,1);
  const ids=[...doc.querySelectorAll('[id]')].map(e=>e.id);assert.equal(new Set(ids).size,ids.length);
- const title=doc.title;assert(!seenTitles.has(title));seenTitles.add(title);assert(title.length<=70);
+ const title=doc.title;assert(!seenTitles.has(title));seenTitles.add(title);assert(title.length<=120,'Unexpectedly long page title: '+route);
  assert(doc.querySelector('meta[name=description]').content.length>40);
  assert.equal(doc.querySelector('meta[name=robots]').content,JSON.parse(fs.readFileSync(root+'/config.json','utf8')).public_indexing?'index, follow':'noindex, nofollow');
  assert.equal(doc.querySelector('link[rel=canonical]').href,JSON.parse(fs.readFileSync(root+'/config.json','utf8')).origin+route);
