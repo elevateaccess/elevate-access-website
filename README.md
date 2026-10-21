@@ -36,8 +36,14 @@ Retrieve the current repository source and inspect its current instructions befo
 - Mobile menu behavior and language-link fragments: `web/site.js`.
 - Local images and approved SVG brand assets: `assets/`; original asset sources and audit materials: `docs/audit/`.
 
-The header and footer use the approved reversed `eas-*.svg` wordmarks, and `eas-mark.svg` is the scalable browser icon. Keep `logo.png` for metadata and compatibility fallback.
+The header uses the approved reversed wordmark on Foundation Navy. The footer uses `eas-footer-transparent.svg`, a transparent-canvas reversed variant on Deep Navy; the previous baked-background SVG remains in the assets for provenance. `eas-mark.svg` is the scalable browser icon. Keep `logo.png` for metadata and compatibility fallback.
 - Canonical origin and indexing defaults: `config.json`.
+
+## Brand implementation
+
+The Brand Standards Manual and Corporate Design System v1.1 are the design references. Foundation Navy `#0D1B2A` anchors the header, hero, primary buttons, and major CTA sections. Deep Navy `#08131F` is a deliberately limited footer/terminal surface, not a replacement for the primary navy. Access Teal `#0E6B6F` is the light-surface link and focus accent; darker backgrounds use light text and a dual-color keyboard focus indicator. The default reading surface is white, with `#F5F8F9` as the neutral alternate. Primary buttons use an 8 px radius.
+
+The header's reversed SVG has a Foundation Navy canvas that blends into the header. The footer's new SVG has no background rectangle so the surrounding Deep Navy surface is uninterrupted. Both logo images remain decorative within a home link that carries the clean accessible name; do not substitute technical SVG metadata for alternative text. Keep the input-aware focus behavior in `web/site.js` when changing the focus ring, so VoiceOver touch focus does not leave a persistent visual outline.
 
 Rebuilding replaces generated `dist/` pages. Edit source first. Generated output is currently tracked in Git, so include the resulting `dist/` changes when changing website source. Review any generated documentation changes too.
 

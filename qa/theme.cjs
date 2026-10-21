@@ -45,13 +45,22 @@ const checks=[
 const results=[];
 for(const [theme,tokens] of [['light',light],['dark',{...light,...dark}]]){
  for(const [label,fg,bg,min] of checks){
-  const a=resolve(tokens[fg]||fg,tokens),b=resolve(tokens[bg]||bg,tokens);
+  // On dark surfaces the approved teal cue is paired with a white outer halo.
+  const visibleFocus=theme==='dark'&&label.startsWith('Keyboard focus')?'#ffffff':fg;
+  const a=resolve(tokens[visibleFocus]||visibleFocus,tokens),b=resolve(tokens[bg]||bg,tokens);
   const l1=luminance(a),l2=luminance(b),ratio=(Math.max(l1,l2)+.05)/(Math.min(l1,l2)+.05);
   assert(ratio>=min,`${theme}: ${label} ${ratio.toFixed(2)} < ${min}`);
   results.push({theme,label,foreground:a,background:b,ratio:+ratio.toFixed(2),minimum:min});
  }
 }
-assert.equal(light['--paper'],'#f3f6f9','Retain the approved soft light background');
+assert.equal(light['--navy'],'#0D1B2A','Foundation Navy is the site anchor');
+assert.equal(light['--deep'],'#08131F','Deep Navy is reserved for the footer');
+assert.equal(light['--link'],'#0E6B6F','Use approved Access Teal on light surfaces');
+assert.equal(light['--paper'],'#ffffff','Use the manual\'s white default reading surface');
+assert.equal(light['--alternate'],'#F5F8F9','Use the approved neutral alternate surface');
+assert.equal(light['--button-radius'],'8px','Use the 8 px button radius');
+assert(css.includes('.site-header{background:var(--navy)')&&css.includes('.site-footer{background:var(--deep)'),'Keep the header and footer roles distinct');
+assert(css.includes('box-shadow:0 0 0 3px #0E6B6F'),'Dark-surface focus needs the dual-color indicator');
 assert(!/filter\s*:\s*invert/i.test(css),'Do not invert portrait and illustration colors');
 for(const file of ['index.html','about/index.html','founders/index.html','services/index.html','contact/index.html','insights/index.html','insights/ai-agents-digital-independence/index.html','accessibility/index.html','404.html']){
  assert(fs.readFileSync(root+'/dist/'+file,'utf8').includes('name="color-scheme" content="light dark"'),file+' missing theme support metadata');
