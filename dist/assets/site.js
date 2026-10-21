@@ -1,5 +1,16 @@
 'use strict';
-document.documentElement.classList.add('js');
+const rootElement = document.documentElement;
+rootElement.classList.add('js');
+
+// Show the custom focus ring only for genuine keyboard navigation. Touch-based
+// assistive technology supplies its own cursor and may leave DOM focus behind.
+const enableKeyboardFocus = event => {
+  if (!event.metaKey && !event.altKey && !event.ctrlKey) rootElement.classList.add('keyboard-navigation');
+};
+const disableKeyboardFocus = () => rootElement.classList.remove('keyboard-navigation');
+document.addEventListener('keydown', enableKeyboardFocus, true);
+document.addEventListener('pointerdown', disableKeyboardFocus, true);
+document.addEventListener('touchstart', disableKeyboardFocus, { capture: true, passive: true });
 const menuButton = document.querySelector('.menu-toggle');
 const siteNav = document.getElementById('site-navigation');
 if (menuButton && siteNav) {

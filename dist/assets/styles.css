@@ -28,3 +28,10 @@ a.contact-email{min-height:44px;display:inline-flex;align-items:center;max-width
 @media(max-width:80rem){.site-nav{order:3;width:100%}.header-tools{margin-inline-start:auto}.hero-grid{min-width:0}}
 @media(max-width:30rem){.header-tools{width:100%;justify-content:space-between}.header-inner{gap:.5rem}.language-switcher a{padding-inline:.65rem}}
 @media print{.language-switcher{display:none}}
+/* Keep the custom focus ring synchronized with keyboard input. The baseline
+   :focus-visible rule remains as a no-JavaScript fallback. */
+.js.keyboard-navigation :focus{outline:3px solid var(--focus);outline-offset:4px}
+.js:not(.keyboard-navigation) :focus-visible{outline:none}
+.js:not(.keyboard-navigation) .skip-link:focus{transform:translateY(-200%)}
+.js.keyboard-navigation .skip-link:focus{transform:none;outline:3px solid #ffce7a}
+@media(forced-colors:active){.js.keyboard-navigation :focus{outline-color:Highlight}}
