@@ -1,0 +1,64 @@
+name: Website quality
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: website-quality-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Website quality
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: qa/package-lock.json
+
+      - name: Install QA dependencies
+        working-directory: qa
+        run: npm ci --no-audit --no-fund
+
+      - name: Check Python syntax
+        run: python3 -m py_compile build.py
+
+      - name: Check JavaScript syntax
+        run: node --check web/site.js
+
+      - name: Build website
+        run: python3 build.py
+
+      - name: Verify generated files are current
+        run: git diff --exit-code -- dist docs/seo-inventory.json docs/redirects.csv
+
+      - name: Validate markup, accessibility, links, metadata, and articles
+        run: node qa/validate.cjs
+
+      - name: Validate English and Spanish editions
+        run: node qa/bilingual.cjs
+
+      - name: Validate themes and contrast
+        run: node qa/theme.cjs
