@@ -1,65 +1,81 @@
 # Elevate Access Solutions website
 
-Fernando authorized public publication and the domain cutover on October 19, 2026. Keep website routing separate from Google Workspace DNS. Do not cancel Squarespace, purchase integrations, or send external test messages without separate authorization.
+Source of truth: [elevateaccess/elevate-access-website](https://github.com/elevateaccess/elevate-access-website).
+Public website: https://www.elevateaccess.us (also reached through https://elevateaccess.us).
+Hosting: Cloudflare Pages, project `elevate-access-website`.
+Default GitHub branch: `main`.
 
-## Build
+Fernando confirmed the migration from ChatGPT Sites to GitHub and Cloudflare, including the domain routing change, on October 20, 2026. Maintain the website through this repository and Cloudflare Pages. The latest inspected commit had a successful Cloudflare Pages deployment check; that check alone does not verify custom-domain DNS, HTTPS, or redirects.
+
+Keep website routing separate from Google Workspace DNS. DNS changes, subscription cancellation, purchases, and external test messages require their own authorization.
+
+## Build and preview
 
 Requires Python 3. No build dependencies or frontend framework.
 
 ```sh
 python3 build.py
+python3 -m http.server 8000 --directory dist
 ```
 
-The complete website is generated in `dist/`. The default build now follows `config.json`: public indexing with https://www.elevateaccess.us as canonical origin and no draft label. Serve `dist/` through a web server to test it; opening HTML files directly does not resolve root-relative URLs.
+Open http://localhost:8000 to preview. The complete website is generated in `dist/`. Root-relative URLs require serving it through a web server at the hostname root.
 
-The Site's private access gate is the actual audience restriction. Robots directives are not access control.
+The default build follows `config.json`: public indexing, https://www.elevateaccess.us as the canonical origin, and no draft label. Building generates files locally; it does not publish or change DNS. Local previews use the production canonical origin unless an HTTPS origin is explicitly supplied with `--origin`. Robots directives and draft labels do not restrict access.
 
-## Maintain by conversation
+## Maintain through GitHub
 
-Identify this Site by https://elevateaccess.us or its project ID in `.openai/hosting.json`. Retrieve the existing Site and source before editing, retain its identity and current audience, then follow the Sites source and publication workflow. This Site is public.
+Retrieve the current repository source and inspect its current instructions before editing. Make changes in the source files, rebuild, review the diff, and run the checks relevant to the change. Use a branch and pull request for review when appropriate. Treat changes to `main` as production-bound and check Cloudflare's deployment result after publishing.
 
-- English business content, biographies, services, and article: `content/site.json`.
-- Spanish business content and article metadata: `content/site.es.json`; full Spanish article: `content/articles/agentes-ia-independencia-digital.es.html`.
+- English business content, biographies, services, and article metadata/bodies: `content/site.json`.
+- Spanish business content and article metadata: `content/site.es.json`.
+- Spanish article bodies: `content/articles/*.es.html`, referenced through each article's `body_file`.
 - Bilingual interface copy and equivalent page routes: `content/locales.json`.
-- Service area and delivery methods: `service_area` in both content files; shown on Home, Services, and Contact.
-- Shared layouts and page metadata: `build.py`.
-- Styling, typography, responsive behavior, and focus: `web/styles.css`.
-- Automatic light and dark themes: semantic color variables in `web/styles.css`; `prefers-color-scheme` follows browser/OS preference without JavaScript or stored preferences. Dark colors apply to screens; print retains the light palette. Keep informative images in their original colors.
-- Mobile menu labels, focus handling, and shared language-link fragments: `web/site.js`.
-- Local images: `assets/`; original public-source copies and URLs are in `docs/audit/`.
-- Site identity and static hosting configuration: `.openai/hosting.json`.
+- Service area and delivery methods: `service_area` in both content files, shown on Home, Services, and Contact.
+- Shared layouts, page metadata, and generation: `build.py`.
+- Styling, responsive behavior, focus, and automatic light/dark themes: `web/styles.css`.
+- Mobile menu behavior and language-link fragments: `web/site.js`.
+- Local images: `assets/`; original asset sources and audit materials: `docs/audit/`.
 - Canonical origin and indexing defaults: `config.json`.
 
-Do not edit generated `dist/` pages as the primary source; rebuilding replaces them.
+Rebuilding replaces generated `dist/` pages. Edit source first. Generated output is currently tracked in Git, so include the resulting `dist/` changes when changing website source. Review any generated documentation changes too.
 
-## Articles
+The imported `.openai/hosting.json` is legacy ChatGPT Sites metadata, not the current Cloudflare deployment configuration. Do not use its project ID to publish this website through Sites. Older review, localization, DNS snapshot, and QA documents retain historical information; their Sites instructions, page counts, and DNS values may be outdated. Use this README for the current hosting workflow and inspect actual configuration before changing it.
 
-`content/site.json` contains the approved AI agents article imported from the corrected HTML preview, not the Word draft. Its source and image credit are recorded in `docs/article-assets.json`. Only an item explicitly marked `"status": "published"` is generated. To prepare content without publishing it, use `"status": "draft"`; it will be excluded from the generated output. Add a review-only article route when explicitly requested rather than using the public marker as a drafting shortcut.
+## Bilingual content and articles
 
-Published article schema:
+Both the AI agents article and the BART/Aira article are present in English and Spanish. English articles are in `content/site.json`; Spanish metadata is in `content/site.es.json`, with bodies in `content/articles/`. The AI article's source and image credit are recorded in `docs/article-assets.json`; retain image credits and license/source links in article bodies.
+
+Only articles explicitly marked `"status": "published"` are generated. Use `"status": "draft"` in both editions for work that must be excluded from public output. Draft content committed to this public repository is still publicly readable in GitHub. Use an appropriate private review location for confidential material.
+
+Example English article:
 
 ```json
 {
-  "status": "published",
+  "status": "draft",
   "slug": "approved-human-readable-slug",
   "title": "Approved article title",
   "description": "Accurate page description",
   "author": "Confirmed author name",
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "category": "Assistive technology",
+  "image": "/assets/approved-image.jpg",
+  "image_alt": "Accurate description of the image",
   "body_html": "<h2>Approved heading</h2><p>Approved content.</p>"
 }
 ```
 
-Use reviewed, trusted HTML only. Begin article body sections at h2, supply image alternatives, and add source links when needed. The template builds the article page, index listing, canonical URL, social metadata, and sitemap entry. It does not supply an editorial calendar, scheduled publication, RSS, search, comments, or a visual CMS.
+Provide a matching Spanish article with a `translation_key` equal to the English article's key (the English slug by default). Use reviewed HTML, begin body headings at h2, and supply accurate alternatives in each language. Spanish uses formal usted in direct instructions.
 
-## Contact behavior
+The build rejects unmatched published articles and stale translation review markers. Review and update the Spanish counterpart before refreshing `translation_source_sha256` or `translation_source_ui_sha256`. The exact signature calculation is documented in `docs/LOCALIZATION.md` and implemented in `build.py`; changing a marker alone does not establish translation accuracy.
 
-At Fernando's request, the site displays the verified email address as a selectable email link and the phone number as a telephone link. There is no inquiry form, email-preparation workflow, or “Request a consultation” prompt. The email link opens a configured email app only when the visitor activates it; it never sends automatically. Visitors can also copy the address into their preferred email service.
+The build generates article pages, listings, metadata, and sitemap entries. There is no visual CMS, scheduled publishing, RSS, search, or comments.
 
 ## Checks
 
+For website source changes:
+
 ```sh
+python3 build.py
 node --check web/site.js
 python3 -m py_compile build.py
 cd qa
@@ -69,24 +85,32 @@ node bilingual.cjs
 node theme.cjs
 ```
 
-QA packages are development-only and never deployed. `docs/automated-qa.json` records the tested result and limitations. Automated DOM tests do not verify real-browser layout, actual keyboard traversal, VoiceOver, NVDA, mail-app behavior, delivery, or WCAG conformance. Repeat the manual acceptance checks in the project review before launch.
+QA packages are development-only. Existing reports in `docs/` describe the versions and pages tested at their recorded dates; they do not establish that later changes passed. Automated checks do not verify real-browser layout, actual keyboard traversal, VoiceOver, NVDA, or WCAG conformance. Review representative desktop/mobile pages and assistive-technology behavior for relevant changes.
 
-## Host elsewhere
+Documentation-only changes need a diff and link/command review; they do not require rebuilding the website.
 
-Deploy the contents of `dist/` to any HTTPS static host with directory-index routing. Set the origin for that host and rebuild. No Sites JavaScript SDK, external fonts, runtime database, or platform connector is needed by the website itself. Root-relative links require serving at the hostname root.
+## Cloudflare deployment and domain verification
 
-For an approved production build only:
+Cloudflare Pages is connected to this GitHub repository. The deployment build command for this source is `python3 build.py`, and the output directory is `dist`. Confirm the actual production branch and build settings in the Cloudflare dashboard when changing deployment configuration; these settings are not captured in a Cloudflare configuration file in this repository.
 
-```sh
-python3 build.py --origin https://www.elevateaccess.us --public
-```
+After an authorized publication:
 
-This command generates files only. It does not publish, connect the domain, or change DNS. Do not run it as an implied launch authorization.
+1. Confirm the intended commit and its Cloudflare Pages deployment check succeeded.
+2. Check both apex and `www` HTTPS, representative English/Spanish pages, article links, images, language switching, and the sitemap.
+3. Verify canonical redirects, legacy redirects, and a true HTTP 404 for unknown paths on the live host.
 
-Aliases have immediate HTML refresh and canonical fallback pages. `docs/redirects.csv` lists the required permanent redirects. Real server-side 301/308 handling and slash normalization must be verified on the chosen host before migration; this static implementation does not claim to provide verified HTTP redirects.
+`docs/redirects.csv` lists legacy routes and intended permanent destinations. The build currently creates HTML-refresh/canonical fallback pages; those do not establish HTTP 301/308 redirects. Verify or configure permanent redirects in Cloudflare as appropriate.
 
-## Backup and rollback
+The website can also be served by another HTTPS static host with directory-index routing. Set the canonical origin and rebuild when moving to another domain. The deployed website needs no ChatGPT Sites SDK, runtime database, or platform connector.
 
-Back up source, content, assets, `dist/`, and documentation without `.git`, credentials, environment files, Python caches, or `node_modules`. Sites' access controls, account routing, version history, and domain attachment are platform features, not portable site files. To host a separate copy, remove the original project ID and register it as a distinct project; never use that ID to overwrite the existing Site accidentally.
+## Contact behavior
 
-For a Site-only regression, redeploy a known-good saved Site version. For a domain cutover regression, restore the captured website DNS records while leaving all email and nameserver records intact; keep Squarespace active throughout the rollback window. Only act with explicit cutover or rollback authority.
+The site displays the verified email address as a selectable email link and the phone number as a telephone link. There is no inquiry form or automated message submission. Visitors can activate the link in their configured email app or copy the address.
+
+## History, backup, and rollback
+
+GitHub records source history. Preserve content, images, build code, and deployment settings so another developer can maintain the website. Keep credentials, environment files, Python caches, and `node_modules` out of commits and portable exports.
+
+For a website regression, review the last known-good commit and revert the relevant change or use Cloudflare's deployment rollback facilities. Verify the resulting deployment and live pages. A Cloudflare rollback and the GitHub branch may differ afterward; reconcile them before the next publication.
+
+Domain rollback is a separate action requiring explicit authorization and fresh, verified DNS records. Historical snapshots in `docs/audit/` are not current configuration. Preserve Google Workspace and unrelated DNS records.
