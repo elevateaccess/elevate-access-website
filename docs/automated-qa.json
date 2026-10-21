@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-20T15:20:32.033Z",
+  "date": "2026-10-21T05:25:06.057Z",
   "scope": "Static markup and emulated DOM only. No real-browser layout, contrast inference, keyboard system integration, or assistive technology testing.",
   "markup": [
     {
@@ -29,6 +29,11 @@
     },
     {
       "route": "/insights/ai-agents-digital-independence/",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "route": "/insights/bart-aira-access-offer/",
       "valid": true,
       "errors": []
     },
@@ -69,6 +74,11 @@
     },
     {
       "route": "/es/articulos/agentes-ia-independencia-digital/",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "route": "/es/articulos/oferta-de-acceso-bart-aira/",
       "valid": true,
       "errors": []
     },
@@ -127,7 +137,7 @@
         "landmark-one-main",
         "page-has-heading-one"
       ],
-      "passes": 34
+      "passes": 32
     },
     {
       "route": "/insights/ai-agents-digital-independence/",
@@ -139,13 +149,22 @@
       "passes": 43
     },
     {
+      "route": "/insights/bart-aira-access-offer/",
+      "violations": [],
+      "incomplete": [
+        "landmark-one-main",
+        "page-has-heading-one"
+      ],
+      "passes": 34
+    },
+    {
       "route": "/insights/",
       "violations": [],
       "incomplete": [
         "landmark-one-main",
         "page-has-heading-one"
       ],
-      "passes": 33
+      "passes": 32
     },
     {
       "route": "/accessibility/",
@@ -154,7 +173,7 @@
         "landmark-one-main",
         "page-has-heading-one"
       ],
-      "passes": 33
+      "passes": 32
     },
     {
       "route": "/es/",
@@ -199,7 +218,7 @@
         "landmark-one-main",
         "page-has-heading-one"
       ],
-      "passes": 34
+      "passes": 32
     },
     {
       "route": "/es/articulos/agentes-ia-independencia-digital/",
@@ -211,13 +230,22 @@
       "passes": 43
     },
     {
+      "route": "/es/articulos/oferta-de-acceso-bart-aira/",
+      "violations": [],
+      "incomplete": [
+        "landmark-one-main",
+        "page-has-heading-one"
+      ],
+      "passes": 34
+    },
+    {
       "route": "/es/articulos/",
       "violations": [],
       "incomplete": [
         "landmark-one-main",
         "page-has-heading-one"
       ],
-      "passes": 33
+      "passes": 32
     },
     {
       "route": "/es/accesibilidad/",
@@ -226,15 +254,16 @@
         "landmark-one-main",
         "page-has-heading-one"
       ],
-      "passes": 33
+      "passes": 32
     }
   ],
   "functional": [
-    "Mobile menu toggle state, Escape close, and return focus passed in emulated DOM",
+    "Logo links retain clean accessible names while decorative SVG files remain hidden from assistive technology",
+    "Input-aware focus styling, mobile menu toggle state, Escape close, and return focus passed in emulated DOM",
     "Every displayed business email is an accurately named mailto link; contact phone is present; consultation requests and forms remain absent; Juanita certification states since 2023",
     "Facebook footer links on every main page and the Contact page link use the exact user-provided page ID, clear names, and no sharing parameter",
-    "338 internal link and fragment references, 46 local image references, unique IDs and titles, heading hierarchy, metadata, structured data, indexing controls, exact preservation of service descriptions and biographies, and 1 corrected article publication checks passed",
-    "All 18 declared design-token contrast pairs meet stated text or nontext thresholds; this is a calculation, not rendered-page contrast coverage"
+    "382 internal link and fragment references, 56 local image references, unique IDs and titles, heading hierarchy, metadata, structured data, indexing controls, exact preservation of service descriptions and biographies, and 2 published article checks passed",
+    "All 19 declared design-token contrast pairs meet stated text or nontext thresholds; this is a calculation, not rendered-page contrast coverage"
   ],
   "versions": {
     "axe": "4.14.0",
@@ -244,79 +273,86 @@
   "tokenContrast": [
     {
       "name": "Main text",
-      "foreground": "#142c43",
-      "background": "#f3f6f9",
-      "ratio": 13.16,
+      "foreground": "#172330",
+      "background": "#ffffff",
+      "ratio": 15.91,
       "minimum": 4.5
     },
     {
       "name": "Secondary text",
-      "foreground": "#465c70",
-      "background": "#f3f6f9",
-      "ratio": 6.4,
+      "foreground": "#52606D",
+      "background": "#ffffff",
+      "ratio": 6.46,
       "minimum": 4.5
     },
     {
       "name": "Light section links",
-      "foreground": "#12618d",
-      "background": "#f3f6f9",
-      "ratio": 6.21,
+      "foreground": "#0E6B6F",
+      "background": "#ffffff",
+      "ratio": 6.27,
       "minimum": 4.5
     },
     {
       "name": "Links on alternate section",
-      "foreground": "#12618d",
-      "background": "#e8eff5",
-      "ratio": 5.8,
+      "foreground": "#0E6B6F",
+      "background": "#F5F8F9",
+      "ratio": 5.87,
       "minimum": 4.5
     },
     {
       "name": "Dark hero text",
       "foreground": "#ffffff",
-      "background": "#0b1f32",
-      "ratio": 16.72,
+      "background": "#0D1B2A",
+      "ratio": 17.39,
       "minimum": 4.5
     },
     {
       "name": "Hero secondary text",
       "foreground": "#d5e3ed",
-      "background": "#0b1f32",
-      "ratio": 12.77,
+      "background": "#0D1B2A",
+      "ratio": 13.29,
       "minimum": 4.5
     },
     {
       "name": "Dark links",
       "foreground": "#a5d8f5",
-      "background": "#0b1f32",
-      "ratio": 10.94,
+      "background": "#0D1B2A",
+      "ratio": 11.38,
       "minimum": 4.5
     },
     {
       "name": "Footer text",
       "foreground": "#d5e3ed",
-      "background": "#081827",
-      "ratio": 13.71,
+      "background": "#08131F",
+      "ratio": 14.28,
+      "minimum": 4.5
+    },
+    {
+      "name": "Footer links",
+      "foreground": "#d5e3ed",
+      "background": "#08131F",
+      "ratio": 14.28,
       "minimum": 4.5
     },
     {
       "name": "Header navigation",
       "foreground": "#e8f2fa",
-      "background": "#081827",
-      "ratio": 15.82,
+      "background": "#0D1B2A",
+      "ratio": 15.33,
       "minimum": 4.5
     },
     {
       "name": "Button text",
-      "foreground": "#0b1f32",
+      "foreground": "#0D1B2A",
       "background": "#a5d8f5",
-      "ratio": 10.94,
+      "ratio": 11.38,
       "minimum": 4.5
     },
     {
       "name": "Button on light section",
       "foreground": "#ffffff",
-      "background": "#0b1f32",
-      "ratio": 16.72,
+      "background": "#0D1B2A",
+      "ratio": 17.39,
       "minimum": 4.5
     },
     {
@@ -336,36 +372,36 @@
     {
       "name": "Dark control border",
       "foreground": "#7b9ab3",
-      "background": "#081827",
-      "ratio": 6.08,
+      "background": "#08131F",
+      "ratio": 6.33,
       "minimum": 3
     },
     {
       "name": "Light focus",
-      "foreground": "#123554",
-      "background": "#f3f6f9",
-      "ratio": 11.64,
+      "foreground": "#0E6B6F",
+      "background": "#ffffff",
+      "ratio": 6.27,
       "minimum": 3
     },
     {
-      "name": "Dark focus",
-      "foreground": "#ffce7a",
-      "background": "#0b1f32",
-      "ratio": 11.43,
+      "name": "Dark focus outer halo",
+      "foreground": "#ffffff",
+      "background": "#08131F",
+      "ratio": 18.7,
       "minimum": 3
     },
     {
       "name": "Draft banner",
-      "foreground": "#0b1f32",
+      "foreground": "#0D1B2A",
       "background": "#dcebf5",
-      "ratio": 13.73,
+      "ratio": 14.28,
       "minimum": 4.5
     },
     {
       "name": "CTA secondary text",
       "foreground": "#d5e3ed",
-      "background": "#123554",
-      "ratio": 9.65,
+      "background": "#0D1B2A",
+      "ratio": 13.29,
       "minimum": 4.5
     }
   ],
