@@ -66,18 +66,20 @@ for(const a of publishedArticles){
  const route='/insights/'+a.slug+'/';const d=dom(route);const doc=d.window.document,article=doc.querySelector('article');
  assert.equal(doc.querySelector('h1').textContent,a.title);
  const fragment=new JSDOM(a.body_html),source=fragment.window.document;
+ const renderedBody=article.cloneNode(true);
+ for(const layoutNode of renderedBody.querySelectorAll(':scope > .article-meta, :scope > .text-link'))layoutNode.remove();
  const expected=source.body.textContent.replace(/\s+/g,' ').trim();
- assert(article.textContent.replace(/\s+/g,' ').includes(expected),'Article text changed during build: '+a.slug);
- assert(!/AI-generated|no actual traveler or event|should be rechecked before publication/i.test(article.textContent));
- const leadImage=[...article.querySelectorAll('img')].find(image=>image.getAttribute('src')===a.image);
+ assert.equal(renderedBody.textContent.replace(/\s+/g,' ').trim(),expected,'Article text changed during build: '+a.slug);
+ assert(!/AI-generated|no actual traveler or event|should be rechecked before publication/i.test(renderedBody.textContent));
+ const leadImage=[...renderedBody.querySelectorAll('img')].find(image=>image.getAttribute('src')===a.image);
  assert(leadImage,'Missing article image: '+a.slug);assert.equal(leadImage.getAttribute('alt'),a.image_alt);
  for(const selector of ['p','h2','h3','table','th','td','img']){
-  assert.equal(article.querySelectorAll(selector).length,source.querySelectorAll(selector).length,'Article structure changed for '+a.slug+': '+selector);
+  assert.equal(renderedBody.querySelectorAll(selector).length,source.querySelectorAll(selector).length,'Article structure changed for '+a.slug+': '+selector);
  }
  const sourceLinks=[...source.querySelectorAll('a')].map(link=>link.getAttribute('href'));
- const articleLinks=[...article.querySelectorAll('a')].map(link=>link.getAttribute('href'));
- assert.deepEqual(articleLinks.slice(0,sourceLinks.length),sourceLinks,'Article links changed during build: '+a.slug);
- for(const region of article.querySelectorAll('.article-table-wrap')){assert.equal(region.tabIndex,0);assert(region.getAttribute('aria-label'));}
+ const articleLinks=[...renderedBody.querySelectorAll('a')].map(link=>link.getAttribute('href'));
+ assert.deepEqual(articleLinks,sourceLinks,'Article links changed during build: '+a.slug);
+ for(const region of renderedBody.querySelectorAll('.article-table-wrap')){assert.equal(region.tabIndex,0);assert(region.getAttribute('aria-label'));}
  assert.equal(doc.querySelector('meta[property="og:type"]').content,'article');
  assert.equal(doc.querySelector('meta[property="og:image"]').content,JSON.parse(fs.readFileSync(root+'/config.json','utf8')).origin+a.image);
  assert(JSON.parse(doc.querySelector('script[type="application/ld+json"]').textContent)['@graph'].some(x=>x['@type']==='Article'&&x.headline===a.title));
