@@ -126,5 +126,110 @@
     "remote_text": "Remote services are also available to clients beyond the Bay Area and outside California.",
     "inquiry_text": "Contact us to discuss your service needs, scheduling, and pricing.",
     "schema_description": "In-person and remote services in San Francisco, Oakland, Berkeley, Vallejo, and Marin County; remote services also available beyond the Bay Area and outside California."
+  },
+  "resources": {
+    "sections": [
+      {
+        "id": "getting-started",
+        "title": "New to vision loss",
+        "items": [
+          {
+            "name": "Hadley",
+            "url": "https://hadleyhelps.org/",
+            "note": "Free courses and workshops designed for adults adjusting to vision loss — practical skills, technology, and everyday living, at your own pace."
+          },
+          {
+            "name": "VisionAware",
+            "url": "https://aphconnectcenter.org/visionaware/",
+            "note": "Guides and straight answers for living with vision loss, from the American Printing House for the Blind — home, cooking, travel, and getting organized."
+          },
+          {
+            "name": "APH ConnectCenter",
+            "url": "https://aphconnectcenter.org/",
+            "note": "The American Printing House's hub for blindness resources, including a directory of services in your community."
+          }
+        ]
+      },
+      {
+        "id": "work-and-careers",
+        "title": "Work and careers",
+        "items": [
+          {
+            "name": "APH CareerConnect",
+            "url": "https://aphconnectcenter.org/careerconnect/",
+            "note": "Career guidance for blind and low-vision job seekers — exploring careers, résumés, interviews, and finding work that fits."
+          },
+          {
+            "name": "Job Accommodation Network",
+            "url": "https://askjan.org/",
+            "note": "Free, practical guidance on workplace accommodations — written for employees asking and employers offering."
+          },
+          {
+            "name": "California Department of Rehabilitation",
+            "url": "https://www.dor.ca.gov/",
+            "note": "California's vocational rehabilitation agency — training, equipment, and job support when employment is your goal. Every state has its own version."
+          }
+        ]
+      },
+      {
+        "id": "technology-help",
+        "title": "Technology help",
+        "items": [
+          {
+            "name": "AppleVis",
+            "url": "https://www.applevis.com/",
+            "note": "The community for blind Apple users — app reviews, how-to guides, podcasts, and a forum where no question is too small."
+          },
+          {
+            "name": "Be My Eyes",
+            "url": "https://www.bemyeyes.com/",
+            "note": "Free visual help through your phone's camera — sighted volunteers and AI describe what you point it at."
+          },
+          {
+            "name": "Aira",
+            "url": "https://aira.io/",
+            "note": "Trained visual interpreters on demand, by subscription — and covered free at many airports, stores, and campuses."
+          }
+        ]
+      },
+      {
+        "id": "community-and-advocacy",
+        "title": "Community and advocacy",
+        "items": [
+          {
+            "name": "National Federation of the Blind",
+            "url": "https://www.nfb.org/",
+            "note": "The largest organization of blind people in the United States — local chapters, community, and a voice in the decisions that affect blind lives."
+          },
+          {
+            "name": "American Council of the Blind",
+            "url": "https://www.acb.org/",
+            "note": "A national membership and advocacy organization of blind and visually impaired people, with affiliates and chapters across the country."
+          }
+        ]
+      },
+      {
+        "id": "reading-and-media",
+        "title": "Reading and media",
+        "items": [
+          {
+            "name": "National Library Service for the Blind and Print Disabled",
+            "url": "https://www.loc.gov/nls/",
+            "note": "Free audiobooks, braille books, and magazines by download and mail, for anyone who cannot read standard print — through your local library."
+          },
+          {
+            "name": "Bookshare",
+            "url": "https://www.bookshare.org/",
+            "note": "A large library of accessible ebooks — free for U.S. students, and available to adults by membership."
+          },
+          {
+            "name": "NFB-NEWSLINE",
+            "url": "https://nfb.org/programs-services/nfb-newsline",
+            "note": "Newspapers, magazines, and TV listings in audio and braille — free by phone, app, or email for registered readers."
+          }
+        ]
+      }
+    ],
+    "outro": "This list is short on purpose — everything here is a resource we know and stand behind. If a link stops working, or you think something belongs on this page, please email us and tell us."
   }
 }
