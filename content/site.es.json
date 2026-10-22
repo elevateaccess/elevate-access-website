@@ -123,11 +123,116 @@
     }
   ],
   "source_note": "Traducción al español del contenido aprobado en content/site.json. Se conservan los nombres, las credenciales, los datos de contacto, los servicios y los enlaces de las fuentes. Los títulos de las fuentes del artículo se presentan en español y remiten a los documentos originales.",
-  "translation_source_sha256": "22cb422de14a33481db0a108e8349293d48c7b8e192f2931b7511786f4d8416b",
+  "translation_source_sha256": "a1d2ab379218a3a659957f89505253a89bcbd236b8a1f6fcf32942534d3598ab",
   "service_area": {
     "local_text": "Ofrecemos servicios presenciales y remotos de accesibilidad y tecnología de asistencia en San Francisco, Oakland, Berkeley, Vallejo y el condado de Marin.",
     "remote_text": "También ofrecemos servicios remotos a clientes fuera del Área de la Bahía y del estado de California.",
     "inquiry_text": "Contáctenos para conversar sobre sus necesidades, los horarios disponibles y los precios de nuestros servicios.",
     "schema_description": "Servicios presenciales y remotos en San Francisco, Oakland, Berkeley, Vallejo y el condado de Marin; servicios remotos también disponibles fuera del Área de la Bahía y de California."
+  },
+  "resources": {
+    "sections": [
+      {
+        "id": "getting-started",
+        "title": "Primeros pasos ante la pérdida de visión",
+        "items": [
+          {
+            "name": "Hadley",
+            "url": "https://hadleyhelps.org/",
+            "note": "Cursos y talleres gratuitos diseñados para adultos que se están adaptando a la pérdida de visión: habilidades prácticas, tecnología y vida diaria, a su propio ritmo."
+          },
+          {
+            "name": "VisionAware",
+            "url": "https://aphconnectcenter.org/visionaware/",
+            "note": "Guías y respuestas claras para vivir con pérdida de visión, de la American Printing House for the Blind: el hogar, la cocina, los viajes y cómo organizarse."
+          },
+          {
+            "name": "APH ConnectCenter",
+            "url": "https://aphconnectcenter.org/",
+            "note": "El centro de recursos sobre ceguera de la American Printing House, con un directorio de servicios en su comunidad."
+          }
+        ]
+      },
+      {
+        "id": "work-and-careers",
+        "title": "Empleo y carrera",
+        "items": [
+          {
+            "name": "APH CareerConnect",
+            "url": "https://aphconnectcenter.org/careerconnect/",
+            "note": "Orientación laboral para personas ciegas o con baja visión que buscan empleo: exploración de carreras, currículums, entrevistas y cómo encontrar un trabajo adecuado."
+          },
+          {
+            "name": "Job Accommodation Network",
+            "url": "https://askjan.org/",
+            "note": "Orientación gratuita y práctica sobre adaptaciones en el lugar de trabajo, escrita tanto para empleados que las solicitan como para empleadores que las ofrecen."
+          },
+          {
+            "name": "Departamento de Rehabilitación de California",
+            "url": "https://www.dor.ca.gov/",
+            "note": "La agencia de rehabilitación vocacional de California: capacitación, equipo y apoyo para encontrar empleo cuando trabajar es su meta. Cada estado tiene su propia versión."
+          }
+        ]
+      },
+      {
+        "id": "technology-help",
+        "title": "Ayuda con la tecnología",
+        "items": [
+          {
+            "name": "AppleVis",
+            "url": "https://www.applevis.com/",
+            "note": "La comunidad de usuarios ciegos de Apple: reseñas de aplicaciones, guías paso a paso, pódcast y un foro donde ninguna pregunta es demasiado pequeña."
+          },
+          {
+            "name": "Be My Eyes",
+            "url": "https://www.bemyeyes.com/",
+            "note": "Ayuda visual gratuita a través de la cámara de su teléfono: voluntarios videntes y la inteligencia artificial describen lo que usted enfoca."
+          },
+          {
+            "name": "Aira",
+            "url": "https://aira.io/",
+            "note": "Intérpretes visuales profesionales a pedido, mediante suscripción, y con cobertura gratuita en muchos aeropuertos, tiendas y campus."
+          }
+        ]
+      },
+      {
+        "id": "community-and-advocacy",
+        "title": "Comunidad y defensa de derechos",
+        "items": [
+          {
+            "name": "National Federation of the Blind",
+            "url": "https://www.nfb.org/",
+            "note": "La organización de personas ciegas más grande de Estados Unidos: capítulos locales, comunidad y una voz en las decisiones que afectan la vida de las personas ciegas."
+          },
+          {
+            "name": "American Council of the Blind",
+            "url": "https://www.acb.org/",
+            "note": "Organización nacional de membresía y defensa de derechos de personas ciegas y con discapacidad visual, con filiales y capítulos en todo el país."
+          }
+        ]
+      },
+      {
+        "id": "reading-and-media",
+        "title": "Lectura y medios",
+        "items": [
+          {
+            "name": "National Library Service for the Blind and Print Disabled",
+            "url": "https://www.loc.gov/nls/",
+            "note": "Audiolibros, libros en braille y revistas gratuitos, por descarga y por correo, para cualquier persona que no puede leer letra impresa estándar, a través de su biblioteca local."
+          },
+          {
+            "name": "Bookshare",
+            "url": "https://www.bookshare.org/",
+            "note": "Una amplia biblioteca de libros electrónicos accesibles: gratuita para estudiantes en Estados Unidos y disponible para adultos mediante membresía."
+          },
+          {
+            "name": "NFB-NEWSLINE",
+            "url": "https://nfb.org/programs-services/nfb-newsline",
+            "note": "Periódicos, revistas y programación de televisión en audio y en braille, gratis por teléfono, aplicación o correo electrónico para lectores registrados."
+          }
+        ]
+      }
+    ],
+    "outro": "Esta lista es corta a propósito: todo lo que aparece aquí es un recurso que conocemos y respaldamos. Si un enlace deja de funcionar, o si cree que algo debería estar en esta página, escríbanos y cuéntenos."
   }
 }

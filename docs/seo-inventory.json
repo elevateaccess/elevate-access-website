@@ -89,6 +89,17 @@
   },
   {
     "language": "en",
+    "key": "resources",
+    "path": "/resources/",
+    "title": "Resources | Elevate Access Solutions",
+    "description": "Trusted resources for people who are blind or have low vision — getting started, work, technology, community, and reading — selected and annotated by Elevate Access Solutions.",
+    "alternates": {
+      "en": "/resources/",
+      "es": "/es/recursos/"
+    }
+  },
+  {
+    "language": "en",
     "key": "accessibility",
     "path": "/accessibility/",
     "title": "Website Accessibility | Elevate Access Solutions",
@@ -184,6 +195,17 @@
     "alternates": {
       "en": "/insights/",
       "es": "/es/articulos/"
+    }
+  },
+  {
+    "language": "es",
+    "key": "resources",
+    "path": "/es/recursos/",
+    "title": "Recursos | Elevate Access Solutions",
+    "description": "Recursos confiables para personas ciegas o con baja visión — primeros pasos, empleo, tecnología, comunidad y lectura — seleccionados y anotados por Elevate Access Solutions.",
+    "alternates": {
+      "en": "/resources/",
+      "es": "/es/recursos/"
     }
   },
   {

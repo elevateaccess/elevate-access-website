@@ -24,7 +24,7 @@ for code,C in content.items():
    file=(ROOT/a['body_file']).resolve()
    if not file.is_relative_to(ROOT/'content'):raise ValueError('Article body must be in content/')
    a['body_html']=file.read_text().strip()
-NAV=['home','about','founders','services','insights','contact'];article_routes={}
+NAV=['home','about','founders','services','insights','resources','contact'];article_routes={}
 for code,C in content.items():
  article_routes[code]={}
  for a in C['articles']:
@@ -130,6 +130,15 @@ class Website:
    listing+='</ul>'
   insights=self.intro(u('insights'),u('insights_headline'),u('insights_description'))+'<section class="section"><div class="wrap"><p class="eyebrow">'+e(u('topics'))+'</p><ul class="topic-list">'+''.join(f'<li>{e(u(k))}</li>'for k in ['topic_accessibility','topic_at','topic_emerging'])+'</ul>'+listing+'</div></section>'
   self.page('insights',u('insights_title'),u('insights_meta'),insights)
+  res=C['resources'];res_subnav='<ul class="subnav">'+''.join(f'<li><a href="#{s["id"]}">{e(s["title"])}</a></li>'for s in res['sections'])+'</ul>'
+  res_sections=''
+  for i,s in enumerate(res['sections']):
+   cards=''.join(f'<div class="audience"><h3>{link(it["url"],it["name"])}</h3>{p(it["note"])}</div>'for it in s['items'])
+   cls='section section-alt'if i%2 else 'section'
+   res_sections+=f'<section class="{cls}" id="{s["id"]}" aria-labelledby="{s["id"]}-heading"><div class="wrap"><div class="section-head"><h2 id="{s["id"]}-heading">{e(s["title"])}</h2></div><div class="audience-grid">{cards}</div></div></section>'
+  outro_cls='section'if len(res['sections'])%2 else 'section section-alt'
+  resources_body=self.intro(u('resources'),u('resources_headline'),u('resources_description'),res_subnav)+res_sections+f'<section class="{outro_cls}"><div class="wrap narrow">{p(res["outro"])}</div></section>'+self.cta()
+  self.page('resources',u('resources_title'),u('resources_meta'),resources_body)
   language_tip=e(u('access_tip_language')).replace('English','<span lang="en">English</span>').replace('Español','<span lang="es">Español</span>')
   tips=''.join(f'<li>{e(u("access_tip_"+str(i)))}</li>'for i in range(1,6))+f'<li>{language_tip}</li>'
   access=self.intro(u('accessibility'),u('access_headline'),u('access_description'))+f'<section class="section"><div class="wrap prose"><h2>{e(u("access_target"))}</h2>{p(u("access_target_text"))}<h2>{e(u("using_site"))}</h2><ul>{tips}</ul><h2>{e(u("barrier"))}</h2><p>{e(u("barrier_before"))} {email} {e(u("or_call"))} {phone}. {e(u("barrier_after"))}</p></div></section>'

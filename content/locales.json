@@ -10,7 +10,8 @@
       "services": "/services/",
       "insights": "/insights/",
       "contact": "/contact/",
-      "accessibility": "/accessibility/"
+      "accessibility": "/accessibility/",
+      "resources": "/resources/"
     },
     "ui": {
       "home": "Home",
@@ -144,7 +145,12 @@
       "service_area_label": "Service area",
       "service_area_heading": "Bay Area service. Remote support beyond.",
       "service_area_local_heading": "In person and remotely",
-      "service_area_remote_heading": "Beyond our local service area"
+      "service_area_remote_heading": "Beyond our local service area",
+      "resources": "Resources",
+      "resources_title": "Resources | Elevate Access Solutions",
+      "resources_meta": "Trusted resources for people who are blind or have low vision — getting started, work, technology, community, and reading — selected and annotated by Elevate Access Solutions.",
+      "resources_headline": "Good resources, in one place.",
+      "resources_description": "The help blind and low-vision people need is scattered across the internet. These are the resources we know, use, and recommend — organized by what you are trying to do, with a plain note on what each one is for."
     }
   },
   "es": {
@@ -158,7 +164,8 @@
       "services": "/es/servicios/",
       "insights": "/es/articulos/",
       "contact": "/es/contacto/",
-      "accessibility": "/es/accesibilidad/"
+      "accessibility": "/es/accesibilidad/",
+      "resources": "/es/recursos/"
     },
     "ui": {
       "home": "Inicio",
@@ -292,8 +299,13 @@
       "service_area_label": "Área de servicio",
       "service_area_heading": "Servicios en el Área de la Bahía y atención remota en otras regiones.",
       "service_area_local_heading": "Atención presencial y remota",
-      "service_area_remote_heading": "Fuera de nuestra área de atención presencial"
+      "service_area_remote_heading": "Fuera de nuestra área de atención presencial",
+      "resources": "Recursos",
+      "resources_title": "Recursos | Elevate Access Solutions",
+      "resources_meta": "Recursos confiables para personas ciegas o con baja visión — primeros pasos, empleo, tecnología, comunidad y lectura — seleccionados y anotados por Elevate Access Solutions.",
+      "resources_headline": "Buenos recursos, en un solo lugar.",
+      "resources_description": "La ayuda que necesitan las personas ciegas o con baja visión está dispersa por todo internet. Estos son los recursos que conocemos, usamos y recomendamos, organizados según lo que usted quiere hacer, con una nota clara sobre para qué sirve cada uno."
     },
-    "translation_source_ui_sha256": "a8299b5a68dd54ef11bae27fab174f022c305f348a822070be4f127ba5752061"
+    "translation_source_ui_sha256": "3a64ced8c2914e250875328b5428c62c1c0bef94e51b1823519f1c7a07cc0a57"
   }
 }
