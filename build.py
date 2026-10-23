@@ -137,7 +137,8 @@ class Website:
    cls='section section-alt'if i%2 else 'section'
    res_sections+=f'<section class="{cls}" id="{s["id"]}" aria-labelledby="{s["id"]}-heading"><div class="wrap"><div class="section-head"><h2 id="{s["id"]}-heading">{e(s["title"])}</h2></div><div class="audience-grid">{cards}</div></div></section>'
   outro_cls='section'if len(res['sections'])%2 else 'section section-alt'
-  resources_body=self.intro(u('resources'),u('resources_headline'),u('resources_description'),res_subnav)+res_sections+f'<section class="{outro_cls}"><div class="wrap narrow">{p(res["outro"])}</div></section>'+self.cta()
+  outro=p(res['outro']).replace(e(self.B['email']),self.contacts()[0])
+  resources_body=self.intro(u('resources'),u('resources_headline'),u('resources_description'),res_subnav)+res_sections+f'<section class="{outro_cls}"><div class="wrap narrow">{outro}</div></section>'+self.cta()
   self.page('resources',u('resources_title'),u('resources_meta'),resources_body)
   language_tip=e(u('access_tip_language')).replace('English','<span lang="en">English</span>').replace('Español','<span lang="es">Español</span>')
   tips=''.join(f'<li>{e(u("access_tip_"+str(i)))}</li>'for i in range(1,6))+f'<li>{language_tip}</li>'
