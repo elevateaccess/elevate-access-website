@@ -123,7 +123,7 @@
     }
   ],
   "source_note": "Traducción al español del contenido aprobado en content/site.json. Se conservan los nombres, las credenciales, los datos de contacto, los servicios y los enlaces de las fuentes. Los títulos de las fuentes del artículo se presentan en español y remiten a los documentos originales.",
-  "translation_source_sha256": "a1d2ab379218a3a659957f89505253a89bcbd236b8a1f6fcf32942534d3598ab",
+  "translation_source_sha256": "526f5db9cf9692c3177e67b1e5d44bfc1a2b47ef2714edb2930cccdc5c28862e",
   "service_area": {
     "local_text": "Ofrecemos servicios presenciales y remotos de accesibilidad y tecnología de asistencia en San Francisco, Oakland, Berkeley, Vallejo y el condado de Marin.",
     "remote_text": "También ofrecemos servicios remotos a clientes fuera del Área de la Bahía y del estado de California.",
@@ -233,6 +233,6 @@
         ]
       }
     ],
-    "outro": "Esta lista es corta a propósito: todo lo que aparece aquí es un recurso que conocemos y respaldamos. Si un enlace deja de funcionar, o si cree que algo debería estar en esta página, escríbanos y cuéntenos."
+    "outro": "¿Quiere recomendar un recurso o informar de un enlace que no funciona? Escríbanos a info@elevateaccess.us."
   }
 }
