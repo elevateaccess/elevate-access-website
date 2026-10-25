@@ -1,0 +1,15 @@
+{
+  "name": "elevate-access-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "python3 build.py",
+    "test:search": "node qa/search.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "pagefind": "1.5.2"
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-21T23:46:51.887Z",
+  "date": "2026-10-25T16:21:53.649Z",
   "scope": "Static markup and emulated DOM only. No real-browser layout, contrast inference, keyboard system integration, or assistive technology testing.",
   "markup": [
     {
@@ -39,6 +39,16 @@
     },
     {
       "route": "/insights/",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "route": "/resources/",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "route": "/search/",
       "valid": true,
       "errors": []
     },
@@ -84,6 +94,16 @@
     },
     {
       "route": "/es/articulos/",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "route": "/es/recursos/",
+      "valid": true,
+      "errors": []
+    },
+    {
+      "route": "/es/buscar/",
       "valid": true,
       "errors": []
     },
@@ -167,6 +187,24 @@
       "passes": 32
     },
     {
+      "route": "/resources/",
+      "violations": [],
+      "incomplete": [
+        "landmark-one-main",
+        "page-has-heading-one"
+      ],
+      "passes": 32
+    },
+    {
+      "route": "/search/",
+      "violations": [],
+      "incomplete": [
+        "landmark-one-main",
+        "page-has-heading-one"
+      ],
+      "passes": 39
+    },
+    {
       "route": "/accessibility/",
       "violations": [],
       "incomplete": [
@@ -248,6 +286,24 @@
       "passes": 32
     },
     {
+      "route": "/es/recursos/",
+      "violations": [],
+      "incomplete": [
+        "landmark-one-main",
+        "page-has-heading-one"
+      ],
+      "passes": 32
+    },
+    {
+      "route": "/es/buscar/",
+      "violations": [],
+      "incomplete": [
+        "landmark-one-main",
+        "page-has-heading-one"
+      ],
+      "passes": 39
+    },
+    {
       "route": "/es/accesibilidad/",
       "violations": [],
       "incomplete": [
@@ -260,9 +316,9 @@
   "functional": [
     "Logo links retain clean accessible names while decorative SVG files remain hidden from assistive technology",
     "Input-aware focus styling, mobile menu toggle state, Escape close, and return focus passed in emulated DOM",
-    "Every displayed business email is an accurately named mailto link; contact phone is present; consultation requests and forms remain absent; Juanita certification states since 2023",
+    "Every displayed business email is an accurately named mailto link; contact phone is present; consultation requests and contact forms remain absent; Juanita certification states since 2023",
     "Facebook footer links on every main page and the Contact page link use the exact user-provided page ID, clear names, and no sharing parameter",
-    "382 internal link and fragment references, 56 local image references, unique IDs and titles, heading hierarchy, metadata, structured data, indexing controls, exact preservation of service descriptions and biographies, and 2 published article checks passed",
+    "560 internal link and fragment references, 64 local image references, unique IDs and titles, heading hierarchy, metadata, structured data, indexing controls, exact preservation of service descriptions and biographies, and 2 published article checks passed",
     "All 19 declared design-token contrast pairs meet stated text or nontext thresholds; this is a calculation, not rendered-page contrast coverage"
   ],
   "versions": {

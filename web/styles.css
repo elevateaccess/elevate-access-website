@@ -53,3 +53,8 @@ html:not(.js) .dark :focus-visible,html:not(.js) .site-header :focus-visible,htm
 @media(min-width:48.001rem) and (max-width:80rem){
  .hero h1{font-size:clamp(2.3rem,4.6vw,3.3rem)}
 }
+
+/* Site search uses the same reading surfaces, controls, and focus cues. */
+.search-content{max-width:54rem}.search-content label{display:block;font-weight:700;font-size:1.2rem;margin-bottom:.4rem}.search-controls{display:flex;gap:1rem;align-items:stretch}.search-controls input{width:100%;min-width:0;min-height:48px;padding:.7rem .85rem;border:2px solid var(--muted);border-radius:var(--button-radius);background:var(--paper);color:var(--ink)}.search-controls .button{flex-shrink:0}.search-status{margin-block:1.75rem}.search-status:empty{margin:0}.search-results{padding:0;list-style:none}.search-results li{padding-block:1.75rem;border-top:1px solid var(--line)}.search-results h3{font-size:1.4rem;line-height:1.35;margin-bottom:.75rem}.search-results p{color:var(--muted)}.search-results mark{background:#dcebf5;color:#0D1B2A;font-weight:700}.search-notice{margin-top:1.5rem}
+@media(max-width:30rem){.search-controls{flex-direction:column}.search-controls .button{width:100%}}
+@media(forced-colors:active){.search-controls input{border-color:CanvasText}.search-results mark{background:Highlight;color:HighlightText}}

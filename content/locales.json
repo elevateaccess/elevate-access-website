@@ -11,7 +11,8 @@
       "insights": "/insights/",
       "contact": "/contact/",
       "accessibility": "/accessibility/",
-      "resources": "/resources/"
+      "resources": "/resources/",
+      "search": "/search/"
     },
     "ui": {
       "home": "Home",
@@ -148,7 +149,24 @@
       "resources_title": "Resources | Elevate Access Solutions",
       "resources_meta": "Trusted resources for people who are blind or have low vision — getting started, work, technology, community, and reading — selected and annotated by Elevate Access Solutions.",
       "resources_headline": "Good resources, in one place.",
-      "resources_description": "Resources for people who are blind or have low vision are scattered across the internet. We’ve gathered the ones we know, use, and recommend in one place, organized around what you want to do."
+      "resources_description": "Resources for people who are blind or have low vision are scattered across the internet. We’ve gathered the ones we know, use, and recommend in one place, organized around what you want to do.",
+      "search": "Search",
+      "search_title": "Search | Elevate Access Solutions",
+      "search_headline": "Find what you need.",
+      "search_description": "Search our articles, services, and resources by topic, tool, or keyword.",
+      "search_meta": "Search Elevate Access Solutions for articles, assistive technology services, and recommended resources.",
+      "search_label": "Search the website",
+      "search_hint": "Results are in English. Use Español in the header to search Spanish content.",
+      "search_button": "Search",
+      "search_results": "Search results",
+      "search_more": "Show more results",
+      "search_loading": "Searching…",
+      "search_empty": "No results found. Try a different word or a broader topic.",
+      "search_error": "Search is temporarily unavailable. Please try again, or use the navigation to browse the site.",
+      "search_count_one": "1 result found.",
+      "search_count_many": "{count} results found.",
+      "search_blank": "Enter a word or phrase to search.",
+      "search_noscript": "Search needs JavaScript. You can also browse our articles and resources:"
     }
   },
   "es": {
@@ -163,7 +181,8 @@
       "insights": "/es/articulos/",
       "contact": "/es/contacto/",
       "accessibility": "/es/accesibilidad/",
-      "resources": "/es/recursos/"
+      "resources": "/es/recursos/",
+      "search": "/es/buscar/"
     },
     "ui": {
       "home": "Inicio",
@@ -300,8 +319,25 @@
       "resources_title": "Recursos | Elevate Access Solutions",
       "resources_meta": "Recursos confiables para personas ciegas o con baja visión — primeros pasos, empleo, tecnología, comunidad y lectura — seleccionados y anotados por Elevate Access Solutions.",
       "resources_headline": "Buenos recursos, en un solo lugar.",
-      "resources_description": "Los recursos para personas ciegas o con baja visión están dispersos por todo internet. Hemos reunido en un solo lugar los que conocemos, usamos y recomendamos, organizados según lo que usted quiere hacer."
+      "resources_description": "Los recursos para personas ciegas o con baja visión están dispersos por todo internet. Hemos reunido en un solo lugar los que conocemos, usamos y recomendamos, organizados según lo que usted quiere hacer.",
+      "search": "Buscar",
+      "search_title": "Buscar | Elevate Access Solutions",
+      "search_headline": "Encuentre lo que necesita.",
+      "search_description": "Busque artículos, servicios y recursos por tema, herramienta o palabra clave.",
+      "search_meta": "Busque artículos, servicios de tecnología de asistencia y recursos recomendados en Elevate Access Solutions.",
+      "search_label": "Buscar en el sitio",
+      "search_hint": "Los resultados están en español. Use English en el encabezado para buscar contenido en inglés.",
+      "search_button": "Buscar",
+      "search_results": "Resultados de búsqueda",
+      "search_more": "Mostrar más resultados",
+      "search_loading": "Buscando…",
+      "search_empty": "No se encontraron resultados. Pruebe otra palabra o un tema más general.",
+      "search_error": "La búsqueda no está disponible en este momento. Inténtelo de nuevo o use la navegación para explorar el sitio.",
+      "search_count_one": "Se encontró 1 resultado.",
+      "search_count_many": "Se encontraron {count} resultados.",
+      "search_blank": "Escriba una palabra o frase para buscar.",
+      "search_noscript": "La búsqueda necesita JavaScript. También puede consultar nuestros artículos y recursos:"
     },
-    "translation_source_ui_sha256": "5f21d36aaf602267ae5ed03d9c52d4fa90cb93200096a5f55e34750e08f648c3"
+    "translation_source_ui_sha256": "109ef0929937946649b3d391ffad0181a1a1a7c606f0d9eae3ee9064bfe363b1"
   }
 }

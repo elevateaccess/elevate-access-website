@@ -11,6 +11,7 @@ on:
 
 permissions:
   contents: read
+  checks: read
 
 concurrency:
   group: website-quality-${{ github.workflow }}-${{ github.ref }}
@@ -19,7 +20,7 @@ concurrency:
 jobs:
   validate:
     name: Website quality
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
 
     steps:
@@ -36,7 +37,12 @@ jobs:
         with:
           node-version: "22"
           cache: npm
-          cache-dependency-path: qa/package-lock.json
+          cache-dependency-path: |
+            package-lock.json
+            qa/package-lock.json
+
+      - name: Install pinned search dependencies
+        run: npm ci --no-audit --no-fund
 
       - name: Install QA dependencies
         working-directory: qa
@@ -48,7 +54,10 @@ jobs:
       - name: Check JavaScript syntax
         run: node --check web/site.js
 
-      - name: Build website
+      - name: Check search JavaScript syntax
+        run: node --check web/search.js
+
+      - name: Build website and fresh search indexes
         run: python3 build.py
 
       - name: Verify generated files are current
@@ -62,3 +71,15 @@ jobs:
 
       - name: Validate themes and contrast
         run: node qa/theme.cjs
+
+      - name: Install Chromium for search checks
+        working-directory: qa
+        run: npx playwright install --with-deps --only-shell chromium
+
+      - name: Validate search coverage, behavior, accessibility, and failure guards
+        run: node qa/search.cjs
+        env:
+          SEARCH_VERIFY_DEPLOYMENT: "1"
+          SEARCH_COMMIT: ${{ github.event.pull_request.head.sha || github.sha }}
+          SEARCH_REPOSITORY: ${{ github.repository }}
+          GITHUB_TOKEN: ${{ github.token }}

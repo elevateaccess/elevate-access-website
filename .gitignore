@@ -5,3 +5,6 @@ __pycache__/
 .env.*
 *.tar.gz
 *.zip
+
+# Generated and verified on every build; not maintained by editors.
+dist/pagefind/

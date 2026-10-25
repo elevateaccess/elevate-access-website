@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-21T23:46:53.630Z",
-  "pages": 18,
-  "languageLinkTargets": 36,
+  "date": "2026-10-25T16:21:53.062Z",
+  "pages": 22,
+  "languageLinkTargets": 44,
   "checks": [
     "Build rejects stale content, stale interface translations, and unmatched published articles before writing generated output.",
-    "All 132 interface keys and placeholders match; identity, contacts, service IDs, names, experience, and 2023 certification retained.",
-    "All 18 pages: native reciprocal language links, current-language names, stable section IDs, localized navigation/metadata, self-canonicals, en/es/x-default hreflang, structured-data language.",
+    "All 152 interface keys and placeholders match; identity, contacts, service IDs, names, experience, and 2023 certification retained.",
+    "All 22 pages: native reciprocal language links, current-language names, stable section IDs, localized navigation/metadata, self-canonicals, en/es/x-default hreflang, structured-data language.",
     "Both mobile menus: translated open/close labels, expanded state, Escape/focus restoration, section-anchor preservation; source bios/services and portrait alternatives match. Emulated DOM only.",
     "All 2 published article pairs: matching structure and source destinations; dates, authors, images, alternative text, and bilingual Article metadata checked.",
-    "Sitemap has all 18 canonical pages with reciprocal alternatives; both language versions of 404 markup validate."
+    "Sitemap has all 22 canonical pages with reciprocal alternatives; both language versions of 404 markup validate."
   ],
   "failures": 0,
   "limitations": "Emulated DOM and static markup only. No real-browser responsive rendering, VoiceOver, NVDA, or end-to-end human bilingual user test."

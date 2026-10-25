@@ -100,6 +100,17 @@
   },
   {
     "language": "en",
+    "key": "search",
+    "path": "/search/",
+    "title": "Search | Elevate Access Solutions",
+    "description": "Search Elevate Access Solutions for articles, assistive technology services, and recommended resources.",
+    "alternates": {
+      "en": "/search/",
+      "es": "/es/buscar/"
+    }
+  },
+  {
+    "language": "en",
     "key": "accessibility",
     "path": "/accessibility/",
     "title": "Website Accessibility | Elevate Access Solutions",
@@ -206,6 +217,17 @@
     "alternates": {
       "en": "/resources/",
       "es": "/es/recursos/"
+    }
+  },
+  {
+    "language": "es",
+    "key": "search",
+    "path": "/es/buscar/",
+    "title": "Buscar | Elevate Access Solutions",
+    "description": "Busque artículos, servicios de tecnología de asistencia y recursos recomendados en Elevate Access Solutions.",
+    "alternates": {
+      "en": "/search/",
+      "es": "/es/buscar/"
     }
   },
   {
