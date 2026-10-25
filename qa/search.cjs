@@ -195,9 +195,12 @@ let base;
       await new Promise(resolve=>setTimeout(resolve,5000));
     }
     assert(preview,'Cloudflare deployment did not finish within three minutes');
+    const origins=[preview];
+    if(process.env.SEARCH_PRODUCTION==='true') origins.push(readJSON(root+'/config.json').origin);
+    for(const origin of new Set(origins)) {
     const deployed=await context.newPage();
     for(const code of ['en','es']) {
-      const response=await deployed.goto(preview+locales[code].routes.search);
+      const response=await deployed.goto(origin+locales[code].routes.search);
       assert.equal(response.status(),200,'Deployed search page must load');
       const deployedManifest=await deployed.evaluate(async()=>{const r=await fetch('/search-manifest.json');if(!r.ok)throw new Error('Search manifest unavailable');return r.json()});
       assert.deepEqual(deployedManifest,manifest,'Deployed search files must match the tested build');
@@ -210,6 +213,8 @@ let base;
       assert(await deployed.locator('.search-results a[href="'+samples[code].path+'"]').count(),'Deployed full-text search must work');
     }
     await deployed.close();
+    if(origin!==preview) checks.push('Production custom domain passes the same search page, manifest, coverage, and full-text query checks in both languages.');
+    }
     checks.push('Cloudflare preview for the exact commit loads both search pages and returns the complete current indexes and working full-text results.');
   }
 
