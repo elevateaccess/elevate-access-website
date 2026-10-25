@@ -80,6 +80,7 @@ jobs:
         run: node qa/search.cjs
         env:
           SEARCH_VERIFY_DEPLOYMENT: "1"
+          SEARCH_PRODUCTION: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
           SEARCH_COMMIT: ${{ github.event.pull_request.head.sha || github.sha }}
           SEARCH_REPOSITORY: ${{ github.repository }}
           GITHUB_TOKEN: ${{ github.token }}
