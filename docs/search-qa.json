@@ -1,0 +1,11 @@
+{
+  "searchChecks": [
+    "Missing/corrupt runtime, incomplete coverage, and stale indexed content all fail validation.",
+    "Chromium: exact page coverage and metadata, both languages, full-text results, highlights, URL/history, focus, 320/390/1440px reflow, and rendered axe/contrast checks.",
+    "Network failure gives a readable error and retry succeeds; no-JavaScript visitors retain bilingual browsing links.",
+    "A larger disposable archive returns 10 results at a time, loads the remaining results, and maintains keyboard focus in both languages.",
+    "Disposable rebuilds prove indexing/integrity failures stop publication, newly published articles and edits become searchable, renamed URLs disappear, drafts stay excluded, and unpublishing removes content in both languages."
+  ],
+  "passed": true,
+  "limitations": "Automated Chromium and axe checks do not substitute for actual VoiceOver/NVDA usability testing."
+}

@@ -11,9 +11,10 @@ Keep website routing separate from Google Workspace DNS. DNS changes, subscripti
 
 ## Build and preview
 
-Requires Python 3. No build dependencies or frontend framework.
+Requires Python 3 and Node.js 22 or later. Pagefind 1.5.2 is pinned in `package-lock.json`; install it with `npm ci`. No frontend framework is required.
 
 ```sh
+npm ci --no-audit --no-fund
 python3 build.py
 python3 -m http.server 8000 --directory dist
 ```
@@ -76,35 +77,51 @@ Provide a matching Spanish article with a `translation_key` equal to the English
 
 The build rejects unmatched published articles and stale translation review markers. Review and update the Spanish counterpart before refreshing `translation_source_sha256` or `translation_source_ui_sha256`. The exact signature calculation is documented in `docs/LOCALIZATION.md` and implemented in `build.py`; changing a marker alone does not establish translation accuracy.
 
-The build generates article pages, listings, metadata, and sitemap entries. There is no visual CMS, scheduled publishing, RSS, search, or comments.
+The build generates article pages, listings, metadata, sitemap entries, and fresh search indexes. There is no visual CMS, scheduled publishing, RSS, or comments.
+
+## Search and content updates
+
+Search is available at `/search/` and `/es/buscar/`, linked from the shared navigation. Pagefind searches the current edition's published main content, titles, and descriptions. English and Spanish use separate indexes; switching languages preserves the query without translating it. Search runs in the visitor's browser using files hosted with this site. It does not search the full contents of outside websites linked from Resources.
+
+Keep editing the normal source files and reviewing both language editions. No manual search submissions or article registry is needed. `python3 build.py` removes old generated output, builds pages, runs `scripts/build-search.mjs`, then runs `scripts/verify-search.mjs`. A dependency, indexing, coverage, language, or integrity failure exits with an error, preventing a successful Cloudflare build. Publish only after the required checks pass.
+
+The generator indexes canonical published pages from the generated inventory. Search pages, aliases, 404s, drafts, headers, navigation, footers, and repeated contact CTAs are excluded. The search UI script loads only on the two search pages. Search runtime files in `dist/pagefind/` are generated and ignored by Git; `dist/search-manifest.json` records the page and runtime hashes and is tracked with other generated output. Never edit the index, manifest, or generated pages by hand.
+
+The required **Website quality** job installs the pinned dependencies, rebuilds pages and search, checks generated-file freshness, and runs `qa/search.cjs` alongside the existing checks. Search tests verify every published page and its current metadata in each language, real browser queries, result links, focus, status feedback, responsive layouts, rendered accessibility/contrast, error recovery, and browsing without JavaScript. Disposable rebuilds test edits, URL changes, draft exclusion, unpublishing, and indexing failures. Deliberately missing, corrupt, incomplete, or stale search artifacts must fail validation. Keep these steps in the required job; do not mark them optional, skip them for content-only changes, or allow failures.
+
+Branch protection requires **Website quality** and **Cloudflare Pages** for normal merges into `main`. Keep those requirements intact and verify them when changing the workflow. Administrative bypass permissions are a separate repository setting and must not be used to publish a failed change. Automated browser checks do not establish VoiceOver/NVDA usability or full WCAG conformance.
 
 ## Checks
 
 For website source changes:
 
 ```sh
+npm ci --no-audit --no-fund
 python3 build.py
 node --check web/site.js
+node --check web/search.js
 python3 -m py_compile build.py
 cd qa
 npm ci --no-audit --no-fund
 node validate.cjs
 node bilingual.cjs
 node theme.cjs
+npx playwright install --with-deps --only-shell chromium
+node search.cjs
 ```
 
-QA packages are development-only. Existing reports in `docs/` describe the versions and pages tested at their recorded dates; they do not establish that later changes passed. Automated checks do not verify real-browser layout, actual keyboard traversal, VoiceOver, NVDA, or WCAG conformance. Review representative desktop/mobile pages and assistive-technology behavior for relevant changes.
+QA packages are development-only; Pagefind is a build dependency. Existing reports in `docs/` describe the versions and pages tested at their recorded dates; they do not establish that later changes passed. Search checks exercise Chromium rendering and keyboard interactions; the older general checks use static markup or an emulated DOM. Neither establishes VoiceOver/NVDA usability or WCAG conformance. Review representative desktop/mobile pages and assistive-technology behavior for relevant changes.
 
 Documentation-only changes need a diff and link/command review; they do not require rebuilding the website.
 
 ## Cloudflare deployment and domain verification
 
-Cloudflare Pages is connected to this GitHub repository. The deployment build command for this source is `python3 build.py`, and the output directory is `dist`. Confirm the actual production branch and build settings in the Cloudflare dashboard when changing deployment configuration; these settings are not captured in a Cloudflare configuration file in this repository.
+Cloudflare Pages is connected to this GitHub repository. The deployment build command remains `python3 build.py`, and the output directory is `dist`. Its dependency installation must install the root `package-lock.json` before building; search indexing and integrity verification run inside the Python build command. Confirm the actual production branch and build settings in the Cloudflare dashboard when changing deployment configuration; these settings are not captured in a Cloudflare configuration file in this repository.
 
 After an authorized publication:
 
 1. Confirm the intended commit and its Cloudflare Pages deployment check succeeded.
-2. Check both apex and `www` HTTPS, representative English/Spanish pages, article links, images, language switching, and the sitemap.
+2. Check both apex and `www` HTTPS, representative English/Spanish pages, article links, images, language switching, the sitemap, and a representative query on both search pages.
 3. Verify canonical redirects, legacy redirects, and a true HTTP 404 for unknown paths on the live host.
 
 `docs/redirects.csv` lists legacy routes and intended permanent destinations. The build currently creates HTML-refresh/canonical fallback pages; those do not establish HTTP 301/308 redirects. Verify or configure permanent redirects in Cloudflare as appropriate.

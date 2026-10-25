@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Build the bilingual static website. Never publishes or changes DNS."""
-import argparse,hashlib,html,json,re,shutil
+import argparse,hashlib,html,json,re,shutil,subprocess
 from pathlib import Path
 from datetime import date
 from xml.sax.saxutils import escape as xml
@@ -24,7 +24,7 @@ for code,C in content.items():
    file=(ROOT/a['body_file']).resolve()
    if not file.is_relative_to(ROOT/'content'):raise ValueError('Article body must be in content/')
    a['body_html']=file.read_text().strip()
-NAV=['home','about','founders','services','insights','resources','contact'];article_routes={}
+NAV=['home','about','founders','services','insights','resources','search','contact'];article_routes={}
 for code,C in content.items():
  article_routes[code]={}
  for a in C['articles']:
@@ -38,7 +38,7 @@ D=ROOT/'dist';D.mkdir(exist_ok=True)
 for child in D.iterdir():
  if child.is_dir():shutil.rmtree(child)
  else:child.unlink()
-shutil.copytree(ROOT/'assets',D/'assets');shutil.copy(ROOT/'web/styles.css',D/'assets/styles.css');shutil.copy(ROOT/'web/site.js',D/'assets/site.js')
+shutil.copytree(ROOT/'assets',D/'assets');shutil.copy(ROOT/'web/styles.css',D/'assets/styles.css');shutil.copy(ROOT/'web/site.js',D/'assets/site.js');shutil.copy(ROOT/'web/search.js',D/'assets/search.js')
 pages=[]
 def e(t):return html.escape(str(t),quote=True)
 def p(t,cls=''):return f'<p class="{e(cls)}">{e(t)}</p>'if cls else f'<p>{e(t)}</p>'
@@ -65,7 +65,7 @@ class Website:
   return f'<a class="contact-email" href="mailto:{e(B["email"])}">{e(B["email"])}</a>',f'<a href="tel:{e(B["phone_uri"])}">{phone}</a>'
  def cta(self):
   email,phone=self.contacts();u=self.u
-  return f'<section class="cta dark"><div class="wrap"><div><h2>{e(u("cta_title"))}</h2>{p(u("cta_text"))}</div><address class="cta-contact"><p><strong>{e(u("email"))}</strong><br>{email}</p><p><strong>{e(u("phone"))}</strong><br>{phone}</p></address></div></section>'
+  return f'<section class="cta dark" data-pagefind-ignore><div class="wrap"><div><h2>{e(u("cta_title"))}</h2>{p(u("cta_text"))}</div><address class="cta-contact"><p><strong>{e(u("email"))}</strong><br>{email}</p><p><strong>{e(u("phone"))}</strong><br>{phone}</p></address></div></section>'
  def service_area(self):
   u=self.u;area=self.C['service_area']
   return f'<section class="section section-alt service-area" aria-labelledby="service-area-heading"><div class="wrap"><div class="section-head"><p class="eyebrow">{e(u("service_area_label"))}</p><h2 id="service-area-heading">{e(u("service_area_heading"))}</h2></div><div class="narrow">{p(area["local_text"]+" "+area["remote_text"])}{p(area["inquiry_text"])}</div></div></section>'
@@ -86,14 +86,16 @@ class Website:
   alternates=''.join(f'<link rel="alternate" hreflang="{c}" href="{e(origin+v)}">'for c,v in pair.items())+f'<link rel="alternate" hreflang="x-default" href="{e(origin+pair["en"])}">'
   og_alternates=''.join(f'<meta property="og:locale:alternate" content="{l["og_locale"]}">'for c,l in locales.items()if c!=self.code)
   email,phone=self.contacts();jsonld=json.dumps(schema,ensure_ascii=False).replace('</','<\\/')
+  search_script='<script src="/assets/search.js" defer></script>'if key=='search'else ''
+  search_body=''if key=='search'else ' data-pagefind-body'
   text=f'''<!DOCTYPE html>
 <html lang="{self.L['lang']}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="light dark">
-<title>{e(title)}</title><meta name="description" content="{e(description)}"><meta name="robots" content="{'index, follow'if public else 'noindex, nofollow'}"><meta name="theme-color" content="#0D1B2A"><link rel="canonical" href="{e(url)}">{alternates}<link rel="icon" type="image/svg+xml" href="/assets/eas-mark.svg"><link rel="icon" type="image/png" href="/assets/logo.png">
+<title>{e(title)}</title><meta name="description" content="{e(description)}" data-pagefind-meta="description[content]"><meta name="robots" content="{'index, follow'if public else 'noindex, nofollow'}"><meta name="theme-color" content="#0D1B2A"><link rel="canonical" href="{e(url)}">{alternates}<link rel="icon" type="image/svg+xml" href="/assets/eas-mark.svg"><link rel="icon" type="image/png" href="/assets/logo.png">
 <meta property="og:type" content="{'article'if article else 'website'}"><meta property="og:site_name" content="{e(B['name'])}"><meta property="og:title" content="{e(article['title']if article else title)}"><meta property="og:description" content="{e(description)}"><meta property="og:url" content="{e(url)}"><meta property="og:image" content="{e(share_image)}"><meta property="og:image:alt" content="{e(share_alt)}"><meta property="og:locale" content="{self.L['og_locale']}">{og_alternates}<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="{e(article['title']if article else title)}"><meta name="twitter:description" content="{e(description)}"><meta name="twitter:image" content="{e(share_image)}"><meta name="twitter:image:alt" content="{e(share_alt)}">
-<link rel="stylesheet" href="/assets/styles.css"><script src="/assets/site.js" defer></script><script type="application/ld+json">{jsonld}</script></head>
+<link rel="stylesheet" href="/assets/styles.css"><script src="/assets/site.js" defer></script>{search_script}<script type="application/ld+json">{jsonld}</script></head>
 <body><a class="skip-link" href="#main-content">{e(u('skip'))}</a>
 <header class="site-header">{''if public else '<div class="draft-note">'+e(u('draft'))+'</div>'}<div class="wrap header-inner"><a class="brand" href="{r('home')}" aria-label="{e(u('brand_home'))}"><img src="/assets/eas-header-reversed.svg" alt="" aria-hidden="true" width="1780" height="590"></a><div class="header-tools">{self.languages(pair)}<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" data-open-label="{e(u('menu'))}" data-close-label="{e(u('close_menu'))}" hidden>{e(u('menu'))}</button></div><nav class="site-nav" id="site-navigation" aria-label="{e(u('main_navigation'))}"><ul>{nav}</ul></nav></div></header>
-<main id="main-content" tabindex="-1">{body}</main>
+<main id="main-content" tabindex="-1"{search_body}>{body}</main>
 <footer class="site-footer"><div class="wrap"><div class="footer-grid"><div class="footer-brand"><a href="{r('home')}" aria-label="{e(u('brand_home'))}"><img src="/assets/eas-footer-transparent.svg" alt="" aria-hidden="true" width="1780" height="590" loading="lazy"></a>{p(u('footer_summary'))}</div><nav aria-label="{e(u('footer_navigation'))}"><h2>{e(u('explore'))}</h2><ul class="footer-links">{foot}</ul></nav><div class="footer-contact"><h2>{e(u('connect'))}</h2>{email}<br>{phone}<br><a class="facebook-link" href="{e(B['facebook_url'])}" rel="me">{e(u('facebook'))}</a></div></div><div class="footer-bottom"><p>© {date.today().year} {e(B['legal_name'])}</p><a href="{r('accessibility')}">{e(u('footer_accessibility'))}</a></div></div></footer></body></html>'''
   target=D/path.strip('/')/'index.html'if path!='/'else D/'index.html';target.parent.mkdir(parents=True,exist_ok=True);target.write_text(text)
   pages.append({'language':self.code,'key':key,'path':path,'title':title,'description':description,'alternates':pair})
@@ -140,6 +142,10 @@ class Website:
   outro=p(res['outro']).replace(e(self.B['email']),self.contacts()[0])
   resources_body=self.intro(u('resources'),u('resources_headline'),u('resources_description'),res_subnav)+res_sections+f'<section class="{outro_cls}"><div class="wrap narrow">{outro}</div></section>'+self.cta()
   self.page('resources',u('resources_title'),u('resources_meta'),resources_body)
+  search_labels={k:self.L['ui']['search_'+k]for k in ['loading','empty','error','count_one','count_many','blank']}
+  search_data=' '.join(f'data-{k.replace("_","-")}="{e(v)}"'for k,v in search_labels.items())
+  search=self.intro(u('search'),u('search_headline'),u('search_description'))+f'''<section class="section"><div class="wrap search-content"><form role="search" aria-label="{e(u('search_label'))}" action="{r('search')}" method="get" data-site-search {search_data}><label for="search-query">{e(u('search_label'))}</label><p id="search-hint" class="hint">{e(u('search_hint'))}</p><div class="search-controls"><input id="search-query" name="q" type="search" maxlength="160" required aria-describedby="search-hint"><button class="button" type="submit">{e(u('search_button'))}</button></div></form><noscript><p class="search-notice">{e(u('search_noscript'))} <a href="{r('insights')}">{e(u('insights'))}</a> · <a href="{r('resources')}">{e(u('resources'))}</a></p></noscript><p id="search-status" class="search-status" role="status" aria-atomic="true"></p><section id="search-results" aria-labelledby="search-results-heading" hidden><h2 id="search-results-heading">{e(u('search_results'))}</h2><ol class="search-results"></ol><button class="button button-secondary" id="search-more" type="button" hidden>{e(u('search_more'))}</button></section></div></section>'''
+  self.page('search',u('search_title'),u('search_meta'),search)
   language_tip=e(u('access_tip_language')).replace('English','<span lang="en">English</span>').replace('Español','<span lang="es">Español</span>')
   tips=''.join(f'<li>{e(u("access_tip_"+str(i)))}</li>'for i in range(1,6))+f'<li>{language_tip}</li>'
   access=self.intro(u('accessibility'),u('access_headline'),u('access_description'))+f'<section class="section"><div class="wrap prose"><h2>{e(u("access_target"))}</h2>{p(u("access_target_text"))}<h2>{e(u("using_site"))}</h2><ul>{tips}</ul><h2>{e(u("barrier"))}</h2><p>{e(u("barrier_before"))} {email} {e(u("or_call"))} {phone}. {e(u("barrier_after"))}</p></div></section>'
@@ -159,4 +165,8 @@ for page in pages:
  sitemap+='<url><loc>'+xml(origin+page['path'])+'</loc>'+''.join(f'<xhtml:link rel="alternate" hreflang="{c}" href="{xml(origin+route)}"/>'for c,route in page['alternates'].items())+f'<xhtml:link rel="alternate" hreflang="x-default" href="{xml(origin+page["alternates"]["en"])}"/></url>'
 (D/'sitemap.xml').write_text(sitemap+'</urlset>');(D/'robots.txt').write_text('User-agent: *\n'+('Allow: /\nSitemap: '+origin+'/sitemap.xml\n'if public else 'Disallow: /\n'))
 (ROOT/'docs/seo-inventory.json').write_text(json.dumps(pages,ensure_ascii=False,indent=2)+'\n');(ROOT/'docs/redirects.csv').write_text('old_path,new_path,required_status\n'+''.join('/'+old+','+site.r(key)+',301 or 308\n'for old,key in aliases.items()))
+# Cloudflare keeps using this command: a missing dependency or failed index is
+# a failed website build, never a successful release with an outdated search.
+subprocess.run(['node',str(ROOT/'scripts/build-search.mjs')],cwd=ROOT,check=True)
+subprocess.run(['node',str(ROOT/'scripts/verify-search.mjs')],cwd=ROOT,check=True)
 print(json.dumps({'pages':len(pages),'languages':list(locales),'aliases':len(aliases),'origin':origin,'public_indexing':public,'output':str(D)}))

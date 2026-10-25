@@ -90,7 +90,7 @@ for(const item of inventory){
  }
  const graph=JSON.parse(doc.querySelector('script[type="application/ld+json"]').textContent)['@graph'];
  assert.equal(graph.find(x=>x['@type']==='WebPage').inLanguage,locales[item.language].lang);
- assert(!doc.querySelector('form'));
+ assert.equal(doc.querySelectorAll('form').length,item.key==='search'?1:0,'Only the search page has a form');
  if(item.language==='es'){
   const text=doc.querySelector('main').textContent;
   for(const phrase of ['Our services','Meet the founders','Contact information','Skip to main content','Sources checked','Figure 1.','By Elevate Access'])assert(!text.includes(phrase),'English interface leak: '+phrase);

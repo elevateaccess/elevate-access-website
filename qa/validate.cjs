@@ -28,9 +28,9 @@ report.functional.push('Logo links retain clean accessible names while decorativ
  assert(doc.querySelector('main .contact-email').textContent==='info@elevateaccess.us');
  assert.equal(doc.querySelector('main a[href^="tel:"]').getAttribute('href'),'tel:+15102245251');
  d.window.close();
- for(const route of paths){const d=dom(route);assert(!/request a consultation/i.test(d.window.document.body.textContent));assert.equal(d.window.document.querySelectorAll('form').length,0);for(const email of d.window.document.querySelectorAll('.contact-email')){assert.equal(email.tagName,'A');assert.equal(email.getAttribute('href'),'mailto:info@elevateaccess.us');assert.equal(email.textContent,'info@elevateaccess.us');}d.window.close();}
+ for(const route of paths){const d=dom(route);assert(!/request a consultation/i.test(d.window.document.body.textContent));assert.equal(d.window.document.querySelectorAll('form').length,['/search/','/es/buscar/'].includes(route)?1:0);for(const email of d.window.document.querySelectorAll('.contact-email')){assert.equal(email.tagName,'A');assert.equal(email.getAttribute('href'),'mailto:info@elevateaccess.us');assert.equal(email.textContent,'info@elevateaccess.us');}d.window.close();}
  const founders=dom('/founders/');assert(founders.window.document.querySelector('main').textContent.includes('RESNA-certified Assistive Technology Professional since 2023'));founders.window.close();
- report.functional.push('Every displayed business email is an accurately named mailto link; contact phone is present; consultation requests and forms remain absent; Juanita certification states since 2023');
+ report.functional.push('Every displayed business email is an accurately named mailto link; contact phone is present; consultation requests and contact forms remain absent; Juanita certification states since 2023');
 }
 {
  const expected='https://www.facebook.com/profile.php?id=61594912121904';

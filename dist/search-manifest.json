@@ -1,0 +1,144 @@
+{
+  "version": "1.5.2",
+  "pages": [
+    {
+      "path": "/",
+      "language": "en",
+      "html_sha256": "d106880a417bd802d99974567ec9f517cfcba712e2a72831d4f41f40a4dd80b1"
+    },
+    {
+      "path": "/about/",
+      "language": "en",
+      "html_sha256": "c5761e3336caa21032fc0dae6baecd1f6611c3c1b77645fd9901719799ce67d3"
+    },
+    {
+      "path": "/accessibility/",
+      "language": "en",
+      "html_sha256": "5fda09a6dac61217f4fafe0d660a5ee991b02344e32d06eb8e5a42b208c57000"
+    },
+    {
+      "path": "/contact/",
+      "language": "en",
+      "html_sha256": "5ab8fe88879eba57be25f558cae731926c6250f0b84907e7e87ebbc6e06670f9"
+    },
+    {
+      "path": "/es/",
+      "language": "es",
+      "html_sha256": "2641360b1fe0638dca5c622d7543a4a918c8257e28ced9001393f0feedf07b3e"
+    },
+    {
+      "path": "/es/accesibilidad/",
+      "language": "es",
+      "html_sha256": "b9050060c69a213debd2028f838ba8272941925cb48b487d46d5050b1b2f6642"
+    },
+    {
+      "path": "/es/articulos/",
+      "language": "es",
+      "html_sha256": "f580d59359c2cff377d7956c31f7491c93c8e6d0ffde9ba15a0b91b43edaf31d"
+    },
+    {
+      "path": "/es/articulos/agentes-ia-independencia-digital/",
+      "language": "es",
+      "html_sha256": "05a73ef88dc67506d70038c718c6c374e34a8b4717f38529a7101cfef3909422"
+    },
+    {
+      "path": "/es/articulos/oferta-de-acceso-bart-aira/",
+      "language": "es",
+      "html_sha256": "70ffb6d032a632c81df75dbacbec079fd951267706c98aa56b7a33f8f286c7db"
+    },
+    {
+      "path": "/es/contacto/",
+      "language": "es",
+      "html_sha256": "50546c5be5ab3b87212076bfb2f9abe3775002d743237ffc13591455eee62cb0"
+    },
+    {
+      "path": "/es/fundadores/",
+      "language": "es",
+      "html_sha256": "6290e734395bdced0ae44706a11d8dfdae5b1cbc9f568510f837cce4bca8d73a"
+    },
+    {
+      "path": "/es/quienes-somos/",
+      "language": "es",
+      "html_sha256": "c76a3a7367a9cb420eb8d04cc3974823a5cdc1f23d9d52e6a08f7425c538f9c0"
+    },
+    {
+      "path": "/es/recursos/",
+      "language": "es",
+      "html_sha256": "defada2947fc301f6f773a8eb7c8d2a551a042d12d8b48a1bb668897e879bb85"
+    },
+    {
+      "path": "/es/servicios/",
+      "language": "es",
+      "html_sha256": "0c42a9faee96ae52f7ee2b4cb0277432fdc07f689b3d69648a550c6027ad7801"
+    },
+    {
+      "path": "/founders/",
+      "language": "en",
+      "html_sha256": "d0b7f070525bc117f8a0f2a40629858bc05a7d9d98264e24eb54cbd1169d787a"
+    },
+    {
+      "path": "/insights/",
+      "language": "en",
+      "html_sha256": "21796108058d3f390ffd77ba6e038c78cc7425f0a938837b3070a755091a044e"
+    },
+    {
+      "path": "/insights/ai-agents-digital-independence/",
+      "language": "en",
+      "html_sha256": "c8af26236800cbe98222bce7ff70539e6880e2c103d346aef5a3829e976b7952"
+    },
+    {
+      "path": "/insights/bart-aira-access-offer/",
+      "language": "en",
+      "html_sha256": "bc5c71808dec73a7711a7c5013527649e4c78b382d4faa6843f59e7f8b1d274e"
+    },
+    {
+      "path": "/resources/",
+      "language": "en",
+      "html_sha256": "8dee9d6909a94897ccc1957ef152ee0cd4d642b93dcc5b8cd39f0773d2ab4a34"
+    },
+    {
+      "path": "/services/",
+      "language": "en",
+      "html_sha256": "eab5f71e573a10b4288d3d0eb03c184529d6d1488acfab9fb5c0be3a2e76e959"
+    }
+  ],
+  "files": {
+    "fragment/en-us_1f8f41c.pf_fragment": "adb656e2e80b063ac949a25f37de592d8f876a0f4ec0fde45741eb47887bb3dc",
+    "fragment/en-us_2d95dae.pf_fragment": "2eb71df552d24acce35506bb352b82acd221239060261c15ae0cdb6890bad9c8",
+    "fragment/en-us_6de9f91.pf_fragment": "9fa92144250103fac58a65bd934200ceabd26b0438ffdba3688fec65ac815ac7",
+    "fragment/en-us_87cf919.pf_fragment": "d0e0b4b79a091116affbac34fce413653aedd227c370f72906d376248041475d",
+    "fragment/en-us_8d9b26a.pf_fragment": "2aa62715b8ebb0970a1abad6ed7afa757d8c8de20ad9e9bde56aa534df0b8c27",
+    "fragment/en-us_b12729d.pf_fragment": "ae650e47e1df016c8d39be4cddcbcb1d00d086bc357eccb810ef8fe737efc81f",
+    "fragment/en-us_b675ddd.pf_fragment": "3481bcefb5b7deed4a95cefc2bed6fd71a16f17b9b21aae4fd4637a128c998f5",
+    "fragment/en-us_bf3d90d.pf_fragment": "902528903ff2c3e7359ebc7c88ea35cb9ee02628b92e3b1a3b7a28c446b8ae73",
+    "fragment/en-us_d5d119e.pf_fragment": "f80d5dd8b79f85c4eb426df9637e0a7ca6908b7195f63731dd608f53b743c28a",
+    "fragment/en-us_f0d6ffb.pf_fragment": "29281fb924d4c86832f4186fec0a59310943685cc46d6f36ef43aad87b962698",
+    "fragment/es_1db2f83.pf_fragment": "45267c9a1528419b62b905e054c31f0f7bd7ddf8ba93ea2c0478d2a77d920bee",
+    "fragment/es_2c8ea82.pf_fragment": "f6f23d2d8cdb8c1b3493382a1051220089ed980a8885c7259e9b63debd479640",
+    "fragment/es_385ee08.pf_fragment": "711e6eb9b84fa3c4b55ad11019f4b0d64685994380df399209c05be2aa5d82bd",
+    "fragment/es_66914f2.pf_fragment": "c607b47e218404cef7edc37bd1581218e7460aedb0d19ed4e947f8cd7a688023",
+    "fragment/es_a2f988d.pf_fragment": "f557e47ed9febd0b9b00c81489281a7e1c73ff32f3c0e486f2575113227ed2da",
+    "fragment/es_a510c26.pf_fragment": "7fbd5c2d4172ed499d1d674fe76b74c1ede5c60e8f73c0aa5da98e1d29d7c648",
+    "fragment/es_a726a11.pf_fragment": "d51fafb46eb042cd45fd9b9c6094220c0055f0d781001b9e456444c83fa5c9f1",
+    "fragment/es_d1c996c.pf_fragment": "f117fe121f73c33832bfa6d35d188404ffa51d842fbbdfe547a970c940452882",
+    "fragment/es_d43e4b6.pf_fragment": "f598cc0b974139c565e664b17b7c056c3e2899d216a4ae5c28750c18cf798de9",
+    "fragment/es_f1b9dca.pf_fragment": "5442ecfb7ad0fb7aa12195cb1fd3576a1b1e5944c4019a319d0a0de04031158a",
+    "index/en-us_beadda4.pf_index": "8d0c07f451be5b1b5e5da95ced3843ad84c727dc947d21ad64f4a31dd83a78bf",
+    "index/es_6d7a334.pf_index": "cb1b8098f08a1a8f611be76189f78a92bd299b080d6b26c1abf0f173e99047f7",
+    "pagefind-component-ui.css": "de389c7e5d87d6e2b10d65fb1e36e8989a12a2ad8dd6239b7e070d81fb5d8b0d",
+    "pagefind-component-ui.js": "958620129dd14bd851805daeb12ce708bd63b9287325d1d5ae6f73a04d1723f8",
+    "pagefind-entry.json": "e5ff033899aa3ede4e5e6fedfb6ca9d535e05744c4455b53456734d30cc8a6ac",
+    "pagefind-highlight.js": "04741266a86911636cefc41c8b407e380dda99b7d208724f700f94cdf57e37b5",
+    "pagefind-modular-ui.css": "653ab29e4de5629f6ddf5f6fcdf5d2b3eb539a8c07fff8a56b8ce2156a570788",
+    "pagefind-modular-ui.js": "f3efa0f74b305ccab0bc9edc7c09ab69867180b4c43093d84bb9b508ac4ec32c",
+    "pagefind-ui.css": "e113b816110ed07b017613e901addfe635350f2a5b84990aa76c91a74b158084",
+    "pagefind-ui.js": "2efa93f2e80a199ca742a69bd4cfffabc5c591ebe7763f64f7c655fd00d2209f",
+    "pagefind-worker.js": "4ca50d25bcab9e1c3afbc00ab5f7761114e83c8fc1b83d38655af1558b650c2a",
+    "pagefind.en-us_7ef83cf322822.pf_meta": "75dd63b5880738dbc4041b96837b354a82dc018fc951f85a33fd92860659e9ef",
+    "pagefind.es_c8be832788.pf_meta": "106efa3871da5f91972c1941cc217a10c6028013f4b56e9d5c0c20211208815a",
+    "pagefind.js": "252d272bd34d483d19a752060f6a065114d15ab12c42d8f905ca565e2768a009",
+    "wasm.en-us.pagefind": "bb16c9e6d3d214d4d05cccca51df7b487b86b3657318da767f6ca9e0a2e7259d",
+    "wasm.es.pagefind": "c00d45e7242a60fc25bea534ddacea609cff5fd6138fb9f84194f7b68ed3ecfa",
+    "wasm.unknown.pagefind": "3a74cefceacd066e8d3bc8c52e7bc1c869544ca3d9031b44a9b7136356d5d7f4"
+  }
+}
