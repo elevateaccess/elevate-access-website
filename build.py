@@ -68,7 +68,7 @@ class Website:
   return f'<section class="cta dark"><div class="wrap"><div><h2>{e(u("cta_title"))}</h2>{p(u("cta_text"))}</div><address class="cta-contact"><p><strong>{e(u("email"))}</strong><br>{email}</p><p><strong>{e(u("phone"))}</strong><br>{phone}</p></address></div></section>'
  def service_area(self):
   u=self.u;area=self.C['service_area']
-  return f'<section class="section section-alt service-area" aria-labelledby="service-area-heading"><div class="wrap"><div class="section-head"><p class="eyebrow">{e(u("service_area_label"))}</p><h2 id="service-area-heading">{e(u("service_area_heading"))}</h2></div><div class="split"><div><h3>{e(u("service_area_local_heading"))}</h3>{p(area["local_text"])}</div><div><h3>{e(u("service_area_remote_heading"))}</h3>{p(area["remote_text"])}{p(area["inquiry_text"])}</div></div></div></section>'
+  return f'<section class="section section-alt service-area" aria-labelledby="service-area-heading"><div class="wrap"><div class="section-head"><p class="eyebrow">{e(u("service_area_label"))}</p><h2 id="service-area-heading">{e(u("service_area_heading"))}</h2></div><div class="narrow">{p(area["local_text"]+" "+area["remote_text"])}{p(area["inquiry_text"])}</div></div></section>'
  def portrait(self,f):
   i=f.get('portrait')
   if not i:return ''

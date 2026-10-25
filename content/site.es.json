@@ -123,11 +123,11 @@
     }
   ],
   "source_note": "Traducción al español del contenido aprobado en content/site.json. Se conservan los nombres, las credenciales, los datos de contacto, los servicios y los enlaces de las fuentes. Los títulos de las fuentes del artículo se presentan en español y remiten a los documentos originales.",
-  "translation_source_sha256": "526f5db9cf9692c3177e67b1e5d44bfc1a2b47ef2714edb2930cccdc5c28862e",
+  "translation_source_sha256": "28c40492279b8f45ff40e89d96007e36a252b178fa5ccff38d109f6b01e9d962",
   "service_area": {
-    "local_text": "Ofrecemos servicios presenciales y remotos de accesibilidad y tecnología de asistencia en San Francisco, Oakland, Berkeley, Vallejo y el condado de Marin.",
-    "remote_text": "También ofrecemos servicios remotos a clientes fuera del Área de la Bahía y del estado de California.",
-    "inquiry_text": "Contáctenos para conversar sobre sus necesidades, los horarios disponibles y los precios de nuestros servicios.",
+    "local_text": "Ofrecemos servicios presenciales de accesibilidad y tecnología de asistencia en San Francisco, Oakland, Berkeley, Vallejo y el condado de Marin.",
+    "remote_text": "Nuestros servicios remotos están disponibles en toda California y fuera del estado.",
+    "inquiry_text": "Contáctenos para hablar sobre sus necesidades, horarios y precios.",
     "schema_description": "Servicios presenciales y remotos en San Francisco, Oakland, Berkeley, Vallejo y el condado de Marin; servicios remotos también disponibles fuera del Área de la Bahía y de California."
   },
   "resources": {
