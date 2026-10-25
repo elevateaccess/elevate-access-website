@@ -122,9 +122,9 @@
   ],
   "source_note": "Content verified against the five main public pages at https://www.elevateaccess.us on 2026-10-19. Credentials and experience statements preserved as published, not independently certified. Service area and remote delivery beyond California confirmed directly by Fernando on 2026-10-20.",
   "service_area": {
-    "local_text": "We provide in-person and remote accessibility and assistive technology services in San Francisco, Oakland, Berkeley, Vallejo, and Marin County.",
-    "remote_text": "Remote services are also available to clients beyond the Bay Area and outside California.",
-    "inquiry_text": "Contact us to discuss your service needs, scheduling, and pricing.",
+    "local_text": "We provide in-person accessibility and assistive technology services in San Francisco, Oakland, Berkeley, Vallejo, and Marin County.",
+    "remote_text": "Remote services are available throughout California and beyond.",
+    "inquiry_text": "Contact us to discuss your needs, scheduling, and pricing.",
     "schema_description": "In-person and remote services in San Francisco, Oakland, Berkeley, Vallejo, and Marin County; remote services also available beyond the Bay Area and outside California."
   },
   "resources": {

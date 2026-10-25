@@ -143,9 +143,7 @@
       "return_home": "Return Home",
       "founders_nav": "Meet the Founders",
       "service_area_label": "Service area",
-      "service_area_heading": "Bay Area service. Remote support beyond.",
-      "service_area_local_heading": "In person and remotely",
-      "service_area_remote_heading": "Beyond our local service area",
+      "service_area_heading": "Serving the Bay Area and beyond",
       "resources": "Resources",
       "resources_title": "Resources | Elevate Access Solutions",
       "resources_meta": "Trusted resources for people who are blind or have low vision — getting started, work, technology, community, and reading — selected and annotated by Elevate Access Solutions.",
@@ -297,15 +295,13 @@
       "return_home": "Volver al inicio",
       "founders_nav": "Fundadores",
       "service_area_label": "Área de servicio",
-      "service_area_heading": "Servicios en el Área de la Bahía y atención remota en otras regiones.",
-      "service_area_local_heading": "Atención presencial y remota",
-      "service_area_remote_heading": "Fuera de nuestra área de atención presencial",
+      "service_area_heading": "Servicios en el Área de la Bahía y otras regiones",
       "resources": "Recursos",
       "resources_title": "Recursos | Elevate Access Solutions",
       "resources_meta": "Recursos confiables para personas ciegas o con baja visión — primeros pasos, empleo, tecnología, comunidad y lectura — seleccionados y anotados por Elevate Access Solutions.",
       "resources_headline": "Buenos recursos, en un solo lugar.",
       "resources_description": "Los recursos para personas ciegas o con baja visión están dispersos por todo internet. Hemos reunido en un solo lugar los que conocemos, usamos y recomendamos, organizados según lo que usted quiere hacer."
     },
-    "translation_source_ui_sha256": "00b3e9da66a56f98edfecb3856d8da4c9d05da885d4afa432b92af424c4c3d45"
+    "translation_source_ui_sha256": "5f21d36aaf602267ae5ed03d9c52d4fa90cb93200096a5f55e34750e08f648c3"
   }
 }
