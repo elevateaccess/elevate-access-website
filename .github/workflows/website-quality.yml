@@ -11,6 +11,7 @@ on:
 
 permissions:
   contents: read
+  checks: read
 
 concurrency:
   group: website-quality-${{ github.workflow }}-${{ github.ref }}
@@ -77,3 +78,8 @@ jobs:
 
       - name: Validate search coverage, behavior, accessibility, and failure guards
         run: node qa/search.cjs
+        env:
+          SEARCH_VERIFY_DEPLOYMENT: "1"
+          SEARCH_COMMIT: ${{ github.event.pull_request.head.sha || github.sha }}
+          SEARCH_REPOSITORY: ${{ github.repository }}
+          GITHUB_TOKEN: ${{ github.token }}

@@ -31,6 +31,13 @@ try {
     pages.push({ path: item.path, language: item.language, html_sha256: sha(html) });
   }
   requireSuccess(await index.writeFiles({ outputPath: output }));
+  // Pagefind's entry map order can vary across platforms. Normalize JSON
+  // before hashing so freshness checks compare content rather than key order.
+  const canonical = value => Array.isArray(value) ? value.map(canonical) : value && typeof value === 'object' ? Object.fromEntries(Object.keys(value).sort().map(k => [k, canonical(value[k])])) : value;
+  const entryPath = path.join(output, 'pagefind-entry.json');
+  const entry = readJSON(entryPath);
+  entry.include_characters?.sort();
+  fs.writeFileSync(entryPath, JSON.stringify(canonical(entry)));
   const walk = directory => fs.readdirSync(directory, { withFileTypes: true }).flatMap(entry => {
     const p = path.join(directory, entry.name);
     return entry.isDirectory() ? walk(p) : [p];
