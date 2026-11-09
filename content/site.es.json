@@ -218,7 +218,7 @@
     }
   ],
   "source_note": "Traducción al español del contenido aprobado en content/site.json. Se conservan los nombres, las credenciales, los datos de contacto, los servicios y los enlaces de las fuentes. Los títulos de las fuentes del artículo se presentan en español y remiten a los documentos originales.",
-  "translation_source_sha256": "33cca9bcccfa4906bee987d3c873c36dda6c80f26cccfab76c8b2cd9a8b05022",
+  "translation_source_sha256": "7f6498fbc0239114885eaa01a0b91c7e19a86cf99ef07f961fa9a8f5895b954c",
   "service_area": {
     "local_text": "Ofrecemos servicios presenciales de accesibilidad y tecnología de asistencia en San Francisco, Oakland, Berkeley, Vallejo y el condado de Marin.",
     "remote_text": "Nuestros servicios remotos están disponibles en toda California y fuera del estado.",
@@ -282,6 +282,11 @@
             "name": "AppleVis",
             "url": "https://www.applevis.com/",
             "note": "La comunidad de usuarios ciegos de Apple: reseñas de aplicaciones, guías paso a paso, pódcast y un foro donde ninguna pregunta es demasiado pequeña."
+          },
+          {
+            "name": "Accessible Android",
+            "url": "https://accessibleandroid.com/",
+            "note": "La comunidad para usuarios ciegos de Android: reseñas de aplicaciones probadas con TalkBack, guías prácticas y noticias, para comprobar si una aplicación funciona antes de instalarla."
           },
           {
             "name": "Be My Eyes",
