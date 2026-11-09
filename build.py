@@ -69,6 +69,20 @@ class Website:
  def service_area(self):
   u=self.u;area=self.C['service_area']
   return f'<section class="section section-alt service-area" aria-labelledby="service-area-heading"><div class="wrap"><div class="section-head"><p class="eyebrow">{e(u("service_area_label"))}</p><h2 id="service-area-heading">{e(u("service_area_heading"))}</h2></div><div class="narrow">{p(area["local_text"]+" "+area["remote_text"])}{p(area["inquiry_text"])}</div></div></section>'
+ def deliverables(self,s):
+  if 'deliverables'not in s:return ''
+  items=''.join(f'<li><strong>{e(d["lead"])}.</strong> {e(d["text"])}</li>'for d in s['deliverables'])
+  note=p(s['note'])if 'note'in s else ''
+  return f'<h3>{e(self.u("what_you_receive"))}</h3><ul class="deliverables">{items}</ul>'+note
+ def pathway(self):
+  pw=self.C.get('pathway')
+  if not pw:return ''
+  stages=''
+  for st in pw['stages']:
+   covers=''.join(f'<li>{e(t)}</li>'for t in st['covers'])
+   extra=f'<p><strong>{e(st["extra_label"])}:</strong> {e(st["extra"])}</p>'if 'extra_label'in st else ''
+   stages+=f'<section class="pathway-stage"><h3>{e(st["name"])}</h3><p><strong>{e(pw["who_label"])}:</strong> {e(st["who"])}</p><p><strong>{e(pw["covers_label"])}:</strong></p><ul>{covers}</ul><p><strong>{e(pw["outcome_label"])}:</strong> {e(st["outcome"])}</p>{extra}</section>'
+  return f'<section class="section pathway" aria-labelledby="pathway-heading"><div class="wrap"><div class="section-head"><h2 id="pathway-heading">{e(pw["heading"])}</h2>{p(pw["intro"],"lead")}</div>{stages}<div class="pathway-closing">{p(pw["closing"])}</div></div></section>'
  def portrait(self,f):
   i=f.get('portrait')
   if not i:return ''
@@ -114,8 +128,8 @@ class Website:
   founders=self.intro(u('founders'),u('founders_headline'),u('founders_description'))+f'<div class="section"><div class="wrap">{bios}</div></div><section class="section section-alt"><div class="wrap narrow"><p class="eyebrow">{e(u("shared_perspective"))}</p><h2>{e(u("experience_work"))}</h2>{p(u("founder_shared"))}{link(r("services"),u("explore_services"))}</div></section>'+self.cta()
   self.page('founders',u('founders_title'),u('founders_meta'),founders)
   subnav='<ul class="subnav">'+''.join(f'<li><a href="#{s["id"]}">{e(s["title"])}</a></li>'for s in services)+'</ul>'
-  details=''.join(f'<section class="service-detail" id="{s["id"]}" aria-labelledby="{s["id"]}-heading"><div><p class="eyebrow">0{i+1} / {e(u("our_services"))}</p><h2 id="{s["id"]}-heading">{e(s["title"])}</h2></div><div>{p(s["description"])}{link(r("contact"),u("ask_service",title=s["title"].lower()))}</div></section>'for i,s in enumerate(services))
-  servicepage=self.intro(u('services'),u('services_headline'),u('services_description'),subnav)+self.service_area()+f'<div class="section"><div class="wrap"><figure class="page-photo">{photo("services",u("services_alt"),998,666)}</figure>{details}</div></div>'+self.cta()
+  details=''.join(f'<section class="service-detail" id="{s["id"]}" aria-labelledby="{s["id"]}-heading"><div><p class="eyebrow">0{i+1} / {e(u("our_services"))}</p><h2 id="{s["id"]}-heading">{e(s["title"])}</h2></div><div>{p(s["description"])}{self.deliverables(s)}{link(r("contact"),u("ask_service",title=s["title"].lower()))}</div></section>'for i,s in enumerate(services))
+  servicepage=self.intro(u('services'),u('services_headline'),u('services_description'),subnav)+self.service_area()+self.pathway()+f'<div class="section"><div class="wrap"><figure class="page-photo">{photo("services",u("services_alt"),998,666)}</figure>{details}</div></div>'+self.cta()
   self.page('services',u('services_title'),u('services_meta'),servicepage)
   email,phone=self.contacts()
   contact=self.intro(u('contact'),u('contact_headline'),u('contact_description'))+f'''<section class="section"><div class="wrap split"><div><p class="eyebrow">{e(u('get_touch'))}</p><h2>{e(u('contact_goals'))}</h2>{p(u('contact_text'))}{link(r('services'),u('review_services'))}</div><section class="contact-details" aria-labelledby="contact-info-heading"><h2 id="contact-info-heading">{e(u('contact_information'))}</h2><div class="contact-method"><h3>{e(u('email'))}</h3><p>{email}</p>{p(u('email_hint'),'hint')}</div><div class="contact-method"><h3>{e(u('phone'))}</h3>{phone}</div><div class="contact-method"><h3>{e(u('follow'))}</h3>{link(self.B['facebook_url'],u('facebook'))}</div></section></div></section>'''

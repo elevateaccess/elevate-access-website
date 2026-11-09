@@ -166,7 +166,8 @@
       "search_count_one": "1 result found.",
       "search_count_many": "{count} results found.",
       "search_blank": "Enter a word or phrase to search.",
-      "search_noscript": "Search needs JavaScript. You can also browse our articles and resources:"
+      "search_noscript": "Search needs JavaScript. You can also browse our articles and resources:",
+      "what_you_receive": "What you receive"
     }
   },
   "es": {
@@ -336,8 +337,9 @@
       "search_count_one": "Se encontró 1 resultado.",
       "search_count_many": "Se encontraron {count} resultados.",
       "search_blank": "Escriba una palabra o frase para buscar.",
-      "search_noscript": "La búsqueda necesita JavaScript. También puede consultar nuestros artículos y recursos:"
+      "search_noscript": "La búsqueda necesita JavaScript. También puede consultar nuestros artículos y recursos:",
+      "what_you_receive": "Lo que recibe"
     },
-    "translation_source_ui_sha256": "109ef0929937946649b3d391ffad0181a1a1a7c606f0d9eae3ee9064bfe363b1"
+    "translation_source_ui_sha256": "587e2dbf6997c38e4d811f5ee913d04bee55fe5799a2e8e500ffe6ac0ba0020c"
   }
 }

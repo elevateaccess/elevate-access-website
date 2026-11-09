@@ -43,19 +43,114 @@
       "id": "assessments",
       "title": "Assessments",
       "description": "Our comprehensive access technology assessments identify the tools, features, and training strategies that best support each individual’s goals. We evaluate current skills, technology needs, work or educational demands, and accessibility preferences to develop clear, practical recommendations. Each assessment is designed to help clients, families, educators, employers, and rehabilitation professionals make informed decisions about assistive technology, training, and long-term support.",
-      "summary": "Clear recommendations informed by your skills, goals, technology needs, and everyday environment."
+      "summary": "Clear recommendations informed by your skills, goals, technology needs, and everyday environment.",
+      "deliverables": [
+        {
+          "lead": "A hands-on evaluation session",
+          "text": "You try real tasks with candidate technology in your real environment — home, workplace, school, or remote — so recommendations rest on what works for you, not on a showroom."
+        },
+        {
+          "lead": "A written assessment report",
+          "text": "It covers your goals in your words; a snapshot of your current skills and technology; what we observed during the evaluation, including what we tried and what did not work; our recommendations for software, hardware, settings, and accessibility features to enable; a recommended training plan; and your next steps, in order."
+        },
+        {
+          "lead": "A report you can share",
+          "text": "The report is written to be usable by the people around you — a rehabilitation counselor planning services, an IEP team, an employer arranging accommodations — as well as by you."
+        },
+        {
+          "lead": "A walkthrough conversation",
+          "text": "We go through the report with you, explain the reasoning in plain language, and answer questions."
+        }
+      ]
     },
     {
       "id": "training",
       "title": "Assistive Technology Training",
       "description": "Our assistive technology training helps individuals build the skills and confidence needed to use accessible technology effectively in everyday life, education, and employment. Training is personalized to each client’s goals and may include screen readers, magnification tools, smartphones, computers, braille displays, productivity software, and other accessibility solutions. Sessions are practical, hands-on, and paced to support lasting independence.",
-      "summary": "Practical, personalized instruction in screen readers, magnification, mobile accessibility, braille technology, and productivity tools."
+      "summary": "Practical, personalized instruction in screen readers, magnification, mobile accessibility, braille technology, and productivity tools.",
+      "deliverables": [
+        {
+          "lead": "A personalized training plan",
+          "text": "Your starting point is placed on our four-stage progression — Foundations, Everyday Fluency, Work, School, and Community and Personal Goals, and Advanced and Specialist — so you start where you actually are, skip what you already know, and can see what comes next."
+        },
+        {
+          "lead": "One-on-one sessions",
+          "text": "Training is one-on-one, and every session is tailored to your goals, your pace, and what you need to learn. Sessions can be virtual or in person, depending on what works best for you."
+        },
+        {
+          "lead": "Practice between sessions",
+          "text": "Practice tasks drawn from your own real life — your inbox, your bills, your job — plus notes from each session that you can return to."
+        },
+        {
+          "lead": "Progress reporting, when needed",
+          "text": "If a counselor or employer is involved in your training, we provide progress updates and a completion summary they can use."
+        }
+      ]
     },
     {
       "id": "workplace",
       "title": "Workplace Accessibility Consulting",
       "description": "Our workplace accessibility consulting services help organizations create more effective, inclusive, and sustainable work environments. We evaluate employee workflows, digital tools, and common workplace tasks to identify practical adjustments that improve visual comfort, efficiency, and performance. Recommendations may include display and contrast settings, text-size modifications, glare reduction, alternative software features, and targeted employee training. Each solution is designed to integrate smoothly into existing systems while supporting productivity, retention, and employee well-being.",
-      "summary": "Accessible workflows, digital tools, and practical adjustments that support inclusion and productivity at work."
+      "summary": "Accessible workflows, digital tools, and practical adjustments that support inclusion and productivity at work.",
+      "deliverables": [
+        {
+          "lead": "A workflow evaluation",
+          "text": "We look at the employee's actual work — the applications, documents, meetings, and environment — with the technology they use or will use."
+        },
+        {
+          "lead": "A written recommendations report",
+          "text": "The barriers we found and the adjustments we recommend — settings, software features, assistive technology, workflow changes — in priority order, written for HR and IT as well as the employee."
+        },
+        {
+          "lead": "Setup and configuration",
+          "text": "We configure the agreed adjustments on the employee's workstation and devices, so the plan works in practice, not just on paper."
+        },
+        {
+          "lead": "Training for the employee and the team",
+          "text": "Targeted training for the employee on their tools, plus a session for managers or teammates on working effectively together — what helps, what does not, and how to share documents and run meetings accessibly."
+        },
+        {
+          "lead": "A follow-up check-in",
+          "text": "A scheduled check-in after the changes have been lived with, to adjust settings and catch what only real work reveals."
+        }
+      ],
+      "note": "Engagements can cover a single phase, one complete engagement, or an ongoing accessibility partnership as your team changes."
+    },
+    {
+      "id": "web-accessibility-consulting",
+      "title": "Web Accessibility Consulting",
+      "description": "Our web accessibility consulting services help organizations make their websites and web applications usable by everyone, including visitors who rely on screen readers, magnification, or a keyboard alone. We evaluate your site against the Web Content Accessibility Guidelines (WCAG) 2.2 AA, combining automated scanning, manual review, and hands-on testing with the assistive technology your visitors actually use. Each engagement produces a written report of the barriers we find and the guideline each one fails, specific fixes your developers can act on, and a verification retest once those fixes are in place, so your organization ends with a website its whole audience can use and documentation to show for it.",
+      "summary": "WCAG 2.2 AA audits with a written findings report, specific fixes for your developers, and a verification retest.",
+      "deliverables": [
+        {
+          "lead": "Accessibility audit report",
+          "text": "Every barrier we find, listed with the page and element where it occurs, the WCAG criterion it fails, its severity, and what it does to a visitor using assistive technology."
+        },
+        {
+          "lead": "Remediation guide",
+          "text": "Specific, code-level recommended fixes — HTML, ARIA, CSS, and JavaScript — that your developers can implement directly, written for the way your site is actually built."
+        },
+        {
+          "lead": "Priority roadmap",
+          "text": "The findings in the order to fix them, ranked by impact on users and compliance risk, so your team can plan the work in stages."
+        },
+        {
+          "lead": "Verification retest",
+          "text": "Once fixes are in place, we retest the same pages and components and issue an updated report confirming what now passes and what remains."
+        },
+        {
+          "lead": "Accessibility Conformance Report (ACR)",
+          "text": "A completed conformance document based on the VPAT template and our audit results, of the kind procurement and compliance teams ask for."
+        },
+        {
+          "lead": "Accessibility statement",
+          "text": "A public statement for your website describing your accessibility commitment and the state of the site, drafted from the audit."
+        },
+        {
+          "lead": "Team training (optional)",
+          "text": "A working session for your developers, designers, or content authors on keeping the site accessible as it changes."
+        }
+      ]
     }
   ],
   "founders": [
@@ -231,5 +326,73 @@
       }
     ],
     "outro": "Have a resource to recommend or a broken link to report? Email us at info@elevateaccess.us."
+  },
+  "pathway": {
+    "heading": "Your pathway: four stages of training",
+    "intro": "Training at Elevate Access is one-on-one and built around your goals — but it is not improvised. Most clients travel some part of the same road: getting comfortable with a first device, becoming fluent in everyday tasks, and then doing serious work or study. The stages below show that road. Your assessment places you on it; you start where you actually are, skip what you already know, and move at your pace.",
+    "who_label": "Who this stage is for",
+    "covers_label": "What it covers",
+    "outcome_label": "By the end of this stage you can",
+    "stages": [
+      {
+        "name": "Stage 1 — Foundations",
+        "who": "You are new to assistive technology, newly losing vision, or starting over on a new device.",
+        "covers": [
+          "Setting up your device and accessibility settings — display, text size, speech rate, contrast",
+          "Meeting your screen reader: JAWS or NVDA on Windows, VoiceOver on iPhone, iPad, and Mac, TalkBack on Android; ZoomText or Fusion if you use remaining vision",
+          "The core keystrokes and gestures: moving, reading, stopping, going back",
+          "Keyboard confidence and typing, for computer users",
+          "Calls, messages, contacts, and email basics",
+          "Asking your device for help: Siri, Google Assistant, and built-in help and tutorials"
+        ],
+        "outcome": "turn on your device and get around it without sighted help; make and answer calls and messages; read and send simple email; and adjust your screen reader's voice and speed to your liking.",
+        "extra_label": "The tools we train on",
+        "extra": "we offer hands-on training on the major screen readers — JAWS, NVDA, and Narrator on Windows, and VoiceOver on Mac — and practical work with low-vision tools, including Apple's built-in low-vision features, ZoomText, and Windows Magnifier, focused on the tasks you do at work, school, or home."
+      },
+      {
+        "name": "Stage 2 — Everyday Fluency",
+        "who": "You have the basics and want your technology to carry daily life, not just demos.",
+        "covers": [
+          "Web browsing with confidence: headings, links, forms, and shopping carts that fight back",
+          "Email in depth: folders, attachments, searching",
+          "Writing and reading documents — Word, Google Docs",
+          "Files and folders, and keeping them straight; cloud storage — OneDrive, Google Drive, Dropbox",
+          "Everyday apps: banking, transit and rides, shopping, patient portals, library and reading apps",
+          "Reading print with your phone: OCR and seeing apps such as Seeing AI and Be My Eyes",
+          "Video calls and meetings — Zoom, FaceTime, Google Meet",
+          "A refreshable braille display paired with your phone or computer, if braille is part of your toolkit"
+        ],
+        "outcome": "handle your own banking, appointments, shopping, and correspondence; join a video call without assistance; find, save, and send documents; and read your own mail and labels."
+      },
+      {
+        "name": "Stage 3 — Work, School, and Community and Personal Goals",
+        "who": "You are employed, job hunting, or studying, and your technology has to keep up with other people's deadlines — or you are running a household, volunteering, or pursuing your own projects and goals, and your technology has to keep up with your life. This stage is not only for people with a job or a class.",
+        "covers": [
+          "Microsoft 365 with a screen reader: Word in depth — styles, headings, tables, Track Changes; Outlook — mail, calendar, meetings; Excel — navigation, entering and reading data, formulas; PowerPoint basics",
+          "Google Workspace: Docs, Sheets, Gmail, Drive sharing and collaboration",
+          "Meetings like a professional: Zoom and Microsoft Teams — joining, presenting, chat, and screen-sharing etiquette with a screen reader",
+          "Workplace files and workflows: shared drives, PDFs — reading them, and what to do when one is inaccessible",
+          "Dragon speech recognition, for writing when typing is slow or painful",
+          "Braille displays for work: reading, note-taking, and presenting",
+          "Job search skills: accessible job boards, applications, and interview technology checks",
+          "Community and personal projects: volunteering, community and faith groups, hobbies, and running a household — the schedules, documents, and communication they involve"
+        ],
+        "outcome": "produce formatted, professional documents; run your calendar and inbox; take part in meetings on equal footing; work in shared files with sighted colleagues; and troubleshoot the routine problems instead of waiting for help."
+      },
+      {
+        "name": "Stage 4 — Advanced and Specialist",
+        "who": "Experienced users who want speed, depth, or a new specialty — including professionals.",
+        "covers": [
+          "Advanced documents: long reports with headings, tables of contents, footnotes, and citations",
+          "Excel beyond the basics: formulas, sorting and filtering, charts described and checked",
+          "Screen reader power settings: customizing JAWS, NVDA, or VoiceOver; speech and braille settings per task",
+          "Working across devices: phone, computer, and braille display as one system",
+          "Update and upgrade training: what changes when your software, phone, or operating system does — new versions of JAWS, iOS, Windows, Microsoft 365",
+          "Specialist topics by request — for example, audio tools, smart home devices, or advanced web tasks"
+        ],
+        "outcome": "work at professional speed in your main applications; adapt when your tools update instead of being derailed by them; and solve most of your own technology problems — and know exactly what to ask us when you cannot."
+      }
+    ],
+    "closing": "Sessions are one-on-one, virtual or in person depending on what works best for you, and every session is tailored to your goals, your pace, and what you need to learn. Between sessions you get practice tasks drawn from your own real life — your inbox, your bills, your job — and notes you can return to. When needed, we provide progress updates and a completion summary for a counselor or employer involved in your training."
   }
 }
