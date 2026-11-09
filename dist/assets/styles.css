@@ -58,3 +58,10 @@ html:not(.js) .dark :focus-visible,html:not(.js) .site-header :focus-visible,htm
 .search-content{max-width:54rem}.search-content label{display:block;font-weight:700;font-size:1.2rem;margin-bottom:.4rem}.search-controls{display:flex;gap:1rem;align-items:stretch}.search-controls input{width:100%;min-width:0;min-height:48px;padding:.7rem .85rem;border:2px solid var(--muted);border-radius:var(--button-radius);background:var(--paper);color:var(--ink)}.search-controls .button{flex-shrink:0}.search-status{margin-block:1.75rem}.search-status:empty{margin:0}.search-results{padding:0;list-style:none}.search-results li{padding-block:1.75rem;border-top:1px solid var(--line)}.search-results h3{font-size:1.4rem;line-height:1.35;margin-bottom:.75rem}.search-results p{color:var(--muted)}.search-results mark{background:#dcebf5;color:#0D1B2A;font-weight:700}.search-notice{margin-top:1.5rem}
 @media(max-width:30rem){.search-controls{flex-direction:column}.search-controls .button{width:100%}}
 @media(forced-colors:active){.search-controls input{border-color:CanvasText}.search-results mark{background:Highlight;color:HighlightText}}
+.deliverables{padding-left:1.2rem;margin-bottom:1.2rem}
+.deliverables li{padding-left:.3rem}
+.service-detail h3{margin-top:1.5rem}
+.pathway-stage{border-top:1px solid var(--line);padding-block:2rem}
+.pathway-stage ul{padding-left:1.2rem}
+.pathway-stage li{padding-left:.3rem}
+.pathway-closing{border-top:1px solid var(--line);padding-top:2rem;max-width:68ch}

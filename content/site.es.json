@@ -43,19 +43,114 @@
       "id": "assessments",
       "title": "Evaluaciones",
       "description": "Nuestras evaluaciones integrales de tecnología de acceso identifican las herramientas, las funciones y las estrategias de capacitación que mejor apoyan los objetivos de cada persona. Evaluamos las habilidades actuales, las necesidades tecnológicas, las exigencias laborales o educativas y las preferencias de accesibilidad para desarrollar recomendaciones claras y prácticas. Cada evaluación está diseñada para ayudar a clientes, familias, educadores, empleadores y profesionales de rehabilitación a tomar decisiones informadas sobre tecnología de asistencia, capacitación y apoyo a largo plazo.",
-      "summary": "Recomendaciones claras basadas en sus habilidades, objetivos, necesidades tecnológicas y entorno cotidiano."
+      "summary": "Recomendaciones claras basadas en sus habilidades, objetivos, necesidades tecnológicas y entorno cotidiano.",
+      "deliverables": [
+        {
+          "lead": "Una sesión práctica de evaluación",
+          "text": "Usted prueba tareas reales con tecnología candidata en su entorno real — su hogar, su lugar de trabajo, su escuela o a distancia — para que las recomendaciones se basen en lo que funciona para usted, no en una sala de exhibición."
+        },
+        {
+          "lead": "Un informe escrito de evaluación",
+          "text": "Cubre sus objetivos en sus propias palabras; una descripción de sus habilidades y tecnología actuales; lo que observamos durante la evaluación, incluido lo que probamos y lo que no funcionó; nuestras recomendaciones de software, hardware, ajustes y funciones de accesibilidad para activar; un plan de capacitación recomendado; y sus próximos pasos, en orden."
+        },
+        {
+          "lead": "Un informe que puede compartir",
+          "text": "El informe está redactado para que puedan utilizarlo las personas que le rodean — un consejero de rehabilitación que planifica servicios, un equipo de IEP, un empleador que organiza adaptaciones — y también usted."
+        },
+        {
+          "lead": "Una conversación de revisión",
+          "text": "Revisamos el informe con usted, le explicamos el razonamiento en lenguaje claro y respondemos a sus preguntas."
+        }
+      ]
     },
     {
       "id": "training",
       "title": "Capacitación en tecnología de asistencia",
       "description": "Nuestra capacitación en tecnología de asistencia ayuda a las personas a desarrollar las habilidades y la confianza necesarias para utilizar tecnología accesible de manera eficaz en la vida diaria, la educación y el empleo. La capacitación se adapta a los objetivos de cada cliente y puede incluir lectores de pantalla, herramientas de ampliación, teléfonos inteligentes, computadoras, líneas braille, software de productividad y otras soluciones de accesibilidad. Las sesiones son prácticas, incluyen ejercicios y avanzan a un ritmo que favorece una independencia duradera.",
-      "summary": "Enseñanza práctica y personalizada sobre lectores de pantalla, ampliación, accesibilidad móvil, tecnología braille y herramientas de productividad."
+      "summary": "Enseñanza práctica y personalizada sobre lectores de pantalla, ampliación, accesibilidad móvil, tecnología braille y herramientas de productividad.",
+      "deliverables": [
+        {
+          "lead": "Un plan de capacitación personalizado",
+          "text": "Su punto de partida se ubica en nuestra progresión de cuatro etapas — Fundamentos, Fluidez cotidiana, Trabajo, escuela y objetivos comunitarios y personales, y Avanzado y especializado — para que empiece donde realmente está, omita lo que ya sabe y pueda ver lo que sigue."
+        },
+        {
+          "lead": "Sesiones individuales",
+          "text": "La capacitación es individual, y cada sesión se adapta a sus objetivos, a su ritmo y a lo que necesita aprender. Las sesiones pueden ser virtuales o en persona, según lo que funcione mejor para usted."
+        },
+        {
+          "lead": "Práctica entre sesiones",
+          "text": "Tareas de práctica tomadas de su propia vida real — su correo, sus facturas, su trabajo — y notas de cada sesión a las que puede volver."
+        },
+        {
+          "lead": "Informes de progreso, cuando se necesiten",
+          "text": "Si un consejero o un empleador participa en su capacitación, proporcionamos informes de progreso y un resumen de finalización que pueden utilizar."
+        }
+      ]
     },
     {
       "id": "workplace",
       "title": "Consultoría en accesibilidad laboral",
       "description": "Nuestros servicios de consultoría en accesibilidad laboral ayudan a las organizaciones a crear entornos de trabajo más eficaces, inclusivos y sostenibles. Evaluamos los procesos de trabajo del personal, las herramientas digitales y las tareas habituales para identificar ajustes prácticos que mejoren la comodidad visual, la eficiencia y el desempeño. Las recomendaciones pueden incluir ajustes de pantalla y contraste, cambios en el tamaño del texto, reducción de reflejos, funciones alternativas del software y capacitación específica para el personal. Cada solución está diseñada para integrarse de manera fluida en los sistemas existentes y favorecer la productividad, la retención y el bienestar del personal.",
-      "summary": "Procesos accesibles, herramientas digitales y ajustes prácticos que favorecen la inclusión y la productividad en el trabajo."
+      "summary": "Procesos accesibles, herramientas digitales y ajustes prácticos que favorecen la inclusión y la productividad en el trabajo.",
+      "deliverables": [
+        {
+          "lead": "Una evaluación del proceso de trabajo",
+          "text": "Examinamos el trabajo real de la persona empleada — las aplicaciones, los documentos, las reuniones y el entorno — con la tecnología que utiliza o utilizará."
+        },
+        {
+          "lead": "Un informe escrito de recomendaciones",
+          "text": "Las barreras que encontramos y los ajustes que recomendamos — ajustes, funciones del software, tecnología de asistencia, cambios en el proceso de trabajo — en orden de prioridad, redactado para recursos humanos y tecnología de la información, así como para la persona empleada."
+        },
+        {
+          "lead": "Instalación y configuración",
+          "text": "Configuramos los ajustes acordados en la estación de trabajo y los dispositivos de la persona empleada, para que el plan funcione en la práctica, no solo en el papel."
+        },
+        {
+          "lead": "Capacitación para la persona empleada y para el equipo",
+          "text": "Capacitación específica para la persona empleada sobre sus herramientas, y una sesión para gerentes o compañeros sobre cómo trabajar bien en equipo: qué ayuda, qué no ayuda y cómo compartir documentos y dirigir reuniones de forma accesible."
+        },
+        {
+          "lead": "Una revisión de seguimiento",
+          "text": "Una revisión programada después de que los cambios se hayan vivido, para ajustar la configuración y detectar lo que solo revela el trabajo real."
+        }
+      ],
+      "note": "Los proyectos pueden abarcar una sola fase, un proyecto completo o una colaboración continua en accesibilidad a medida que su equipo cambia."
+    },
+    {
+      "id": "web-accessibility-consulting",
+      "title": "Consultoría en accesibilidad web",
+      "description": "Nuestros servicios de consultoría en accesibilidad web ayudan a las organizaciones a hacer que sus sitios web y aplicaciones web sean utilizables por todas las personas, incluidas las que dependen de lectores de pantalla, ampliación o solo del teclado. Evaluamos su sitio conforme a las Pautas de Accesibilidad para el Contenido Web (WCAG) 2.2 AA, combinando análisis automatizado, revisión manual y pruebas prácticas con la tecnología de asistencia que sus visitantes utilizan realmente. Cada proyecto produce un informe escrito de las barreras que encontramos y la pauta que incumple cada una, correcciones específicas que sus desarrolladores pueden aplicar y una nueva prueba de verificación una vez aplicadas esas correcciones, de modo que su organización termina con un sitio web que toda su audiencia puede usar y con la documentación que lo demuestra.",
+      "summary": "Auditorías WCAG 2.2 AA con un informe escrito de hallazgos, correcciones específicas para sus desarrolladores y una nueva prueba de verificación.",
+      "deliverables": [
+        {
+          "lead": "Informe de auditoría de accesibilidad",
+          "text": "Cada barrera que encontramos, enumerada con la página y el elemento donde aparece, el criterio de WCAG que incumple, su gravedad y lo que le hace a un visitante que utiliza tecnología de asistencia."
+        },
+        {
+          "lead": "Guía de corrección",
+          "text": "Correcciones recomendadas específicas, a nivel de código — HTML, ARIA, CSS y JavaScript — que sus desarrolladores pueden implementar directamente, redactadas según la manera en que su sitio está construido realmente."
+        },
+        {
+          "lead": "Hoja de ruta de prioridades",
+          "text": "Los hallazgos en el orden en que deben corregirse, clasificados por su impacto en los usuarios y el riesgo de cumplimiento, para que su equipo pueda planificar el trabajo por etapas."
+        },
+        {
+          "lead": "Nueva prueba de verificación",
+          "text": "Una vez aplicadas las correcciones, volvemos a probar las mismas páginas y componentes y emitimos un informe actualizado que confirma lo que ya cumple y lo que queda pendiente."
+        },
+        {
+          "lead": "Informe de conformidad de accesibilidad (ACR)",
+          "text": "Un documento de conformidad completo, basado en la plantilla VPAT y en los resultados de nuestra auditoría, del tipo que solicitan los equipos de adquisiciones y cumplimiento."
+        },
+        {
+          "lead": "Declaración de accesibilidad",
+          "text": "Una declaración pública para su sitio web que describe su compromiso con la accesibilidad y el estado del sitio, redactada a partir de la auditoría."
+        },
+        {
+          "lead": "Capacitación para su equipo (opcional)",
+          "text": "Una sesión de trabajo para sus desarrolladores, diseñadores o autores de contenido sobre cómo mantener la accesibilidad del sitio a medida que cambia."
+        }
+      ]
     }
   ],
   "founders": [
@@ -123,7 +218,7 @@
     }
   ],
   "source_note": "Traducción al español del contenido aprobado en content/site.json. Se conservan los nombres, las credenciales, los datos de contacto, los servicios y los enlaces de las fuentes. Los títulos de las fuentes del artículo se presentan en español y remiten a los documentos originales.",
-  "translation_source_sha256": "28c40492279b8f45ff40e89d96007e36a252b178fa5ccff38d109f6b01e9d962",
+  "translation_source_sha256": "f62470cce6d19851346bf86f6972cb478fde468bc2cb95b4b7d8e4ac9d426649",
   "service_area": {
     "local_text": "Ofrecemos servicios presenciales de accesibilidad y tecnología de asistencia en San Francisco, Oakland, Berkeley, Vallejo y el condado de Marin.",
     "remote_text": "Nuestros servicios remotos están disponibles en toda California y fuera del estado.",
@@ -234,5 +329,73 @@
       }
     ],
     "outro": "¿Quiere recomendar un recurso o informar de un enlace que no funciona? Escríbanos a info@elevateaccess.us."
+  },
+  "pathway": {
+    "heading": "Su camino: cuatro etapas de capacitación",
+    "intro": "La capacitación en Elevate Access es individual y se construye en torno a sus objetivos, pero no es improvisada. La mayoría de los clientes recorre parte del mismo camino: sentirse cómodo con un primer dispositivo, adquirir fluidez en las tareas cotidianas y luego hacer trabajo o estudio serio. Las etapas siguientes muestran ese camino. Su evaluación le ubica en él; usted empieza donde realmente está, omite lo que ya sabe y avanza a su ritmo.",
+    "who_label": "Para quién es esta etapa",
+    "covers_label": "Lo que abarca",
+    "outcome_label": "Al final de esta etapa, usted puede",
+    "stages": [
+      {
+        "name": "Etapa 1 — Fundamentos",
+        "who": "Usted es nuevo en la tecnología de asistencia, está perdiendo la visión recientemente o empieza de nuevo con un dispositivo nuevo.",
+        "covers": [
+          "Configurar su dispositivo y los ajustes de accesibilidad: pantalla, tamaño del texto, velocidad de la voz, contraste",
+          "Conocer su lector de pantalla: JAWS o NVDA en Windows, VoiceOver en iPhone, iPad y Mac, TalkBack en Android; ZoomText o Fusion si utiliza la visión que le queda",
+          "Las pulsaciones y los gestos básicos: moverse, leer, detenerse, volver atrás",
+          "Confianza con el teclado y la escritura, para quienes usan computadoras",
+          "Llamadas, mensajes, contactos y nociones básicas de correo electrónico",
+          "Pedir ayuda a su dispositivo: Siri, el Asistente de Google y la ayuda y los tutoriales integrados"
+        ],
+        "outcome": "encender su dispositivo y manejarlo sin ayuda de una persona vidente; hacer y responder llamadas y mensajes; leer y enviar correos electrónicos sencillos; y ajustar la voz y la velocidad de su lector de pantalla a su gusto.",
+        "extra_label": "Las herramientas con las que capacitamos",
+        "extra": "ofrecemos capacitación práctica en los principales lectores de pantalla — JAWS, NVDA y Narrator en Windows, y VoiceOver en Mac — y trabajo práctico con herramientas para baja visión, incluidas las funciones integradas de baja visión de Apple, ZoomText y la Lupa de Windows, centrada en las tareas que usted hace en el trabajo, la escuela o el hogar."
+      },
+      {
+        "name": "Etapa 2 — Fluidez cotidiana",
+        "who": "Usted ya tiene las nociones básicas y quiere que su tecnología sostenga su vida diaria, no solo demostraciones.",
+        "covers": [
+          "Navegar por la web con confianza: encabezados, enlaces, formularios y carritos de compras que se resisten",
+          "Correo electrónico a fondo: carpetas, archivos adjuntos, búsquedas",
+          "Escribir y leer documentos: Word, Google Docs",
+          "Archivos y carpetas, y mantenerlos en orden; almacenamiento en la nube: OneDrive, Google Drive, Dropbox",
+          "Aplicaciones cotidianas: banca, transporte y viajes, compras, portales de pacientes, aplicaciones de bibliotecas y lectura",
+          "Leer texto impreso con su teléfono: OCR y aplicaciones de visión, como Seeing AI y Be My Eyes",
+          "Videollamadas y reuniones: Zoom, FaceTime, Google Meet",
+          "Una línea braille actualizable conectada a su teléfono o computadora, si el braille forma parte de sus herramientas"
+        ],
+        "outcome": "gestionar su propia banca, citas, compras y correspondencia; participar en una videollamada sin ayuda; encontrar, guardar y enviar documentos; y leer su propio correo y sus etiquetas."
+      },
+      {
+        "name": "Etapa 3 — Trabajo, escuela y objetivos comunitarios y personales",
+        "who": "Usted tiene un empleo, busca trabajo o estudia, y su tecnología tiene que seguir el ritmo de los plazos de otras personas; o usted lleva una casa, hace voluntariado o persigue sus propios proyectos y objetivos, y su tecnología tiene que seguir el ritmo de su vida. Esta etapa no es solo para personas con un empleo o una clase.",
+        "covers": [
+          "Microsoft 365 con un lector de pantalla: Word a fondo — estilos, encabezados, tablas, control de cambios; Outlook — correo, calendario, reuniones; Excel — navegación, ingreso y lectura de datos, fórmulas; nociones básicas de PowerPoint",
+          "Google Workspace: Docs, Sheets, Gmail, uso compartido y colaboración en Drive",
+          "Reuniones como un profesional: Zoom y Microsoft Teams — unirse, presentar, usar el chat y compartir pantalla con un lector de pantalla",
+          "Archivos y procesos del lugar de trabajo: unidades compartidas, PDF — leerlos y qué hacer cuando uno no es accesible",
+          "Reconocimiento de voz Dragon, para escribir cuando teclear es lento o doloroso",
+          "Líneas braille para el trabajo: leer, tomar notas y presentar",
+          "Habilidades para buscar empleo: portales de empleo accesibles, solicitudes y revisiones de la tecnología para entrevistas",
+          "Proyectos comunitarios y personales: voluntariado, grupos comunitarios y de fe, pasatiempos y llevar una casa — los horarios, los documentos y la comunicación que implican"
+        ],
+        "outcome": "producir documentos profesionales con formato; gestionar su calendario y su correo; participar en reuniones en igualdad de condiciones; trabajar en archivos compartidos con colegas videntes; y resolver los problemas habituales en lugar de esperar ayuda."
+      },
+      {
+        "name": "Etapa 4 — Avanzado y especializado",
+        "who": "Usted es un usuario con experiencia que busca velocidad, profundidad o una nueva especialidad, incluidos los profesionales.",
+        "covers": [
+          "Documentos avanzados: informes largos con encabezados, tablas de contenido, notas al pie y citas",
+          "Excel más allá de lo básico: fórmulas, ordenación y filtrado, gráficos descritos y verificados",
+          "Ajustes avanzados del lector de pantalla: personalizar JAWS, NVDA o VoiceOver; ajustes de voz y braille según la tarea",
+          "Trabajar entre dispositivos: teléfono, computadora y línea braille como un solo sistema",
+          "Capacitación ante actualizaciones: lo que cambia cuando cambia su software, su teléfono o su sistema operativo — nuevas versiones de JAWS, iOS, Windows, Microsoft 365",
+          "Temas especializados a petición — por ejemplo, herramientas de audio, dispositivos de hogar inteligente o tareas web avanzadas"
+        ],
+        "outcome": "trabajar a velocidad profesional en sus aplicaciones principales; adaptarse cuando sus herramientas se actualizan en lugar de descarrilarse por ello; y resolver la mayoría de sus propios problemas de tecnología — y saber exactamente qué preguntarnos cuando no pueda."
+      }
+    ],
+    "closing": "Las sesiones son individuales, virtuales o en persona según lo que funcione mejor para usted, y cada sesión se adapta a sus objetivos, a su ritmo y a lo que necesita aprender. Entre sesiones, usted recibe tareas de práctica tomadas de su propia vida real — su correo, sus facturas, su trabajo — y notas a las que puede volver. Cuando se necesite, proporcionamos informes de progreso y un resumen de finalización para un consejero o empleador que participe en su capacitación."
   }
 }

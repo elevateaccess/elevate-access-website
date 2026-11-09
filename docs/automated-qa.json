@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-25T16:21:53.649Z",
+  "date": "2026-11-09T05:42:48.785Z",
   "scope": "Static markup and emulated DOM only. No real-browser layout, contrast inference, keyboard system integration, or assistive technology testing.",
   "markup": [
     {
@@ -318,7 +318,7 @@
     "Input-aware focus styling, mobile menu toggle state, Escape close, and return focus passed in emulated DOM",
     "Every displayed business email is an accurately named mailto link; contact phone is present; consultation requests and contact forms remain absent; Juanita certification states since 2023",
     "Facebook footer links on every main page and the Contact page link use the exact user-provided page ID, clear names, and no sharing parameter",
-    "560 internal link and fragment references, 64 local image references, unique IDs and titles, heading hierarchy, metadata, structured data, indexing controls, exact preservation of service descriptions and biographies, and 2 published article checks passed",
+    "566 internal link and fragment references, 64 local image references, unique IDs and titles, heading hierarchy, metadata, structured data, indexing controls, exact preservation of service descriptions and biographies, and 2 published article checks passed",
     "All 19 declared design-token contrast pairs meet stated text or nontext thresholds; this is a calculation, not rendered-page contrast coverage"
   ],
   "versions": {
