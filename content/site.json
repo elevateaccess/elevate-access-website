@@ -247,6 +247,11 @@
             "name": "Aftersight White Cane Project",
             "url": "https://aftersight.org/white-cane-project/",
             "note": "Free white canes for people who are blind or have low vision — if you live in the United States and haven't received one from Aftersight in the past year, you can request a cane at no cost."
+          },
+          {
+            "name": "NFB Tools for Independence",
+            "url": "https://nfb.org/programs-services/tools-for-independence",
+            "note": "A free straight long white cane from the National Federation of the Blind — you can request one every six months. The same page offers a free slate and stylus."
           }
         ]
       },
@@ -294,6 +299,11 @@
             "name": "Aira",
             "url": "https://aira.io/",
             "note": "Trained visual interpreters on demand, by subscription — and covered free at many airports, stores, and campuses."
+          },
+          {
+            "name": "U.S. Currency Reader Program",
+            "url": "https://www.bep.gov/services/currency-accessibility/us-currency-reader-program/us-currency-reader-program-faqs",
+            "note": "A free iBill Talking Banknote Identifier from the Bureau of Engraving and Printing — it announces U.S. bill denominations by voice, tones, or vibration. Apply by mail and allow up to eight weeks."
           }
         ]
       },
@@ -331,6 +341,63 @@
             "name": "NFB-NEWSLINE",
             "url": "https://nfb.org/programs-services/nfb-newsline",
             "note": "Newspapers, magazines, and TV listings in audio and braille — free by phone, app, or email for registered readers."
+          }
+        ]
+      },
+      {
+        "id": "blind-parents",
+        "title": "Blind Parents",
+        "items": [
+          {
+            "name": "APH Braille Tales",
+            "url": "https://www.aph.org/braille-tales/",
+            "note": "Free print/braille picture books for young children whose parents are blind or have low vision and use braille — about six books a year until your child turns 6, so you can read together."
+          },
+          {
+            "name": "Children's Braille Book Club — National Braille Press",
+            "url": "https://info.nbp.org/cbbc-info",
+            "note": "A monthly print/braille picture book for preschool through grade 3. A free tier covers blind parents and guardians with children from birth to age 10 — check the site for the current sign-up round."
+          },
+          {
+            "name": "NFB Blind Parents",
+            "url": "https://nfb.org/our-community/blind-parents",
+            "note": "The National Federation of the Blind's community for blind parents — a support group and mailing list, a mentoring program pairing new blind parents with experienced ones, and advocacy for blind parents' rights."
+          },
+          {
+            "name": "American Action Fund Free Braille Books Program",
+            "url": "https://actionfund.org/programs/braille-books-program",
+            "note": "One free braille book a month to keep, for blind and low-vision adults who read braille — including parents reading with their children."
+          },
+          {
+            "name": "Hadley Babysitting Series",
+            "url": "https://hadleyhelps.org/workshops/babysitting-series",
+            "note": "Short, free videos on caring for babies and young children — feeding, changing, safety, and play — made for people at any level of vision."
+          },
+          {
+            "name": "Through the Looking Glass",
+            "url": "https://lookingglass.org/parents-grandparents",
+            "note": "Support and guidance for parents with disabilities, including parents who are blind — nationally known for designing adaptive baby-care equipment, and a national resource for parents facing child custody questions."
+          },
+          {
+            "name": "National Research Center for Parents with Disabilities",
+            "url": "https://heller.brandeis.edu/parents-with-disabilities/",
+            "note": "Know-your-rights materials for parents with disabilities, with a state-by-state look at parental rights laws and plain-language guidance on child welfare and family law."
+          }
+        ]
+      },
+      {
+        "id": "games-and-gaming",
+        "title": "Games and gaming",
+        "items": [
+          {
+            "name": "64 Ounce Games",
+            "url": "https://64ouncegames.com/",
+            "note": "Accessibility kits that make popular board and card games playable for blind and sighted players together — braille card text, embossed pieces, and custom dice and tokens. You'll need to own the original game."
+          },
+          {
+            "name": "AudioGames.net",
+            "url": "https://audiogames.net/",
+            "note": "The community hub for audio games — a database of more than 500 games played entirely by sound, plus news and an active forum."
           }
         ]
       }
