@@ -242,6 +242,11 @@
             "name": "APH ConnectCenter",
             "url": "https://aphconnectcenter.org/",
             "note": "The American Printing House's hub for blindness resources, including a directory of services in your community."
+          },
+          {
+            "name": "Aftersight White Cane Project",
+            "url": "https://aftersight.org/white-cane-project/",
+            "note": "Free white canes for people who are blind or have low vision — if you live in the United States and haven't received one from Aftersight in the past year, you can request a cane at no cost."
           }
         ]
       },
