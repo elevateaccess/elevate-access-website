@@ -218,7 +218,7 @@
     }
   ],
   "source_note": "Traducción al español del contenido aprobado en content/site.json. Se conservan los nombres, las credenciales, los datos de contacto, los servicios y los enlaces de las fuentes. Los títulos de las fuentes del artículo se presentan en español y remiten a los documentos originales.",
-  "translation_source_sha256": "7f6498fbc0239114885eaa01a0b91c7e19a86cf99ef07f961fa9a8f5895b954c",
+  "translation_source_sha256": "f042994d3965648c2db21fd3727a2957c72fd2e5bdca68b103af72d15ec82d19",
   "service_area": {
     "local_text": "Ofrecemos servicios presenciales de accesibilidad y tecnología de asistencia en San Francisco, Oakland, Berkeley, Vallejo y el condado de Marin.",
     "remote_text": "Nuestros servicios remotos están disponibles en toda California y fuera del estado.",
@@ -250,6 +250,11 @@
             "name": "Proyecto Bastón Blanco de Aftersight",
             "url": "https://aftersight.org/white-cane-project/",
             "note": "Bastones blancos gratuitos para personas ciegas o con baja visión: si vive en los Estados Unidos y no ha recibido uno de Aftersight en el último año, puede solicitar un bastón sin costo."
+          },
+          {
+            "name": "Herramientas para la Independencia de la NFB",
+            "url": "https://nfb.org/programs-services/tools-for-independence",
+            "note": "Un bastón blanco largo y recto gratuito de la National Federation of the Blind: puede solicitar uno cada seis meses. La misma página ofrece una regleta y un punzón gratuitos."
           }
         ]
       },
@@ -297,6 +302,11 @@
             "name": "Aira",
             "url": "https://aira.io/",
             "note": "Intérpretes visuales profesionales a pedido, mediante suscripción, y con cobertura gratuita en muchos aeropuertos, tiendas y campus."
+          },
+          {
+            "name": "Programa de Lectores de Billetes de EE. UU.",
+            "url": "https://www.bep.gov/services/currency-accessibility/us-currency-reader-program/us-currency-reader-program-faqs",
+            "note": "Un identificador de billetes parlante iBill gratuito, de la Oficina de Grabado e Impresión: anuncia la denominación de los billetes de EE. UU. con voz, tonos o vibración. Solicítelo por correo y espere hasta ocho semanas."
           }
         ]
       },
@@ -334,6 +344,63 @@
             "name": "NFB-NEWSLINE",
             "url": "https://nfb.org/programs-services/nfb-newsline",
             "note": "Periódicos, revistas y programación de televisión en audio y en braille, gratis por teléfono, aplicación o correo electrónico para lectores registrados."
+          }
+        ]
+      },
+      {
+        "id": "blind-parents",
+        "title": "Padres ciegos",
+        "items": [
+          {
+            "name": "APH Braille Tales",
+            "url": "https://www.aph.org/braille-tales/",
+            "note": "Libros ilustrados gratuitos en tinta y braille para niños pequeños cuyos padres son ciegos o tienen baja visión y usan braille: unos seis libros al año hasta que su hijo cumpla 6 años, para que puedan leer juntos."
+          },
+          {
+            "name": "Club de Libros Infantiles en Braille — National Braille Press",
+            "url": "https://info.nbp.org/cbbc-info",
+            "note": "Un libro ilustrado mensual en tinta y braille para niños de preescolar a tercer grado. Un nivel gratuito cubre a padres y tutores ciegos con niños desde el nacimiento hasta los 10 años; consulte el sitio para ver la ronda de inscripción actual."
+          },
+          {
+            "name": "Padres Ciegos de la NFB",
+            "url": "https://nfb.org/our-community/blind-parents",
+            "note": "La comunidad de la National Federation of the Blind para padres ciegos: un grupo de apoyo y una lista de correo, un programa de mentoría que conecta a padres ciegos nuevos con padres con experiencia, y defensa de los derechos de los padres ciegos."
+          },
+          {
+            "name": "Programa de Libros Gratuitos en Braille del American Action Fund",
+            "url": "https://actionfund.org/programs/braille-books-program",
+            "note": "Un libro en braille gratuito al mes, para quedárselo, para adultos ciegos o con baja visión que leen braille, incluidos los padres que leen con sus hijos."
+          },
+          {
+            "name": "Serie de Cuidado de Niños de Hadley",
+            "url": "https://hadleyhelps.org/workshops/babysitting-series",
+            "note": "Videos cortos y gratuitos sobre el cuidado de bebés y niños pequeños — alimentación, cambio de pañales, seguridad y juego — hechos para personas con cualquier nivel de visión."
+          },
+          {
+            "name": "Through the Looking Glass",
+            "url": "https://lookingglass.org/parents-grandparents",
+            "note": "Apoyo y orientación para padres con discapacidades, incluidos los padres ciegos: reconocida a nivel nacional por diseñar equipo adaptado para el cuidado de bebés, y un recurso nacional para padres que enfrentan cuestiones de custodia."
+          },
+          {
+            "name": "Centro Nacional de Investigación para Padres con Discapacidades",
+            "url": "https://heller.brandeis.edu/parents-with-disabilities/",
+            "note": "Materiales para conocer sus derechos como padre con discapacidad, con un panorama estado por estado de las leyes de derechos parentales y orientación en lenguaje sencillo sobre bienestar infantil y derecho familiar."
+          }
+        ]
+      },
+      {
+        "id": "games-and-gaming",
+        "title": "Juegos",
+        "items": [
+          {
+            "name": "64 Ounce Games",
+            "url": "https://64ouncegames.com/",
+            "note": "Kits de accesibilidad que hacen que los juegos de mesa y de cartas populares se puedan jugar entre personas ciegas y videntes: texto de las cartas en braille, piezas en relieve y dados y fichas personalizados. Necesitará tener el juego original."
+          },
+          {
+            "name": "AudioGames.net",
+            "url": "https://audiogames.net/",
+            "note": "El centro de la comunidad de juegos de audio: una base de datos de más de 500 juegos que se juegan completamente por sonido, además de noticias y un foro activo."
           }
         ]
       }
